@@ -1,0 +1,73 @@
+export type A1TranslationSubcategory = 'adjectives' | 'verbs' | 'nouns';
+
+export interface A1TranslationItem {
+  id: string;
+  level: 'A1';
+  category: 'translations';
+  subcategory: A1TranslationSubcategory;
+  en: string;
+  it: string;
+}
+
+export const translationsA1: A1TranslationItem[] = [
+  { id: 'a1-tr-adj-01', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'big', it: 'grande' },
+  { id: 'a1-tr-adj-02', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'small', it: 'piccolo' },
+  { id: 'a1-tr-adj-03', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'happy', it: 'felice' },
+  { id: 'a1-tr-adj-04', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'sad', it: 'triste' },
+  { id: 'a1-tr-adj-05', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'hot', it: 'caldo' },
+  { id: 'a1-tr-adj-06', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'cold', it: 'freddo' },
+  { id: 'a1-tr-adj-07', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'easy', it: 'facile' },
+  { id: 'a1-tr-adj-08', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'difficult', it: 'difficile' },
+  { id: 'a1-tr-adj-09', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'new', it: 'nuovo' },
+  { id: 'a1-tr-adj-10', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'old', it: 'vecchio' },
+  { id: 'a1-tr-adj-11', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'good', it: 'buono' },
+  { id: 'a1-tr-adj-12', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'bad', it: 'cattivo' },
+  { id: 'a1-tr-adj-13', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'young', it: 'giovane' },
+  { id: 'a1-tr-adj-14', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'old (age)', it: 'anziano' },
+  { id: 'a1-tr-adj-15', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'fast', it: 'veloce' },
+  { id: 'a1-tr-adj-16', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'slow', it: 'lento' },
+  { id: 'a1-tr-adj-17', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'beautiful', it: 'bello' },
+  { id: 'a1-tr-adj-18', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'ugly', it: 'brutto' },
+  { id: 'a1-tr-adj-19', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'tall', it: 'alto' },
+  { id: 'a1-tr-adj-20', level: 'A1', category: 'translations', subcategory: 'adjectives', en: 'short', it: 'basso' },
+  { id: 'a1-tr-v-01', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to be', it: 'essere' },
+  { id: 'a1-tr-v-02', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to have', it: 'avere' },
+  { id: 'a1-tr-v-03', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to go', it: 'andare' },
+  { id: 'a1-tr-v-04', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to come', it: 'venire' },
+  { id: 'a1-tr-v-05', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to eat', it: 'mangiare' },
+  { id: 'a1-tr-v-06', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to drink', it: 'bere' },
+  { id: 'a1-tr-v-07', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to speak', it: 'parlare' },
+  { id: 'a1-tr-v-08', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to read', it: 'leggere' },
+  { id: 'a1-tr-v-09', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to write', it: 'scrivere' },
+  { id: 'a1-tr-v-10', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to see', it: 'vedere' },
+  { id: 'a1-tr-v-11', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to hear', it: 'sentire' },
+  { id: 'a1-tr-v-12', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to live', it: 'vivere' },
+  { id: 'a1-tr-v-13', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to work', it: 'lavorare' },
+  { id: 'a1-tr-v-14', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to study', it: 'studiare' },
+  { id: 'a1-tr-v-15', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to like', it: 'piacere' },
+  { id: 'a1-tr-v-16', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to love', it: 'amare' },
+  { id: 'a1-tr-v-17', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to need', it: 'avere bisogno' },
+  { id: 'a1-tr-v-18', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to buy', it: 'comprare' },
+  { id: 'a1-tr-v-19', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to pay', it: 'pagare' },
+  { id: 'a1-tr-v-20', level: 'A1', category: 'translations', subcategory: 'verbs', en: 'to help', it: 'aiutare' },
+  { id: 'a1-tr-n-01', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'house', it: 'casa' },
+  { id: 'a1-tr-n-02', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'car', it: 'auto' },
+  { id: 'a1-tr-n-03', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'school', it: 'scuola' },
+  { id: 'a1-tr-n-04', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'book', it: 'libro' },
+  { id: 'a1-tr-n-05', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'pen', it: 'penna' },
+  { id: 'a1-tr-n-06', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'table', it: 'tavolo' },
+  { id: 'a1-tr-n-07', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'chair', it: 'sedia' },
+  { id: 'a1-tr-n-08', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'water', it: 'acqua' },
+  { id: 'a1-tr-n-09', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'food', it: 'cibo' },
+  { id: 'a1-tr-n-10', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'friend', it: 'amico' },
+  { id: 'a1-tr-n-11', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'family', it: 'famiglia' },
+  { id: 'a1-tr-n-12', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'city', it: 'città' },
+  { id: 'a1-tr-n-13', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'street', it: 'strada' },
+  { id: 'a1-tr-n-14', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'phone', it: 'telefono' },
+  { id: 'a1-tr-n-15', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'job', it: 'lavoro' },
+  { id: 'a1-tr-n-16', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'money', it: 'soldi' },
+  { id: 'a1-tr-n-17', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'time', it: 'tempo' },
+  { id: 'a1-tr-n-18', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'day', it: 'giorno' },
+  { id: 'a1-tr-n-19', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'night', it: 'notte' },
+  { id: 'a1-tr-n-20', level: 'A1', category: 'translations', subcategory: 'nouns', en: 'week', it: 'settimana' },
+];
