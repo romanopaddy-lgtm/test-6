@@ -1,3 +1,4 @@
+// ...existing code...
 import React, { useEffect, useState } from 'react';
 import { generateSynonyms } from '@/services/gptStub';
 
@@ -13,7 +14,8 @@ export default function SynonymsExercise(){
 
   useEffect(()=>{
     let mounted = true;
-    generateSynonyms(word, 8).then(list => { if(mounted) setAccepted(list); });
+    // ...existing code...
+    generateSynonyms(word).then(list => { if(mounted) setAccepted(list); });
     return ()=>{ mounted=false; }
   }, [word]);
 

@@ -1,6 +1,5 @@
-
 // Idioms A2 with EN meanings (no IT translations here)
-export type Idiom = { idiom: string; meaning: string };
+export type Idiom = { level?: string; idiom: string; meaning: string };
 
 export const IDIOMS_A2: Idiom[] = [
   { idiom: "break the ice", meaning: "to make people feel more comfortable" },
@@ -16,7 +15,7 @@ export const IDIOMS_A2: Idiom[] = [
   { idiom: "in hot water", meaning: "in trouble" },
   { idiom: "get cold feet", meaning: "to feel too nervous to do something" },
   { idiom: "hit the sack", meaning: "to go to bed" },
-  { idiom: "pull someone’s leg", meaning: "to joke or tease someone" },
+  { idiom: "pull someone's leg", meaning: "to joke or tease someone" },
   { idiom: "see eye to eye", meaning: "to agree with someone" },
   { idiom: "bark up the wrong tree", meaning: "to make the wrong assumption" },
   { idiom: "the last straw", meaning: "the final problem in a series" },
@@ -33,4 +32,6 @@ export const IDIOMS_A2: Idiom[] = [
   { idiom: "time flies", meaning: "time passes quickly" },
   { idiom: "under pressure", meaning: "being forced to do something quickly" },
   { idiom: "up to you", meaning: "your decision" }
-]; // 30 items
+];
+
+export default IDIOMS_A2;

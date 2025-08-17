@@ -1,4 +1,4 @@
-// Robust Web Speech API hook
+// ...existing code...
 import { useCallback, useEffect, useRef, useState } from 'react';
 
 interface SpeakOpts {
@@ -47,6 +47,11 @@ export function useVoice() {
     if (!isSupported || !synthRef.current) return Promise.resolve();
     const saved = getSavedOpts();
     const merged = { ...saved, ...opts };
+
+    // capture current synth reference to satisfy TS null-safety inside closures
+    const synth = synthRef.current;
+    if (!synth) return Promise.resolve();
+
     return new Promise<void>((resolve) => {
       try {
         const u = new SpeechSynthesisUtterance(String(text));
@@ -56,21 +61,37 @@ export function useVoice() {
         u.volume = merged.volume ?? 1;
         const v = findVoice(u.lang);
         if (v) u.voice = v;
-        u.onend = () => resolve();
-        u.onerror = () => resolve();
+
+        const flushNext = () => {
+          try {
+            // use current synthRef if available, otherwise fallback to captured synth
+            const s = synthRef.current ?? synth;
+            if (!s) return;
+            if (!s.speaking && queueRef.current.length > 0) {
+              const next = queueRef.current.shift();
+              if (next) s.speak(next);
+            }
+          } catch (e) { /* ignore */ }
+        };
+
+        u.onend = () => {
+          try { flushNext(); } catch (e) { /* ignore */ }
+          resolve();
+        };
+        u.onerror = () => {
+          try { flushNext(); } catch (e) { /* ignore */ }
+          resolve();
+        };
+
         // If not currently speaking and queue empty, speak immediately
-        if (!synthRef.current.speaking && queueRef.current.length === 0) {
-          synthRef.current.speak(u);
+        if (!synth.speaking && queueRef.current.length === 0) {
+          synth.speak(u);
         } else {
           queueRef.current.push(u);
           // attempt to flush after small delay
           setTimeout(() => {
             try {
-              if (!synthRef.current) return;
-              if (!synthRef.current.speaking && queueRef.current.length > 0) {
-                const next = queueRef.current.shift();
-                if (next) synthRef.current.speak(next);
-              }
+              flushNext();
             } catch (e) {}
           }, 200);
         }
