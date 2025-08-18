@@ -1,3 +1,4 @@
+// ...existing code...
 import React, { useEffect, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
 import { getPhrasal } from '@/services/datasetLoader';
@@ -35,3 +36,4 @@ export default function PhrasalExercise(){
     </div>
   );
 }
+// ...existing code...

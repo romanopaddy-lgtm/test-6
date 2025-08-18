@@ -1,27 +1,18 @@
 // ...existing code...
-import { useMemo, useState, useEffect } from 'react';
-import { useVoice } from '@/hooks/useVoice';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Badge } from '@/components/ui/badge';
-import { Checkbox } from '@/components/ui/checkbox';
-import { PHRASALS_ALL } from '@/data/phrasalVerbs';
-import { evaluatePhrasalMultiSelect } from '@/exercises/phrasalMultiSelect';
+import React, { useMemo, useState } from 'react';
+import { useLevel } from '@/contexts/LevelContext';
+import { getPhrasal } from '@/services/datasetLoader';
 
-type Item = typeof PHRASALS_ALL[number];
-
-type Option = {
-  text: string;
-  correct: boolean;
+type PhrasalItem = {
+  verb: string;
+  meaning?: string;
+  level?: string;
+  [k: string]: any;
 };
 
-type Question = {
-  meaning: string;
-  options: Option[];
-};
-
+/** shuffle array and return new array */
 function shuffle<T>(arr: T[]): T[] {
-  const a = [...arr];
+  const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [a[i], a[j]] = [a[j], a[i]];
@@ -29,122 +20,89 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-function choice<T>(arr: T[], n: number): T[] {
-  return shuffle(arr).slice(0, n);
+/** pick random element */
+function choice<T>(arr: T[]): T | undefined {
+  if (!arr || arr.length === 0) return undefined;
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+
+/**
+ * Simple evaluator for a multi-select phrasal exercise:
+ * selectedIndices -> returns number of correct selections vs pool.
+ */
+export function evaluatePhrasalMultiSelect(selectedIndices: number[], pool: PhrasalItem[], correctPredicate: (item: PhrasalItem)=>boolean): { correct: number; totalCorrect: number } {
+  const selectedSet = new Set(selectedIndices);
+  let correct = 0;
+  let totalCorrect = 0;
+  pool.forEach((item, idx) => {
+    const isCorrect = !!correctPredicate(item);
+    if (isCorrect) totalCorrect++;
+    if (isCorrect && selectedSet.has(idx)) correct++;
+  });
+  return { correct, totalCorrect };
 }
 
 export default function PhrasalVerbsMultiSelect(): JSX.Element {
-  const { speak, isSupported } = useVoice();
-  const pool = useMemo<Item[]>(() => PHRASALS_ALL, []);
-  const [qIndex, setQIndex] = useState<number>(0);
-  const [selected, setSelected] = useState<string[]>([]);
-  const [revealed, setRevealed] = useState<boolean>(false);
-  const [scoreAcc, setScoreAcc] = useState<number>(0);
-  const [qCount, setQCount] = useState<number>(0);
+  const { level } = useLevel();
+  const pool: PhrasalItem[] = useMemo(() => {
+    const items = getPhrasal(level) ?? [];
+    return shuffle(items as PhrasalItem[]);
+  }, [level]);
 
-  const buildQuestion = (seed: number): Question => {
-    const base = pool[seed % pool.length];
-    const meaning = base.meanings[0];
-    const correctVerbs = pool.filter(p => p.meanings[0] === meaning).map(p => p.verb);
-    const distractors = pool.filter(p => p.meanings[0] !== meaning).map(p => p.verb);
-    const candidates = shuffle([
-      ...choice(correctVerbs, Math.min(3, correctVerbs.length || 1)),
-      ...choice(distractors, 6)
-    ]).slice(0, 6);
-    const options: Option[] = candidates.map(v => ({ text: v, correct: correctVerbs.includes(v) }));
-    return { meaning, options };
-  };
+  const [selected, setSelected] = useState<Record<number, boolean>>({});
 
-  const q = useMemo<Question>(() => buildQuestion(qIndex), [qIndex, pool]);
+  function toggle(i: number) {
+    setSelected(s => ({ ...s, [i]: !s[i] }));
+  }
 
-  useEffect(() => {
-    if (isSupported && typeof speak === 'function') speak(q.meaning);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [qIndex]);
+  function clearSelection() {
+    setSelected({});
+  }
 
-  const onToggle = (text: string) => {
-    if (revealed) return;
-    setSelected(s => (s.includes(text) ? s.filter(x => x !== text) : [...s, text]));
-  };
-
-  const onCheck = () => {
-    const result = evaluatePhrasalMultiSelect(q.options, selected);
-    setRevealed(true);
-    setScoreAcc(s => s + result.score);
-    setQCount(n => n + 1);
-    if (isSupported && result.score < 1) {
-      const correct = q.options.filter(o => o.correct).map(o => o.text);
-      let i = 0;
-      const speakNext = () => {
-        if (i >= correct.length) return;
-        if (typeof speak === 'function') speak(correct[i]);
-        i++;
-        setTimeout(speakNext, 750);
-      };
-      speakNext();
-    }
-  };
-
-  const onNext = () => {
-    setSelected([]);
-    setRevealed(false);
-    setQIndex(i => i + 1);
-  };
+  function buildAnswerPreview(): string[] {
+    return Object.keys(selected)
+      .filter(k => selected[Number(k)])
+      .map(k => {
+        const idx = Number(k);
+        return pool[idx] ? `${pool[idx].verb}${pool[idx].meaning ? ' — ' + pool[idx].meaning : ''}` : `#${k}`;
+      });
+  }
 
   return (
-    <div className="max-w-2xl mx-auto space-y-4">
-      <Card className="shadow-lg">
-        <CardHeader>
-          <CardTitle>Phrasal Verbs — Multi-Select (Reverse meaning)</CardTitle>
-        </CardHeader>
-        <CardContent className="space-y-4">
-          <div className="flex items-center justify-between">
-            <div className="text-sm text-muted-foreground">Meanings are in English only</div>
-            <Badge variant="secondary">Score avg: {qCount ? (scoreAcc / qCount).toFixed(2) : '—'}</Badge>
-          </div>
+    <div style={{maxWidth:900,margin:'0 auto',padding:12}}>
+      <h3 style={{marginBottom:8}}>Phrasal verbs — livello: {level}</h3>
 
-          <div className="p-4 rounded-xl border bg-card">
-            <div className="mb-2 text-lg flex items-center gap-2">
-              Meaning:
-              <button
-                className="text-sm px-2 py-1 border rounded"
-                onClick={() => isSupported && typeof speak === 'function' && speak(q.meaning)}
-                type="button"
-              >
-                🔊
-              </button>
+      <div style={{display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))',gap:8}}>
+        {pool.map((p, i) => (
+          <label key={i} style={{display:'flex',alignItems:'center',gap:8,padding:12,border:'1px solid #eee',borderRadius:6}}>
+            <input
+              type="checkbox"
+              checked={!!selected[i]}
+              onChange={() => toggle(i)}
+              aria-label={`Select ${p.verb}`}
+            />
+            <div>
+              <div style={{fontWeight:600}}>{p.verb}</div>
+              {p.meaning && <div style={{fontSize:13,opacity:0.7}}>{p.meaning}</div>}
             </div>
-            <div className="mb-4 text-base font-medium">{q.meaning}</div>
-            <div className="space-y-2">
-              {q.options.map(opt => (
-                <label
-                  key={opt.text}
-                  className={`flex items-center gap-2 p-2 rounded-lg border ${
-                    revealed
-                      ? opt.correct
-                        ? 'bg-green-50'
-                        : selected.includes(opt.text)
-                        ? 'bg-red-50'
-                        : 'bg-card'
-                      : 'bg-card'
-                  }`}
-                >
-                  <Checkbox
-                    checked={selected.includes(opt.text)}
-                    onCheckedChange={(checked: boolean) => onToggle(opt.text)}
-                  />
-                  <span>{opt.text}</span>
-                </label>
-              ))}
-            </div>
+          </label>
+        ))}
+      </div>
 
-            <div className="mt-4 flex gap-2">
-              <Button onClick={onCheck} disabled={revealed}>Check</Button>
-              <Button variant="outline" onClick={onNext}>Next</Button>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      <div style={{marginTop:12,display:'flex',gap:8,alignItems:'center'}}>
+        <button onClick={clearSelection}>Clear</button>
+        <button onClick={() => {
+          const predicate = (it: PhrasalItem) => !!(it.meaning && it.meaning.includes('to'));
+          const selectedIdx = Object.keys(selected).filter(k=>selected[Number(k)]).map(k=>Number(k));
+          const result = evaluatePhrasalMultiSelect(selectedIdx, pool, predicate);
+          // eslint-disable-next-line no-alert
+          alert(`Correct: ${result.correct} / ${result.totalCorrect}`);
+        }}>Check</button>
+
+        <div style={{marginLeft:'auto',fontSize:13,opacity:0.8}}>
+          Selezionati: {buildAnswerPreview().length}
+        </div>
+      </div>
     </div>
   );
 }
