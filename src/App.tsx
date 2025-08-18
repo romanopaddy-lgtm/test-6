@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import { LevelProvider } from '@/contexts/LevelContext';
 import LevelSelector from '@/components/LevelSelector';
@@ -13,7 +12,6 @@ import PhrasalVerbs from './pages/PhrasalVerbs';
 import Synonyms from './pages/Synonyms';
 import VoiceSettings from './pages/VoiceSettings';
 import Idioms from './pages/Idioms';
-// ...existing code...
 
 export default function App(): JSX.Element {
   return (
@@ -51,4 +49,3 @@ export default function App(): JSX.Element {
     </LevelProvider>
   );
 }
-// ...existing code...

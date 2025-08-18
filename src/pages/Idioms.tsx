@@ -23,7 +23,6 @@ function buildOptions(pool: IdiomItem[], correctIdx: number, count = 4) {
   const correct = pool[correctIdx];
   const others = pool.filter((_, i) => i !== correctIdx);
   const picks: IdiomItem[] = [];
-  // pick up to count-1 distractors
   for (let i = 0; i < Math.min(count - 1, others.length); i++) {
     const r = Math.floor(Math.random() * others.length);
     picks.push(others.splice(r, 1)[0]);
@@ -36,7 +35,7 @@ export default function Idioms(): JSX.Element {
   const { level } = useLevel();
   const pool = useMemo(() => (getIdioms(level) ?? []) as IdiomItem[], [level]);
   const [index, setIndex] = useState(0);
-  const [reverse, setReverse] = useState(false); // forward: show idiom -> choose meaning. reverse: show meaning -> choose idiom
+  const [reverse, setReverse] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
   const [checked, setChecked] = useState<boolean>(false);
 
@@ -60,15 +59,8 @@ export default function Idioms(): JSX.Element {
     (reverse ? (o.idiom || o.phrase || '') : (o.meaning || '')) === correctKey
   );
 
-  function onCheck() {
-    setChecked(true);
-  }
-
-  function onNext() {
-    setIndex(i => i + 1);
-    setSelected(null);
-    setChecked(false);
-  }
+  function onCheck() { setChecked(true); }
+  function onNext() { setIndex(i => i + 1); setSelected(null); setChecked(false); }
 
   return (
     <div style={{ padding: 12 }}>

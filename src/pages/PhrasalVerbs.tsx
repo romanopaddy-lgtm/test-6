@@ -1,14 +1,12 @@
-// ...existing code...
 import React from 'react';
 import PhrasalExercise from '@/components/PhrasalExercise';
 import PhrasalVerbsMultiSelect from '@/components/PhrasalVerbsMultiSelect';
 import { useLevel } from '@/contexts/LevelContext';
-import { getPhrasal } from '@/services/datasetLoader'; // se nel progetto il file è datasetLoader.ts modifica import di conseguenza
+import { getPhrasal } from '@/services/datasetLoader';
 
-// ...existing code...
 export default function PhrasalVerbs(): JSX.Element {
   const { level } = useLevel();
-  const pool = (getPhrasal(level) ?? []) as any[];
+  const pool = getPhrasal(level) ?? [];
   if (!Array.isArray(pool) || pool.length === 0) {
     return (
       <div style={{padding:12}}>
@@ -27,4 +25,3 @@ export default function PhrasalVerbs(): JSX.Element {
     </div>
   );
 }
-// ...existing code...

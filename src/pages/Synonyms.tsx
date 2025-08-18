@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import SynonymsExercise from '@/components/SynonymsExercise';
 import { useLevel } from '@/contexts/LevelContext';
@@ -7,7 +6,7 @@ import { getTranslations } from '@/services/datasetLoader';
 export default function Synonyms(): JSX.Element {
   const { level } = useLevel();
   const t = getTranslations(level);
-  const has = (t.verbs?.length || 0) + (t.nouns?.length || 0) + (t.adjectives?.length || 0) > 0;
+  const has = (t.adjectives?.length || 0) + (t.verbs?.length || 0) + (t.nouns?.length || 0) > 0;
 
   return (
     <div style={{padding:12}}>
@@ -20,4 +19,3 @@ export default function Synonyms(): JSX.Element {
     </div>
   );
 }
-// ...existing code...

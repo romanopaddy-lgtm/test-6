@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import TranslationExercise from '@/components/TranslationExercise';
 import { useLevel } from '@/contexts/LevelContext';
@@ -20,4 +19,3 @@ export default function Translations(): JSX.Element {
     </div>
   );
 }
-// ...existing code...

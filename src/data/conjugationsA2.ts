@@ -94,3 +94,24 @@ export const CONJUGATIONS_A2 = [
   { verb: 'pay', past: 'payed' },
   { verb: 'choose', past: 'choosed' },
 ];
+
+export type ConjForm = {
+  infinitive: string;
+  present: string;
+  past: string;
+  participle: string;
+};
+
+// Coniugazioni A2 (esempi utili agli esercizi)
+export const CONJ_A2: Record<string, ConjForm> = {
+  be: { infinitive: "be", present: "am/is/are", past: "was/were", participle: "been" },
+  have: { infinitive: "have", present: "have/has", past: "had", participle: "had" },
+  go: { infinitive: "go", present: "go/goes", past: "went", participle: "gone" },
+  get: { infinitive: "get", present: "get/gets", past: "got", participle: "got/gotten" },
+  make: { infinitive: "make", present: "make/makes", past: "made", participle: "made" },
+  take: { infinitive: "take", present: "take/takes", past: "took", participle: "taken" },
+  see: { infinitive: "see", present: "see/sees", past: "saw", participle: "seen" },
+  come: { infinitive: "come", present: "come/comes", past: "came", participle: "come" },
+  give: { infinitive: "give", present: "give/gives", past: "gave", participle: "given" },
+  keep: { infinitive: "keep", present: "keep/keeps", past: "kept", participle: "kept" }
+};

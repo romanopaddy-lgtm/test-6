@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import { useLevel } from '@/contexts/LevelContext';
 
@@ -19,4 +18,3 @@ export default function LevelSelector(){
     </div>
   );
 }
-// ...existing code...

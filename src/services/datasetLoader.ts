@@ -1,4 +1,3 @@
-// ...existing code...
 import { PHRASAL_A2 } from '@/data/phrasalVerbsA2';
 import * as PhrasalA1 from '@/data/phrasalVerbs';
 import * as TransA2 from '@/data/translationsA2';
@@ -34,10 +33,18 @@ const CONJ_A1_OBJ = pick<any>(ConjA1, 'CONJ', 'default') ?? {};
 const IDIOMS_A2 = pick<any[]>(IdiomsA2, 'IDIOMS_A2', 'default', 'IDIOMS') ?? [];
 const IDIOMS_A1 = pick<any[]>(IdiomsA1, 'IDIOMS_A1', 'IDIOMS', 'default') ?? [];
 
+function pickAdaptive(level: string) {
+  if (!level) return 'A1';
+  if (String(level).toUpperCase() !== 'ADAPTIVE') return String(level).toUpperCase();
+  // adaptive: randomly A1 or A2 for now
+  return Math.random() < 0.5 ? 'A1' : 'A2';
+}
+
 export function getPhrasal(level: string) {
   try {
-    if (!level || level === 'Adaptive') return PHRASAL_A1_LIST.length ? PHRASAL_A1_LIST : PHRASAL_A2;
-    return String(level).toUpperCase() === 'A2' ? PHRASAL_A2 : PHRASAL_A1_LIST;
+    const lvl = pickAdaptive(level);
+    if (lvl === 'A2') return PHRASAL_A2;
+    return PHRASAL_A1_LIST;
   } catch (err) {
     console.warn('getPhrasal fallback', err);
     return PHRASAL_A1_LIST.length ? PHRASAL_A1_LIST : PHRASAL_A2;
@@ -46,7 +53,8 @@ export function getPhrasal(level: string) {
 
 export function getTranslations(level: string) {
   try {
-    const isA2 = String(level).toUpperCase() === 'A2';
+    const lvl = pickAdaptive(level);
+    const isA2 = lvl === 'A2';
     return {
       adjectives: isA2 ? A2_ADJECTIVES : A1_ADJECTIVES,
       verbs: isA2 ? A2_VERBS : A1_VERBS,
@@ -60,7 +68,8 @@ export function getTranslations(level: string) {
 
 export function getConjugations(level: string) {
   try {
-    return String(level).toUpperCase() === 'A2' ? CONJ_A2_OBJ : CONJ_A1_OBJ;
+    const lvl = pickAdaptive(level);
+    return lvl === 'A2' ? CONJ_A2_OBJ : CONJ_A1_OBJ;
   } catch (err) {
     console.warn('getConjugations fallback', err);
     return {};
@@ -69,10 +78,10 @@ export function getConjugations(level: string) {
 
 export function getIdioms(level: string) {
   try {
-    return String(level).toUpperCase() === 'A2' ? IDIOMS_A2 : IDIOMS_A1;
+    const lvl = pickAdaptive(level);
+    return lvl === 'A2' ? IDIOMS_A2 : IDIOMS_A1;
   } catch (err) {
     console.warn('getIdioms fallback', err);
     return [];
   }
 }
-// ...existing code...

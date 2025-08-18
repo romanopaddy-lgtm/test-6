@@ -1,8 +1,8 @@
-
 // A2 translations datasets (ENG ↔ ITA) ONLY for categories allowed: adjectives, verbs, general vocabulary (nouns/objects).
 // NOTE: Idioms and Phrasal Verbs remain EN-only meanings per product spec.
 export type Pair = { en: string; it: string };
 
+// A2 adjectives (ENG ↔ ITA)
 export const A2_ADJECTIVES: Pair[] = [
   { en: "useful", it: "utile" },
   { en: "comfortable", it: "comodo" },
@@ -43,8 +43,9 @@ export const A2_ADJECTIVES: Pair[] = [
   { en: "typical", it: "tipico" },
   { en: "local", it: "locale" },
   { en: "national", it: "nazionale" }
-]; // 40 items
+];
 
+// A2 verbs (ENG ↔ ITA)
 export const A2_VERBS: Pair[] = [
   { en: "agree", it: "essere d'accordo" },
   { en: "arrive", it: "arrivare" },
@@ -96,8 +97,9 @@ export const A2_VERBS: Pair[] = [
   { en: "laugh", it: "ridere" },
   { en: "wish", it: "desiderare" },
   { en: "improve", it: "migliorare" }
-]; // 50 items
+];
 
+// A2 nouns (ENG ↔ ITA)
 export const A2_NOUNS: Pair[] = [
   { en: "appointment", it: "appuntamento" },
   { en: "apartment", it: "appartamento" },
@@ -161,9 +163,8 @@ export const A2_NOUNS: Pair[] = [
   { en: "shoulder", it: "spalla" },
   { en: "solution", it: "soluzione" },
   { en: "stair", it: "gradino" }
-]; // 60 items
+];
 
-// Utility to flip ENG↔ITA for ITA→ENG mode
 export function flipPairs(list: Pair[]): Pair[] {
-  return list.map(({en, it}) => ({ en: it, it: en }));
+  return list.map(({ en, it }) => ({ en: it, it: en }));
 }
