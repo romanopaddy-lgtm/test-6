@@ -1,5 +1,4 @@
-
-// Phrasal verbs A2 (EN meanings only, no IT translation here by product rule)
+// Phrasal verbs A2 (EN meanings only)
 export type Phrasal = { verb: string; meaning: string };
 
 export const PHRASAL_A2: Phrasal[] = [
@@ -67,4 +66,4 @@ export const PHRASAL_A2: Phrasal[] = [
   { verb: "turn on", meaning: "to start a machine or light" },
   { verb: "turn off", meaning: "to stop a machine or light" },
   { verb: "write down", meaning: "to record in writing" }
-]; // 70+ entries
+];

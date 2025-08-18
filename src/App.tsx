@@ -1,4 +1,7 @@
 import React from 'react';
+import { LevelProvider } from '@/contexts/LevelContext';
+import LevelSelector from '@/components/LevelSelector';
+
 import { Routes, Route, Link } from 'react-router-dom';
 import Index from './pages/Index';
 import TranslationsA1 from './pages/TranslationsA1';
@@ -15,21 +18,24 @@ import IdiomsA2 from './pages/IdiomsA2';
 
 export default function App(): JSX.Element {
   return (
-    <>
+    <LevelProvider>
       <header style={{ padding: 12, borderBottom: '1px solid #eee' }}>
-        <nav style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-          <Link to="/">Home</Link>
-          <Link to="/translations-a1">Translations A1</Link>
-          <Link to="/translations-a2">Translations A2</Link>
-          <Link to="/translations">Translations (All)</Link>
-          <Link to="/idioms-a2">Idioms A2</Link>
-          <Link to="/errors">Errors</Link>
-          <Link to="/rewrite-errors">Rewrite Errors</Link>
-          <Link to="/conjugations">Conjugations</Link>
-          <Link to="/phrasal-verbs">Phrasal Verbs</Link>
-          <Link to="/phrasals-a2">Phrasals A2</Link>
-          <Link to="/synonyms">Synonyms</Link>
-          <Link to="/voice-settings">Voice Settings</Link>
+        <nav style={{ display: 'flex', gap: 8, flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between' }}>
+          <div style={{display:'flex',gap:8,alignItems:'center',flexWrap:'wrap'}}>
+            <Link to="/">Home</Link>
+            <Link to="/translations-a1">Translations A1</Link>
+            <Link to="/translations-a2">Translations A2</Link>
+            <Link to="/translations">Translations (All)</Link>
+            <Link to="/idioms-a2">Idioms A2</Link>
+            <Link to="/errors">Errors</Link>
+            <Link to="/rewrite-errors">Rewrite Errors</Link>
+            <Link to="/conjugations">Conjugations</Link>
+            <Link to="/phrasal-verbs">Phrasal Verbs</Link>
+            <Link to="/phrasals-a2">Phrasals A2</Link>
+            <Link to="/synonyms">Synonyms</Link>
+            <Link to="/voice-settings">Voice Settings</Link>
+          </div>
+          <div style={{marginLeft:12}}><LevelSelector /></div>
         </nav>
       </header>
 
@@ -49,6 +55,6 @@ export default function App(): JSX.Element {
           <Route path="/voice-settings" element={<VoiceSettings />} />
         </Routes>
       </main>
-    </>
+    </LevelProvider>
   );
 }
