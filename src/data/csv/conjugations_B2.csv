@@ -1,0 +1,603 @@
+level,verb,tense,1s,2s,3s,1p,2p,3p
+B2,Abolish,Present Simple,I abolish,you abolish,he/she/it abolishes,we abolish,you abolish,they abolish
+B2,Abolish,Present Continuous,I am abolishing,you are abolishing,he/she/it is abolishing,we are abolishing,you are abolishing,they are abolishing
+B2,Abolish,Present Perfect,I have abolished,you have abolished,he/she/it has abolished,we have abolished,you have abolished,they have abolished
+B2,Abolish,Present Perfect Continuous,I have been abolishing,you have been abolishing,he/she/it has been abolishing,we have been abolishing,you have been abolishing,they have been abolishing
+B2,Abolish,Past Simple,I abolished,you abolished,he/she/it abolished,we abolished,you abolished,they abolished
+B2,Abolish,Past Continuous,I was abolishing,you were abolishing,he/she/it was abolishing,we were abolishing,you were abolishing,they were abolishing
+B2,Abolish,Past Perfect Simple,I had abolished,you had abolished,he/she/it had abolished,we had abolished,you had abolished,they had abolished
+B2,Abolish,Past Perfect Continuous,I had been abolishing,you had been abolishing,he/she/it had been abolishing,we had been abolishing,you had been abolishing,they had been abolishing
+B2,Abolish,Future Simple,I will abolish,you will abolish,he/she/it will abolish,we will abolish,you will abolish,they will abolish
+B2,Abolish,Future Continuous,I will be abolishing,you will be abolishing,he/she/it will be abolishing,we will be abolishing,you will be abolishing,they will be abolishing
+B2,Abolish,Future Perfect Simple,I will have abolished,you will have abolished,he/she/it will have abolished,we will have abolished,you will have abolished,they will have abolished
+B2,Abolish,Future Perfect Continuous,I will have been abolishing,you will have been abolishing,he/she/it will have been abolishing,we will have been abolishing,you will have been abolishing,they will have been abolishing
+B2,Accomplish,Present Simple,I accomplish,you accomplish,he/she/it accomplishes,we accomplish,you accomplish,they accomplish
+B2,Accomplish,Present Continuous,I am accomplishing,you are accomplishing,he/she/it is accomplishing,we are accomplishing,you are accomplishing,they are accomplishing
+B2,Accomplish,Present Perfect,I have accomplished,you have accomplished,he/she/it has accomplished,we have accomplished,you have accomplished,they have accomplished
+B2,Accomplish,Present Perfect Continuous,I have been accomplishing,you have been accomplishing,he/she/it has been accomplishing,we have been accomplishing,you have been accomplishing,they have been accomplishing
+B2,Accomplish,Past Simple,I accomplished,you accomplished,he/she/it accomplished,we accomplished,you accomplished,they accomplished
+B2,Accomplish,Past Continuous,I was accomplishing,you were accomplishing,he/she/it was accomplishing,we were accomplishing,you were accomplishing,they were accomplishing
+B2,Accomplish,Past Perfect Simple,I had accomplished,you had accomplished,he/she/it had accomplished,we had accomplished,you had accomplished,they had accomplished
+B2,Accomplish,Past Perfect Continuous,I had been accomplishing,you had been accomplishing,he/she/it had been accomplishing,we had been accomplishing,you had been accomplishing,they had been accomplishing
+B2,Accomplish,Future Simple,I will accomplish,you will accomplish,he/she/it will accomplish,we will accomplish,you will accomplish,they will accomplish
+B2,Accomplish,Future Continuous,I will be accomplishing,you will be accomplishing,he/she/it will be accomplishing,we will be accomplishing,you will be accomplishing,they will be accomplishing
+B2,Accomplish,Future Perfect Simple,I will have accomplished,you will have accomplished,he/she/it will have accomplished,we will have accomplished,you will have accomplished,they will have accomplished
+B2,Accomplish,Future Perfect Continuous,I will have been accomplishing,you will have been accomplishing,he/she/it will have been accomplishing,we will have been accomplishing,you will have been accomplishing,they will have been accomplishing
+B2,Admit,Present Simple,I admit,you admit,he/she/it admits,we admit,you admit,they admit
+B2,Admit,Present Continuous,I am admitting,you are admitting,he/she/it is admitting,we are admitting,you are admitting,they are admitting
+B2,Admit,Present Perfect,I have admitted,you have admitted,he/she/it has admitted,we have admitted,you have admitted,they have admitted
+B2,Admit,Present Perfect Continuous,I have been admitting,you have been admitting,he/she/it has been admitting,we have been admitting,you have been admitting,they have been admitting
+B2,Admit,Past Simple,I admitted,you admitted,he/she/it admitted,we admitted,you admitted,they admitted
+B2,Admit,Past Continuous,I was admitting,you were admitting,he/she/it was admitting,we were admitting,you were admitting,they were admitting
+B2,Admit,Past Perfect Simple,I had admitted,you had admitted,he/she/it had admitted,we had admitted,you had admitted,they had admitted
+B2,Admit,Past Perfect Continuous,I had been admitting,you had been admitting,he/she/it had been admitting,we had been admitting,you had been admitting,they had been admitting
+B2,Admit,Future Simple,I will admit,you will admit,he/she/it will admit,we will admit,you will admit,they will admit
+B2,Admit,Future Continuous,I will be admitting,you will be admitting,he/she/it will be admitting,we will be admitting,you will be admitting,they will be admitting
+B2,Admit,Future Perfect Simple,I will have admitted,you will have admitted,he/she/it will have admitted,we will have admitted,you will have admitted,they will have admitted
+B2,Admit,Future Perfect Continuous,I will have been admitting,you will have been admitting,he/she/it will have been admitting,we will have been admitting,you will have been admitting,they will have been admitting
+B2,Advise,Present Simple,I advise,you advise,he/she/it advises,we advise,you advise,they advise
+B2,Advise,Present Continuous,I am advising,you are advising,he/she/it is advising,we are advising,you are advising,they are advising
+B2,Advise,Present Perfect,I have advised,you have advised,he/she/it has advised,we have advised,you have advised,they have advised
+B2,Advise,Present Perfect Continuous,I have been advising,you have been advising,he/she/it has been advising,we have been advising,you have been advising,they have been advising
+B2,Advise,Past Simple,I advised,you advised,he/she/it advised,we advised,you advised,they advised
+B2,Advise,Past Continuous,I was advising,you were advising,he/she/it was advising,we were advising,you were advising,they were advising
+B2,Advise,Past Perfect Simple,I had advised,you had advised,he/she/it had advised,we had advised,you had advised,they had advised
+B2,Advise,Past Perfect Continuous,I had been advising,you had been advising,he/she/it had been advising,we had been advising,you had been advising,they had been advising
+B2,Advise,Future Simple,I will advise,you will advise,he/she/it will advise,we will advise,you will advise,they will advise
+B2,Advise,Future Continuous,I will be advising,you will be advising,he/she/it will be advising,we will be advising,you will be advising,they will be advising
+B2,Advise,Future Perfect Simple,I will have advised,you will have advised,he/she/it will have advised,we will have advised,you will have advised,they will have advised
+B2,Advise,Future Perfect Continuous,I will have been advising,you will have been advising,he/she/it will have been advising,we will have been advising,you will have been advising,they will have been advising
+B2,Affect,Present Simple,I affect,you affect,he/she/it affects,we affect,you affect,they affect
+B2,Affect,Present Continuous,I am affecting,you are affecting,he/she/it is affecting,we are affecting,you are affecting,they are affecting
+B2,Affect,Present Perfect,I have affected,you have affected,he/she/it has affected,we have affected,you have affected,they have affected
+B2,Affect,Present Perfect Continuous,I have been affecting,you have been affecting,he/she/it has been affecting,we have been affecting,you have been affecting,they have been affecting
+B2,Affect,Past Simple,I affected,you affected,he/she/it affected,we affected,you affected,they affected
+B2,Affect,Past Continuous,I was affecting,you were affecting,he/she/it was affecting,we were affecting,you were affecting,they were affecting
+B2,Affect,Past Perfect Simple,I had affected,you had affected,he/she/it had affected,we had affected,you had affected,they had affected
+B2,Affect,Past Perfect Continuous,I had been affecting,you had been affecting,he/she/it had been affecting,we had been affecting,you had been affecting,they had been affecting
+B2,Affect,Future Simple,I will affect,you will affect,he/she/it will affect,we will affect,you will affect,they will affect
+B2,Affect,Future Continuous,I will be affecting,you will be affecting,he/she/it will be affecting,we will be affecting,you will be affecting,they will be affecting
+B2,Affect,Future Perfect Simple,I will have affected,you will have affected,he/she/it will have affected,we will have affected,you will have affected,they will have affected
+B2,Affect,Future Perfect Continuous,I will have been affecting,you will have been affecting,he/she/it will have been affecting,we will have been affecting,you will have been affecting,they will have been affecting
+B2,Allege,Present Simple,I allege,you allege,he/she/it alleges,we allege,you allege,they allege
+B2,Allege,Present Continuous,I am alleging,you are alleging,he/she/it is alleging,we are alleging,you are alleging,they are alleging
+B2,Allege,Present Perfect,I have alleged,you have alleged,he/she/it has alleged,we have alleged,you have alleged,they have alleged
+B2,Allege,Present Perfect Continuous,I have been alleging,you have been alleging,he/she/it has been alleging,we have been alleging,you have been alleging,they have been alleging
+B2,Allege,Past Simple,I alleged,you alleged,he/she/it alleged,we alleged,you alleged,they alleged
+B2,Allege,Past Continuous,I was alleging,you were alleging,he/she/it was alleging,we were alleging,you were alleging,they were alleging
+B2,Allege,Past Perfect Simple,I had alleged,you had alleged,he/she/it had alleged,we had alleged,you had alleged,they had alleged
+B2,Allege,Past Perfect Continuous,I had been alleging,you had been alleging,he/she/it had been alleging,we had been alleging,you had been alleging,they had been alleging
+B2,Allege,Future Simple,I will allege,you will allege,he/she/it will allege,we will allege,you will allege,they will allege
+B2,Allege,Future Continuous,I will be alleging,you will be alleging,he/she/it will be alleging,we will be alleging,you will be alleging,they will be alleging
+B2,Allege,Future Perfect Simple,I will have alleged,you will have alleged,he/she/it will have alleged,we will have alleged,you will have alleged,they will have alleged
+B2,Allege,Future Perfect Continuous,I will have been alleging,you will have been alleging,he/she/it will have been alleging,we will have been alleging,you will have been alleging,they will have been alleging
+B2,Amend,Present Simple,I amend,you amend,he/she/it amends,we amend,you amend,they amend
+B2,Amend,Present Continuous,I am amending,you are amending,he/she/it is amending,we are amending,you are amending,they are amending
+B2,Amend,Present Perfect,I have amended,you have amended,he/she/it has amended,we have amended,you have amended,they have amended
+B2,Amend,Present Perfect Continuous,I have been amending,you have been amending,he/she/it has been amending,we have been amending,you have been amending,they have been amending
+B2,Amend,Past Simple,I amended,you amended,he/she/it amended,we amended,you amended,they amended
+B2,Amend,Past Continuous,I was amending,you were amending,he/she/it was amending,we were amending,you were amending,they were amending
+B2,Amend,Past Perfect Simple,I had amended,you had amended,he/she/it had amended,we had amended,you had amended,they had amended
+B2,Amend,Past Perfect Continuous,I had been amending,you had been amending,he/she/it had been amending,we had been amending,you had been amending,they had been amending
+B2,Amend,Future Simple,I will amend,you will amend,he/she/it will amend,we will amend,you will amend,they will amend
+B2,Amend,Future Continuous,I will be amending,you will be amending,he/she/it will be amending,we will be amending,you will be amending,they will be amending
+B2,Amend,Future Perfect Simple,I will have amended,you will have amended,he/she/it will have amended,we will have amended,you will have amended,they will have amended
+B2,Amend,Future Perfect Continuous,I will have been amending,you will have been amending,he/she/it will have been amending,we will have been amending,you will have been amending,they will have been amending
+B2,Anticipate,Present Simple,I anticipate,you anticipate,he/she/it anticipates,we anticipate,you anticipate,they anticipate
+B2,Anticipate,Present Continuous,I am anticipating,you are anticipating,he/she/it is anticipating,we are anticipating,you are anticipating,they are anticipating
+B2,Anticipate,Present Perfect,I have anticipated,you have anticipated,he/she/it has anticipated,we have anticipated,you have anticipated,they have anticipated
+B2,Anticipate,Present Perfect Continuous,I have been anticipating,you have been anticipating,he/she/it has been anticipating,we have been anticipating,you have been anticipating,they have been anticipating
+B2,Anticipate,Past Simple,I anticipated,you anticipated,he/she/it anticipated,we anticipated,you anticipated,they anticipated
+B2,Anticipate,Past Continuous,I was anticipating,you were anticipating,he/she/it was anticipating,we were anticipating,you were anticipating,they were anticipating
+B2,Anticipate,Past Perfect Simple,I had anticipated,you had anticipated,he/she/it had anticipated,we had anticipated,you had anticipated,they had anticipated
+B2,Anticipate,Past Perfect Continuous,I had been anticipating,you had been anticipating,he/she/it had been anticipating,we had been anticipating,you had been anticipating,they had been anticipating
+B2,Anticipate,Future Simple,I will anticipate,you will anticipate,he/she/it will anticipate,we will anticipate,you will anticipate,they will anticipate
+B2,Anticipate,Future Continuous,I will be anticipating,you will be anticipating,he/she/it will be anticipating,we will be anticipating,you will be anticipating,they will be anticipating
+B2,Anticipate,Future Perfect Simple,I will have anticipated,you will have anticipated,he/she/it will have anticipated,we will have anticipated,you will have anticipated,they will have anticipated
+B2,Anticipate,Future Perfect Continuous,I will have been anticipating,you will have been anticipating,he/she/it will have been anticipating,we will have been anticipating,you will have been anticipating,they will have been anticipating
+B2,Appoint,Present Simple,I appoint,you appoint,he/she/it appoints,we appoint,you appoint,they appoint
+B2,Appoint,Present Continuous,I am appointing,you are appointing,he/she/it is appointing,we are appointing,you are appointing,they are appointing
+B2,Appoint,Present Perfect,I have appointed,you have appointed,he/she/it has appointed,we have appointed,you have appointed,they have appointed
+B2,Appoint,Present Perfect Continuous,I have been appointing,you have been appointing,he/she/it has been appointing,we have been appointing,you have been appointing,they have been appointing
+B2,Appoint,Past Simple,I appointed,you appointed,he/she/it appointed,we appointed,you appointed,they appointed
+B2,Appoint,Past Continuous,I was appointing,you were appointing,he/she/it was appointing,we were appointing,you were appointing,they were appointing
+B2,Appoint,Past Perfect Simple,I had appointed,you had appointed,he/she/it had appointed,we had appointed,you had appointed,they had appointed
+B2,Appoint,Past Perfect Continuous,I had been appointing,you had been appointing,he/she/it had been appointing,we had been appointing,you had been appointing,they had been appointing
+B2,Appoint,Future Simple,I will appoint,you will appoint,he/she/it will appoint,we will appoint,you will appoint,they will appoint
+B2,Appoint,Future Continuous,I will be appointing,you will be appointing,he/she/it will be appointing,we will be appointing,you will be appointing,they will be appointing
+B2,Appoint,Future Perfect Simple,I will have appointed,you will have appointed,he/she/it will have appointed,we will have appointed,you will have appointed,they will have appointed
+B2,Appoint,Future Perfect Continuous,I will have been appointing,you will have been appointing,he/she/it will have been appointing,we will have been appointing,you will have been appointing,they will have been appointing
+B2,Appreciate,Present Simple,I appreciate,you appreciate,he/she/it appreciates,we appreciate,you appreciate,they appreciate
+B2,Appreciate,Present Continuous,I am appreciating,you are appreciating,he/she/it is appreciating,we are appreciating,you are appreciating,they are appreciating
+B2,Appreciate,Present Perfect,I have appreciated,you have appreciated,he/she/it has appreciated,we have appreciated,you have appreciated,they have appreciated
+B2,Appreciate,Present Perfect Continuous,I have been appreciating,you have been appreciating,he/she/it has been appreciating,we have been appreciating,you have been appreciating,they have been appreciating
+B2,Appreciate,Past Simple,I appreciated,you appreciated,he/she/it appreciated,we appreciated,you appreciated,they appreciated
+B2,Appreciate,Past Continuous,I was appreciating,you were appreciating,he/she/it was appreciating,we were appreciating,you were appreciating,they were appreciating
+B2,Appreciate,Past Perfect Simple,I had appreciated,you had appreciated,he/she/it had appreciated,we had appreciated,you had appreciated,they had appreciated
+B2,Appreciate,Past Perfect Continuous,I had been appreciating,you had been appreciating,he/she/it had been appreciating,we had been appreciating,you had been appreciating,they had been appreciating
+B2,Appreciate,Future Simple,I will appreciate,you will appreciate,he/she/it will appreciate,we will appreciate,you will appreciate,they will appreciate
+B2,Appreciate,Future Continuous,I will be appreciating,you will be appreciating,he/she/it will be appreciating,we will be appreciating,you will be appreciating,they will be appreciating
+B2,Appreciate,Future Perfect Simple,I will have appreciated,you will have appreciated,he/she/it will have appreciated,we will have appreciated,you will have appreciated,they will have appreciated
+B2,Appreciate,Future Perfect Continuous,I will have been appreciating,you will have been appreciating,he/she/it will have been appreciating,we will have been appreciating,you will have been appreciating,they will have been appreciating
+B2,Befriend,Present Simple,I befriend,you befriend,he/she/it befriends,we befriend,you befriend,they befriend
+B2,Befriend,Present Continuous,I am befriending,you are befriending,he/she/it is befriending,we are befriending,you are befriending,they are befriending
+B2,Befriend,Present Perfect,I have befriended,you have befriended,he/she/it has befriended,we have befriended,you have befriended,they have befriended
+B2,Befriend,Present Perfect Continuous,I have been befriending,you have been befriending,he/she/it has been befriending,we have been befriending,you have been befriending,they have been befriending
+B2,Befriend,Past Simple,I befriended,you befriended,he/she/it befriended,we befriended,you befriended,they befriended
+B2,Befriend,Past Continuous,I was befriending,you were befriending,he/she/it was befriending,we were befriending,you were befriending,they were befriending
+B2,Befriend,Past Perfect Simple,I had befriended,you had befriended,he/she/it had befriended,we had befriended,you had befriended,they had befriended
+B2,Befriend,Past Perfect Continuous,I had been befriending,you had been befriending,he/she/it had been befriending,we had been befriending,you had been befriending,they had been befriending
+B2,Befriend,Future Simple,I will befriend,you will befriend,he/she/it will befriend,we will befriend,you will befriend,they will befriend
+B2,Befriend,Future Continuous,I will be befriending,you will be befriending,he/she/it will be befriending,we will be befriending,you will be befriending,they will be befriending
+B2,Befriend,Future Perfect Simple,I will have befriended,you will have befriended,he/she/it will have befriended,we will have befriended,you will have befriended,they will have befriended
+B2,Befriend,Future Perfect Continuous,I will have been befriending,you will have been befriending,he/she/it will have been befriending,we will have been befriending,you will have been befriending,they will have been befriending
+B2,Clarify,Present Simple,I clarify,you clarify,he/she/it clarifies,we clarify,you clarify,they clarify
+B2,Clarify,Present Continuous,I am clarifying,you are clarifying,he/she/it is clarifying,we are clarifying,you are clarifying,they are clarifying
+B2,Clarify,Present Perfect,I have clarified,you have clarified,he/she/it has clarified,we have clarified,you have clarified,they have clarified
+B2,Clarify,Present Perfect Continuous,I have been clarifying,you have been clarifying,he/she/it has been clarifying,we have been clarifying,you have been clarifying,they have been clarifying
+B2,Clarify,Past Simple,I clarified,you clarified,he/she/it clarified,we clarified,you clarified,they clarified
+B2,Clarify,Past Continuous,I was clarifying,you were clarifying,he/she/it was clarifying,we were clarifying,you were clarifying,they were clarifying
+B2,Clarify,Past Perfect Simple,I had clarified,you had clarified,he/she/it had clarified,we had clarified,you had clarified,they had clarified
+B2,Clarify,Past Perfect Continuous,I had been clarifying,you had been clarifying,he/she/it had been clarifying,we had been clarifying,you had been clarifying,they had been clarifying
+B2,Clarify,Future Simple,I will clarify,you will clarify,he/she/it will clarify,we will clarify,you will clarify,they will clarify
+B2,Clarify,Future Continuous,I will be clarifying,you will be clarifying,he/she/it will be clarifying,we will be clarifying,you will be clarifying,they will be clarifying
+B2,Clarify,Future Perfect Simple,I will have clarified,you will have clarified,he/she/it will have clarified,we will have clarified,you will have clarified,they will have clarified
+B2,Clarify,Future Perfect Continuous,I will have been clarifying,you will have been clarifying,he/she/it will have been clarifying,we will have been clarifying,you will have been clarifying,they will have been clarifying
+B2,Collaborate,Present Simple,I collaborate,you collaborate,he/she/it collaborates,we collaborate,you collaborate,they collaborate
+B2,Collaborate,Present Continuous,I am collaborating,you are collaborating,he/she/it is collaborating,we are collaborating,you are collaborating,they are collaborating
+B2,Collaborate,Present Perfect,I have collaborated,you have collaborated,he/she/it has collaborated,we have collaborated,you have collaborated,they have collaborated
+B2,Collaborate,Present Perfect Continuous,I have been collaborating,you have been collaborating,he/she/it has been collaborating,we have been collaborating,you have been collaborating,they have been collaborating
+B2,Collaborate,Past Simple,I collaborated,you collaborated,he/she/it collaborated,we collaborated,you collaborated,they collaborated
+B2,Collaborate,Past Continuous,I was collaborating,you were collaborating,he/she/it was collaborating,we were collaborating,you were collaborating,they were collaborating
+B2,Collaborate,Past Perfect Simple,I had collaborated,you had collaborated,he/she/it had collaborated,we had collaborated,you had collaborated,they had collaborated
+B2,Collaborate,Past Perfect Continuous,I had been collaborating,you had been collaborating,he/she/it had been collaborating,we had been collaborating,you had been collaborating,they had been collaborating
+B2,Collaborate,Future Simple,I will collaborate,you will collaborate,he/she/it will collaborate,we will collaborate,you will collaborate,they will collaborate
+B2,Collaborate,Future Continuous,I will be collaborating,you will be collaborating,he/she/it will be collaborating,we will be collaborating,you will be collaborating,they will be collaborating
+B2,Collaborate,Future Perfect Simple,I will have collaborated,you will have collaborated,he/she/it will have collaborated,we will have collaborated,you will have collaborated,they will have collaborated
+B2,Collaborate,Future Perfect Continuous,I will have been collaborating,you will have been collaborating,he/she/it will have been collaborating,we will have been collaborating,you will have been collaborating,they will have been collaborating
+B2,Comprehend,Present Simple,I comprehend,you comprehend,he/she/it comprehends,we comprehend,you comprehend,they comprehend
+B2,Comprehend,Present Continuous,I am comprehending,you are comprehending,he/she/it is comprehending,we are comprehending,you are comprehending,they are comprehending
+B2,Comprehend,Present Perfect,I have comprehended,you have comprehended,he/she/it has comprehended,we have comprehended,you have comprehended,they have comprehended
+B2,Comprehend,Present Perfect Continuous,I have been comprehending,you have been comprehending,he/she/it has been comprehending,we have been comprehending,you have been comprehending,they have been comprehending
+B2,Comprehend,Past Simple,I comprehended,you comprehended,he/she/it comprehended,we comprehended,you comprehended,they comprehended
+B2,Comprehend,Past Continuous,I was comprehending,you were comprehending,he/she/it was comprehending,we were comprehending,you were comprehending,they were comprehending
+B2,Comprehend,Past Perfect Simple,I had comprehended,you had comprehended,he/she/it had comprehended,we had comprehended,you had comprehended,they had comprehended
+B2,Comprehend,Past Perfect Continuous,I had been comprehending,you had been comprehending,he/she/it had been comprehending,we had been comprehending,you had been comprehending,they had been comprehending
+B2,Comprehend,Future Simple,I will comprehend,you will comprehend,he/she/it will comprehend,we will comprehend,you will comprehend,they will comprehend
+B2,Comprehend,Future Continuous,I will be comprehending,you will be comprehending,he/she/it will be comprehending,we will be comprehending,you will be comprehending,they will be comprehending
+B2,Comprehend,Future Perfect Simple,I will have comprehended,you will have comprehended,he/she/it will have comprehended,we will have comprehended,you will have comprehended,they will have comprehended
+B2,Comprehend,Future Perfect Continuous,I will have been comprehending,you will have been comprehending,he/she/it will have been comprehending,we will have been comprehending,you will have been comprehending,they will have been comprehending
+B2,Conclude,Present Simple,I conclude,you conclude,he/she/it concludes,we conclude,you conclude,they conclude
+B2,Conclude,Present Continuous,I am concluding,you are concluding,he/she/it is concluding,we are concluding,you are concluding,they are concluding
+B2,Conclude,Present Perfect,I have concluded,you have concluded,he/she/it has concluded,we have concluded,you have concluded,they have concluded
+B2,Conclude,Present Perfect Continuous,I have been concluding,you have been concluding,he/she/it has been concluding,we have been concluding,you have been concluding,they have been concluding
+B2,Conclude,Past Simple,I concluded,you concluded,he/she/it concluded,we concluded,you concluded,they concluded
+B2,Conclude,Past Continuous,I was concluding,you were concluding,he/she/it was concluding,we were concluding,you were concluding,they were concluding
+B2,Conclude,Past Perfect Simple,I had concluded,you had concluded,he/she/it had concluded,we had concluded,you had concluded,they had concluded
+B2,Conclude,Past Perfect Continuous,I had been concluding,you had been concluding,he/she/it had been concluding,we had been concluding,you had been concluding,they had been concluding
+B2,Conclude,Future Simple,I will conclude,you will conclude,he/she/it will conclude,we will conclude,you will conclude,they will conclude
+B2,Conclude,Future Continuous,I will be concluding,you will be concluding,he/she/it will be concluding,we will be concluding,you will be concluding,they will be concluding
+B2,Conclude,Future Perfect Simple,I will have concluded,you will have concluded,he/she/it will have concluded,we will have concluded,you will have concluded,they will have concluded
+B2,Conclude,Future Perfect Continuous,I will have been concluding,you will have been concluding,he/she/it will have been concluding,we will have been concluding,you will have been concluding,they will have been concluding
+B2,Diminish,Present Simple,I diminish,you diminish,he/she/it diminishes,we diminish,you diminish,they diminish
+B2,Diminish,Present Continuous,I am diminishing,you are diminishing,he/she/it is diminishing,we are diminishing,you are diminishing,they are diminishing
+B2,Diminish,Present Perfect,I have diminished,you have diminished,he/she/it has diminished,we have diminished,you have diminished,they have diminished
+B2,Diminish,Present Perfect Continuous,I have been diminishing,you have been diminishing,he/she/it has been diminishing,we have been diminishing,you have been diminishing,they have been diminishing
+B2,Diminish,Past Simple,I diminished,you diminished,he/she/it diminished,we diminished,you diminished,they diminished
+B2,Diminish,Past Continuous,I was diminishing,you were diminishing,he/she/it was diminishing,we were diminishing,you were diminishing,they were diminishing
+B2,Diminish,Past Perfect Simple,I had diminished,you had diminished,he/she/it had diminished,we had diminished,you had diminished,they had diminished
+B2,Diminish,Past Perfect Continuous,I had been diminishing,you had been diminishing,he/she/it had been diminishing,we had been diminishing,you had been diminishing,they had been diminishing
+B2,Diminish,Future Simple,I will diminish,you will diminish,he/she/it will diminish,we will diminish,you will diminish,they will diminish
+B2,Diminish,Future Continuous,I will be diminishing,you will be diminishing,he/she/it will be diminishing,we will be diminishing,you will be diminishing,they will be diminishing
+B2,Diminish,Future Perfect Simple,I will have diminished,you will have diminished,he/she/it will have diminished,we will have diminished,you will have diminished,they will have diminished
+B2,Diminish,Future Perfect Continuous,I will have been diminishing,you will have been diminishing,he/she/it will have been diminishing,we will have been diminishing,you will have been diminishing,they will have been diminishing
+B2,Doubt,Present Simple,I doubt,you doubt,he/she/it doubts,we doubt,you doubt,they doubt
+B2,Doubt,Present Continuous,I am doubting,you are doubting,he/she/it is doubting,we are doubting,you are doubting,they are doubting
+B2,Doubt,Present Perfect,I have doubted,you have doubted,he/she/it has doubted,we have doubted,you have doubted,they have doubted
+B2,Doubt,Present Perfect Continuous,I have been doubting,you have been doubting,he/she/it has been doubting,we have been doubting,you have been doubting,they have been doubting
+B2,Doubt,Past Simple,I doubted,you doubted,he/she/it doubted,we doubted,you doubted,they doubted
+B2,Doubt,Past Continuous,I was doubting,you were doubting,he/she/it was doubting,we were doubting,you were doubting,they were doubting
+B2,Doubt,Past Perfect Simple,I had doubted,you had doubted,he/she/it had doubted,we had doubted,you had doubted,they had doubted
+B2,Doubt,Past Perfect Continuous,I had been doubting,you had been doubting,he/she/it had been doubting,we had been doubting,you had been doubting,they had been doubting
+B2,Doubt,Future Simple,I will doubt,you will doubt,he/she/it will doubt,we will doubt,you will doubt,they will doubt
+B2,Doubt,Future Continuous,I will be doubting,you will be doubting,he/she/it will be doubting,we will be doubting,you will be doubting,they will be doubting
+B2,Doubt,Future Perfect Simple,I will have doubted,you will have doubted,he/she/it will have doubted,we will have doubted,you will have doubted,they will have doubted
+B2,Doubt,Future Perfect Continuous,I will have been doubting,you will have been doubting,he/she/it will have been doubting,we will have been doubting,you will have been doubting,they will have been doubting
+B2,Enhance,Present Simple,I enhance,you enhance,he/she/it enhances,we enhance,you enhance,they enhance
+B2,Enhance,Present Continuous,I am enhancing,you are enhancing,he/she/it is enhancing,we are enhancing,you are enhancing,they are enhancing
+B2,Enhance,Present Perfect,I have enhanced,you have enhanced,he/she/it has enhanced,we have enhanced,you have enhanced,they have enhanced
+B2,Enhance,Present Perfect Continuous,I have been enhancing,you have been enhancing,he/she/it has been enhancing,we have been enhancing,you have been enhancing,they have been enhancing
+B2,Enhance,Past Simple,I enhanced,you enhanced,he/she/it enhanced,we enhanced,you enhanced,they enhanced
+B2,Enhance,Past Continuous,I was enhancing,you were enhancing,he/she/it was enhancing,we were enhancing,you were enhancing,they were enhancing
+B2,Enhance,Past Perfect Simple,I had enhanced,you had enhanced,he/she/it had enhanced,we had enhanced,you had enhanced,they had enhanced
+B2,Enhance,Past Perfect Continuous,I had been enhancing,you had been enhancing,he/she/it had been enhancing,we had been enhancing,you had been enhancing,they had been enhancing
+B2,Enhance,Future Simple,I will enhance,you will enhance,he/she/it will enhance,we will enhance,you will enhance,they will enhance
+B2,Enhance,Future Continuous,I will be enhancing,you will be enhancing,he/she/it will be enhancing,we will be enhancing,you will be enhancing,they will be enhancing
+B2,Enhance,Future Perfect Simple,I will have enhanced,you will have enhanced,he/she/it will have enhanced,we will have enhanced,you will have enhanced,they will have enhanced
+B2,Enhance,Future Perfect Continuous,I will have been enhancing,you will have been enhancing,he/she/it will have been enhancing,we will have been enhancing,you will have been enhancing,they will have been enhancing
+B2,Enquire,Present Simple,I enquire,you enquire,he/she/it enquires,we enquire,you enquire,they enquire
+B2,Enquire,Present Continuous,I am enquiring,you are enquiring,he/she/it is enquiring,we are enquiring,you are enquiring,they are enquiring
+B2,Enquire,Present Perfect,I have enquired,you have enquired,he/she/it has enquired,we have enquired,you have enquired,they have enquired
+B2,Enquire,Present Perfect Continuous,I have been enquiring,you have been enquiring,he/she/it has been enquiring,we have been enquiring,you have been enquiring,they have been enquiring
+B2,Enquire,Past Simple,I enquired,you enquired,he/she/it enquired,we enquired,you enquired,they enquired
+B2,Enquire,Past Continuous,I was enquiring,you were enquiring,he/she/it was enquiring,we were enquiring,you were enquiring,they were enquiring
+B2,Enquire,Past Perfect Simple,I had enquired,you had enquired,he/she/it had enquired,we had enquired,you had enquired,they had enquired
+B2,Enquire,Past Perfect Continuous,I had been enquiring,you had been enquiring,he/she/it had been enquiring,we had been enquiring,you had been enquiring,they had been enquiring
+B2,Enquire,Future Simple,I will enquire,you will enquire,he/she/it will enquire,we will enquire,you will enquire,they will enquire
+B2,Enquire,Future Continuous,I will be enquiring,you will be enquiring,he/she/it will be enquiring,we will be enquiring,you will be enquiring,they will be enquiring
+B2,Enquire,Future Perfect Simple,I will have enquired,you will have enquired,he/she/it will have enquired,we will have enquired,you will have enquired,they will have enquired
+B2,Enquire,Future Perfect Continuous,I will have been enquiring,you will have been enquiring,he/she/it will have been enquiring,we will have been enquiring,you will have been enquiring,they will have been enquiring
+B2,Establish,Present Simple,I establish,you establish,he/she/it establishes,we establish,you establish,they establish
+B2,Establish,Present Continuous,I am establishing,you are establishing,he/she/it is establishing,we are establishing,you are establishing,they are establishing
+B2,Establish,Present Perfect,I have established,you have established,he/she/it has established,we have established,you have established,they have established
+B2,Establish,Present Perfect Continuous,I have been establishing,you have been establishing,he/she/it has been establishing,we have been establishing,you have been establishing,they have been establishing
+B2,Establish,Past Simple,I established,you established,he/she/it established,we established,you established,they established
+B2,Establish,Past Continuous,I was establishing,you were establishing,he/she/it was establishing,we were establishing,you were establishing,they were establishing
+B2,Establish,Past Perfect Simple,I had established,you had established,he/she/it had established,we had established,you had established,they had established
+B2,Establish,Past Perfect Continuous,I had been establishing,you had been establishing,he/she/it had been establishing,we had been establishing,you had been establishing,they had been establishing
+B2,Establish,Future Simple,I will establish,you will establish,he/she/it will establish,we will establish,you will establish,they will establish
+B2,Establish,Future Continuous,I will be establishing,you will be establishing,he/she/it will be establishing,we will be establishing,you will be establishing,they will be establishing
+B2,Establish,Future Perfect Simple,I will have established,you will have established,he/she/it will have established,we will have established,you will have established,they will have established
+B2,Establish,Future Perfect Continuous,I will have been establishing,you will have been establishing,he/she/it will have been establishing,we will have been establishing,you will have been establishing,they will have been establishing
+B2,Exceed,Present Simple,I exceed,you exceed,he/she/it exceeds,we exceed,you exceed,they exceed
+B2,Exceed,Present Continuous,I am exceeding,you are exceeding,he/she/it is exceeding,we are exceeding,you are exceeding,they are exceeding
+B2,Exceed,Present Perfect,I have exceeded,you have exceeded,he/she/it has exceeded,we have exceeded,you have exceeded,they have exceeded
+B2,Exceed,Present Perfect Continuous,I have been exceeding,you have been exceeding,he/she/it has been exceeding,we have been exceeding,you have been exceeding,they have been exceeding
+B2,Exceed,Past Simple,I exceeded,you exceeded,he/she/it exceeded,we exceeded,you exceeded,they exceeded
+B2,Exceed,Past Continuous,I was exceeding,you were exceeding,he/she/it was exceeding,we were exceeding,you were exceeding,they were exceeding
+B2,Exceed,Past Perfect Simple,I had exceeded,you had exceeded,he/she/it had exceeded,we had exceeded,you had exceeded,they had exceeded
+B2,Exceed,Past Perfect Continuous,I had been exceeding,you had been exceeding,he/she/it had been exceeding,we had been exceeding,you had been exceeding,they had been exceeding
+B2,Exceed,Future Simple,I will exceed,you will exceed,he/she/it will exceed,we will exceed,you will exceed,they will exceed
+B2,Exceed,Future Continuous,I will be exceeding,you will be exceeding,he/she/it will be exceeding,we will be exceeding,you will be exceeding,they will be exceeding
+B2,Exceed,Future Perfect Simple,I will have exceeded,you will have exceeded,he/she/it will have exceeded,we will have exceeded,you will have exceeded,they will have exceeded
+B2,Exceed,Future Perfect Continuous,I will have been exceeding,you will have been exceeding,he/she/it will have been exceeding,we will have been exceeding,you will have been exceeding,they will have been exceeding
+B2,Expand,Present Simple,I expand,you expand,he/she/it expands,we expand,you expand,they expand
+B2,Expand,Present Continuous,I am expanding,you are expanding,he/she/it is expanding,we are expanding,you are expanding,they are expanding
+B2,Expand,Present Perfect,I have expanded,you have expanded,he/she/it has expanded,we have expanded,you have expanded,they have expanded
+B2,Expand,Present Perfect Continuous,I have been expanding,you have been expanding,he/she/it has been expanding,we have been expanding,you have been expanding,they have been expanding
+B2,Expand,Past Simple,I expanded,you expanded,he/she/it expanded,we expanded,you expanded,they expanded
+B2,Expand,Past Continuous,I was expanding,you were expanding,he/she/it was expanding,we were expanding,you were expanding,they were expanding
+B2,Expand,Past Perfect Simple,I had expanded,you had expanded,he/she/it had expanded,we had expanded,you had expanded,they had expanded
+B2,Expand,Past Perfect Continuous,I had been expanding,you had been expanding,he/she/it had been expanding,we had been expanding,you had been expanding,they had been expanding
+B2,Expand,Future Simple,I will expand,you will expand,he/she/it will expand,we will expand,you will expand,they will expand
+B2,Expand,Future Continuous,I will be expanding,you will be expanding,he/she/it will be expanding,we will be expanding,you will be expanding,they will be expanding
+B2,Expand,Future Perfect Simple,I will have expanded,you will have expanded,he/she/it will have expanded,we will have expanded,you will have expanded,they will have expanded
+B2,Expand,Future Perfect Continuous,I will have been expanding,you will have been expanding,he/she/it will have been expanding,we will have been expanding,you will have been expanding,they will have been expanding
+B2,Facilitate,Present Simple,I facilitate,you facilitate,he/she/it facilitates,we facilitate,you facilitate,they facilitate
+B2,Facilitate,Present Continuous,I am facilitating,you are facilitating,he/she/it is facilitating,we are facilitating,you are facilitating,they are facilitating
+B2,Facilitate,Present Perfect,I have facilitated,you have facilitated,he/she/it has facilitated,we have facilitated,you have facilitated,they have facilitated
+B2,Facilitate,Present Perfect Continuous,I have been facilitating,you have been facilitating,he/she/it has been facilitating,we have been facilitating,you have been facilitating,they have been facilitating
+B2,Facilitate,Past Simple,I facilitated,you facilitated,he/she/it facilitated,we facilitated,you facilitated,they facilitated
+B2,Facilitate,Past Continuous,I was facilitating,you were facilitating,he/she/it was facilitating,we were facilitating,you were facilitating,they were facilitating
+B2,Facilitate,Past Perfect Simple,I had facilitated,you had facilitated,he/she/it had facilitated,we had facilitated,you had facilitated,they had facilitated
+B2,Facilitate,Past Perfect Continuous,I had been facilitating,you had been facilitating,he/she/it had been facilitating,we had been facilitating,you had been facilitating,they had been facilitating
+B2,Facilitate,Future Simple,I will facilitate,you will facilitate,he/she/it will facilitate,we will facilitate,you will facilitate,they will facilitate
+B2,Facilitate,Future Continuous,I will be facilitating,you will be facilitating,he/she/it will be facilitating,we will be facilitating,you will be facilitating,they will be facilitating
+B2,Facilitate,Future Perfect Simple,I will have facilitated,you will have facilitated,he/she/it will have facilitated,we will have facilitated,you will have facilitated,they will have facilitated
+B2,Facilitate,Future Perfect Continuous,I will have been facilitating,you will have been facilitating,he/she/it will have been facilitating,we will have been facilitating,you will have been facilitating,they will have been facilitating
+B2,Highlight,Present Simple,I highlight,you highlight,he/she/it highlights,we highlight,you highlight,they highlight
+B2,Highlight,Present Continuous,I am highlighting,you are highlighting,he/she/it is highlighting,we are highlighting,you are highlighting,they are highlighting
+B2,Highlight,Present Perfect,I have highlighted,you have highlighted,he/she/it has highlighted,we have highlighted,you have highlighted,they have highlighted
+B2,Highlight,Present Perfect Continuous,I have been highlighting,you have been highlighting,he/she/it has been highlighting,we have been highlighting,you have been highlighting,they have been highlighting
+B2,Highlight,Past Simple,I highlighted,you highlighted,he/she/it highlighted,we highlighted,you highlighted,they highlighted
+B2,Highlight,Past Continuous,I was highlighting,you were highlighting,he/she/it was highlighting,we were highlighting,you were highlighting,they were highlighting
+B2,Highlight,Past Perfect Simple,I had highlighted,you had highlighted,he/she/it had highlighted,we had highlighted,you had highlighted,they had highlighted
+B2,Highlight,Past Perfect Continuous,I had been highlighting,you had been highlighting,he/she/it had been highlighting,we had been highlighting,you had been highlighting,they had been highlighting
+B2,Highlight,Future Simple,I will highlight,you will highlight,he/she/it will highlight,we will highlight,you will highlight,they will highlight
+B2,Highlight,Future Continuous,I will be highlighting,you will be highlighting,he/she/it will be highlighting,we will be highlighting,you will be highlighting,they will be highlighting
+B2,Highlight,Future Perfect Simple,I will have highlighted,you will have highlighted,he/she/it will have highlighted,we will have highlighted,you will have highlighted,they will have highlighted
+B2,Highlight,Future Perfect Continuous,I will have been highlighting,you will have been highlighting,he/she/it will have been highlighting,we will have been highlighting,you will have been highlighting,they will have been highlighting
+B2,Implement,Present Simple,I implement,you implement,he/she/it implements,we implement,you implement,they implement
+B2,Implement,Present Continuous,I am implementing,you are implementing,he/she/it is implementing,we are implementing,you are implementing,they are implementing
+B2,Implement,Present Perfect,I have implemented,you have implemented,he/she/it has implemented,we have implemented,you have implemented,they have implemented
+B2,Implement,Present Perfect Continuous,I have been implementing,you have been implementing,he/she/it has been implementing,we have been implementing,you have been implementing,they have been implementing
+B2,Implement,Past Simple,I implemented,you implemented,he/she/it implemented,we implemented,you implemented,they implemented
+B2,Implement,Past Continuous,I was implementing,you were implementing,he/she/it was implementing,we were implementing,you were implementing,they were implementing
+B2,Implement,Past Perfect Simple,I had implemented,you had implemented,he/she/it had implemented,we had implemented,you had implemented,they had implemented
+B2,Implement,Past Perfect Continuous,I had been implementing,you had been implementing,he/she/it had been implementing,we had been implementing,you had been implementing,they had been implementing
+B2,Implement,Future Simple,I will implement,you will implement,he/she/it will implement,we will implement,you will implement,they will implement
+B2,Implement,Future Continuous,I will be implementing,you will be implementing,he/she/it will be implementing,we will be implementing,you will be implementing,they will be implementing
+B2,Implement,Future Perfect Simple,I will have implemented,you will have implemented,he/she/it will have implemented,we will have implemented,you will have implemented,they will have implemented
+B2,Implement,Future Perfect Continuous,I will have been implementing,you will have been implementing,he/she/it will have been implementing,we will have been implementing,you will have been implementing,they will have been implementing
+B2,Imply,Present Simple,I imply,you imply,he/she/it implies,we imply,you imply,they imply
+B2,Imply,Present Continuous,I am implying,you are implying,he/she/it is implying,we are implying,you are implying,they are implying
+B2,Imply,Present Perfect,I have implied,you have implied,he/she/it has implied,we have implied,you have implied,they have implied
+B2,Imply,Present Perfect Continuous,I have been implying,you have been implying,he/she/it has been implying,we have been implying,you have been implying,they have been implying
+B2,Imply,Past Simple,I implied,you implied,he/she/it implied,we implied,you implied,they implied
+B2,Imply,Past Continuous,I was implying,you were implying,he/she/it was implying,we were implying,you were implying,they were implying
+B2,Imply,Past Perfect Simple,I had implied,you had implied,he/she/it had implied,we had implied,you had implied,they had implied
+B2,Imply,Past Perfect Continuous,I had been implying,you had been implying,he/she/it had been implying,we had been implying,you had been implying,they had been implying
+B2,Imply,Future Simple,I will imply,you will imply,he/she/it will imply,we will imply,you will imply,they will imply
+B2,Imply,Future Continuous,I will be implying,you will be implying,he/she/it will be implying,we will be implying,you will be implying,they will be implying
+B2,Imply,Future Perfect Simple,I will have implied,you will have implied,he/she/it will have implied,we will have implied,you will have implied,they will have implied
+B2,Imply,Future Perfect Continuous,I will have been implying,you will have been implying,he/she/it will have been implying,we will have been implying,you will have been implying,they will have been implying
+B2,Indicate,Present Simple,I indicate,you indicate,he/she/it indicates,we indicate,you indicate,they indicate
+B2,Indicate,Present Continuous,I am indicating,you are indicating,he/she/it is indicating,we are indicating,you are indicating,they are indicating
+B2,Indicate,Present Perfect,I have indicated,you have indicated,he/she/it has indicated,we have indicated,you have indicated,they have indicated
+B2,Indicate,Present Perfect Continuous,I have been indicating,you have been indicating,he/she/it has been indicating,we have been indicating,you have been indicating,they have been indicating
+B2,Indicate,Past Simple,I indicated,you indicated,he/she/it indicated,we indicated,you indicated,they indicated
+B2,Indicate,Past Continuous,I was indicating,you were indicating,he/she/it was indicating,we were indicating,you were indicating,they were indicating
+B2,Indicate,Past Perfect Simple,I had indicated,you had indicated,he/she/it had indicated,we had indicated,you had indicated,they had indicated
+B2,Indicate,Past Perfect Continuous,I had been indicating,you had been indicating,he/she/it had been indicating,we had been indicating,you had been indicating,they had been indicating
+B2,Indicate,Future Simple,I will indicate,you will indicate,he/she/it will indicate,we will indicate,you will indicate,they will indicate
+B2,Indicate,Future Continuous,I will be indicating,you will be indicating,he/she/it will be indicating,we will be indicating,you will be indicating,they will be indicating
+B2,Indicate,Future Perfect Simple,I will have indicated,you will have indicated,he/she/it will have indicated,we will have indicated,you will have indicated,they will have indicated
+B2,Indicate,Future Perfect Continuous,I will have been indicating,you will have been indicating,he/she/it will have been indicating,we will have been indicating,you will have been indicating,they will have been indicating
+B2,Influence,Present Simple,I influence,you influence,he/she/it influences,we influence,you influence,they influence
+B2,Influence,Present Continuous,I am influencing,you are influencing,he/she/it is influencing,we are influencing,you are influencing,they are influencing
+B2,Influence,Present Perfect,I have influenced,you have influenced,he/she/it has influenced,we have influenced,you have influenced,they have influenced
+B2,Influence,Present Perfect Continuous,I have been influencing,you have been influencing,he/she/it has been influencing,we have been influencing,you have been influencing,they have been influencing
+B2,Influence,Past Simple,I influenced,you influenced,he/she/it influenced,we influenced,you influenced,they influenced
+B2,Influence,Past Continuous,I was influencing,you were influencing,he/she/it was influencing,we were influencing,you were influencing,they were influencing
+B2,Influence,Past Perfect Simple,I had influenced,you had influenced,he/she/it had influenced,we had influenced,you had influenced,they had influenced
+B2,Influence,Past Perfect Continuous,I had been influencing,you had been influencing,he/she/it had been influencing,we had been influencing,you had been influencing,they had been influencing
+B2,Influence,Future Simple,I will influence,you will influence,he/she/it will influence,we will influence,you will influence,they will influence
+B2,Influence,Future Continuous,I will be influencing,you will be influencing,he/she/it will be influencing,we will be influencing,you will be influencing,they will be influencing
+B2,Influence,Future Perfect Simple,I will have influenced,you will have influenced,he/she/it will have influenced,we will have influenced,you will have influenced,they will have influenced
+B2,Influence,Future Perfect Continuous,I will have been influencing,you will have been influencing,he/she/it will have been influencing,we will have been influencing,you will have been influencing,they will have been influencing
+B2,Inquire,Present Simple,I inquire,you inquire,he/she/it inquires,we inquire,you inquire,they inquire
+B2,Inquire,Present Continuous,I am inquiring,you are inquiring,he/she/it is inquiring,we are inquiring,you are inquiring,they are inquiring
+B2,Inquire,Present Perfect,I have inquired,you have inquired,he/she/it has inquired,we have inquired,you have inquired,they have inquired
+B2,Inquire,Present Perfect Continuous,I have been inquiring,you have been inquiring,he/she/it has been inquiring,we have been inquiring,you have been inquiring,they have been inquiring
+B2,Inquire,Past Simple,I inquired,you inquired,he/she/it inquired,we inquired,you inquired,they inquired
+B2,Inquire,Past Continuous,I was inquiring,you were inquiring,he/she/it was inquiring,we were inquiring,you were inquiring,they were inquiring
+B2,Inquire,Past Perfect Simple,I had inquired,you had inquired,he/she/it had inquired,we had inquired,you had inquired,they had inquired
+B2,Inquire,Past Perfect Continuous,I had been inquiring,you had been inquiring,he/she/it had been inquiring,we had been inquiring,you had been inquiring,they had been inquiring
+B2,Inquire,Future Simple,I will inquire,you will inquire,he/she/it will inquire,we will inquire,you will inquire,they will inquire
+B2,Inquire,Future Continuous,I will be inquiring,you will be inquiring,he/she/it will be inquiring,we will be inquiring,you will be inquiring,they will be inquiring
+B2,Inquire,Future Perfect Simple,I will have inquired,you will have inquired,he/she/it will have inquired,we will have inquired,you will have inquired,they will have inquired
+B2,Inquire,Future Perfect Continuous,I will have been inquiring,you will have been inquiring,he/she/it will have been inquiring,we will have been inquiring,you will have been inquiring,they will have been inquiring
+B2,Maintain,Present Simple,I maintain,you maintain,he/she/it maintains,we maintain,you maintain,they maintain
+B2,Maintain,Present Continuous,I am maintaining,you are maintaining,he/she/it is maintaining,we are maintaining,you are maintaining,they are maintaining
+B2,Maintain,Present Perfect,I have maintained,you have maintained,he/she/it has maintained,we have maintained,you have maintained,they have maintained
+B2,Maintain,Present Perfect Continuous,I have been maintaining,you have been maintaining,he/she/it has been maintaining,we have been maintaining,you have been maintaining,they have been maintaining
+B2,Maintain,Past Simple,I maintained,you maintained,he/she/it maintained,we maintained,you maintained,they maintained
+B2,Maintain,Past Continuous,I was maintaining,you were maintaining,he/she/it was maintaining,we were maintaining,you were maintaining,they were maintaining
+B2,Maintain,Past Perfect Simple,I had maintained,you had maintained,he/she/it had maintained,we had maintained,you had maintained,they had maintained
+B2,Maintain,Past Perfect Continuous,I had been maintaining,you had been maintaining,he/she/it had been maintaining,we had been maintaining,you had been maintaining,they had been maintaining
+B2,Maintain,Future Simple,I will maintain,you will maintain,he/she/it will maintain,we will maintain,you will maintain,they will maintain
+B2,Maintain,Future Continuous,I will be maintaining,you will be maintaining,he/she/it will be maintaining,we will be maintaining,you will be maintaining,they will be maintaining
+B2,Maintain,Future Perfect Simple,I will have maintained,you will have maintained,he/she/it will have maintained,we will have maintained,you will have maintained,they will have maintained
+B2,Maintain,Future Perfect Continuous,I will have been maintaining,you will have been maintaining,he/she/it will have been maintaining,we will have been maintaining,you will have been maintaining,they will have been maintaining
+B2,Negotiate,Present Simple,I negotiate,you negotiate,he/she/it negotiates,we negotiate,you negotiate,they negotiate
+B2,Negotiate,Present Continuous,I am negotiating,you are negotiating,he/she/it is negotiating,we are negotiating,you are negotiating,they are negotiating
+B2,Negotiate,Present Perfect,I have negotiated,you have negotiated,he/she/it has negotiated,we have negotiated,you have negotiated,they have negotiated
+B2,Negotiate,Present Perfect Continuous,I have been negotiating,you have been negotiating,he/she/it has been negotiating,we have been negotiating,you have been negotiating,they have been negotiating
+B2,Negotiate,Past Simple,I negotiated,you negotiated,he/she/it negotiated,we negotiated,you negotiated,they negotiated
+B2,Negotiate,Past Continuous,I was negotiating,you were negotiating,he/she/it was negotiating,we were negotiating,you were negotiating,they were negotiating
+B2,Negotiate,Past Perfect Simple,I had negotiated,you had negotiated,he/she/it had negotiated,we had negotiated,you had negotiated,they had negotiated
+B2,Negotiate,Past Perfect Continuous,I had been negotiating,you had been negotiating,he/she/it had been negotiating,we had been negotiating,you had been negotiating,they had been negotiating
+B2,Negotiate,Future Simple,I will negotiate,you will negotiate,he/she/it will negotiate,we will negotiate,you will negotiate,they will negotiate
+B2,Negotiate,Future Continuous,I will be negotiating,you will be negotiating,he/she/it will be negotiating,we will be negotiating,you will be negotiating,they will be negotiating
+B2,Negotiate,Future Perfect Simple,I will have negotiated,you will have negotiated,he/she/it will have negotiated,we will have negotiated,you will have negotiated,they will have negotiated
+B2,Negotiate,Future Perfect Continuous,I will have been negotiating,you will have been negotiating,he/she/it will have been negotiating,we will have been negotiating,you will have been negotiating,they will have been negotiating
+B2,Observe,Present Simple,I observe,you observe,he/she/it observes,we observe,you observe,they observe
+B2,Observe,Present Continuous,I am observing,you are observing,he/she/it is observing,we are observing,you are observing,they are observing
+B2,Observe,Present Perfect,I have observed,you have observed,he/she/it has observed,we have observed,you have observed,they have observed
+B2,Observe,Present Perfect Continuous,I have been observing,you have been observing,he/she/it has been observing,we have been observing,you have been observing,they have been observing
+B2,Observe,Past Simple,I observed,you observed,he/she/it observed,we observed,you observed,they observed
+B2,Observe,Past Continuous,I was observing,you were observing,he/she/it was observing,we were observing,you were observing,they were observing
+B2,Observe,Past Perfect Simple,I had observed,you had observed,he/she/it had observed,we had observed,you had observed,they had observed
+B2,Observe,Past Perfect Continuous,I had been observing,you had been observing,he/she/it had been observing,we had been observing,you had been observing,they had been observing
+B2,Observe,Future Simple,I will observe,you will observe,he/she/it will observe,we will observe,you will observe,they will observe
+B2,Observe,Future Continuous,I will be observing,you will be observing,he/she/it will be observing,we will be observing,you will be observing,they will be observing
+B2,Observe,Future Perfect Simple,I will have observed,you will have observed,he/she/it will have observed,we will have observed,you will have observed,they will have observed
+B2,Observe,Future Perfect Continuous,I will have been observing,you will have been observing,he/she/it will have been observing,we will have been observing,you will have been observing,they will have been observing
+B2,Predict,Present Simple,I predict,you predict,he/she/it predicts,we predict,you predict,they predict
+B2,Predict,Present Continuous,I am predicting,you are predicting,he/she/it is predicting,we are predicting,you are predicting,they are predicting
+B2,Predict,Present Perfect,I have predicted,you have predicted,he/she/it has predicted,we have predicted,you have predicted,they have predicted
+B2,Predict,Present Perfect Continuous,I have been predicting,you have been predicting,he/she/it has been predicting,we have been predicting,you have been predicting,they have been predicting
+B2,Predict,Past Simple,I predicted,you predicted,he/she/it predicted,we predicted,you predicted,they predicted
+B2,Predict,Past Continuous,I was predicting,you were predicting,he/she/it was predicting,we were predicting,you were predicting,they were predicting
+B2,Predict,Past Perfect Simple,I had predicted,you had predicted,he/she/it had predicted,we had predicted,you had predicted,they had predicted
+B2,Predict,Past Perfect Continuous,I had been predicting,you had been predicting,he/she/it had been predicting,we had been predicting,you had been predicting,they had been predicting
+B2,Predict,Future Simple,I will predict,you will predict,he/she/it will predict,we will predict,you will predict,they will predict
+B2,Predict,Future Continuous,I will be predicting,you will be predicting,he/she/it will be predicting,we will be predicting,you will be predicting,they will be predicting
+B2,Predict,Future Perfect Simple,I will have predicted,you will have predicted,he/she/it will have predicted,we will have predicted,you will have predicted,they will have predicted
+B2,Predict,Future Perfect Continuous,I will have been predicting,you will have been predicting,he/she/it will have been predicting,we will have been predicting,you will have been predicting,they will have been predicting
+B2,Propose,Present Simple,I propose,you propose,he/she/it proposes,we propose,you propose,they propose
+B2,Propose,Present Continuous,I am proposing,you are proposing,he/she/it is proposing,we are proposing,you are proposing,they are proposing
+B2,Propose,Present Perfect,I have proposed,you have proposed,he/she/it has proposed,we have proposed,you have proposed,they have proposed
+B2,Propose,Present Perfect Continuous,I have been proposing,you have been proposing,he/she/it has been proposing,we have been proposing,you have been proposing,they have been proposing
+B2,Propose,Past Simple,I proposed,you proposed,he/she/it proposed,we proposed,you proposed,they proposed
+B2,Propose,Past Continuous,I was proposing,you were proposing,he/she/it was proposing,we were proposing,you were proposing,they were proposing
+B2,Propose,Past Perfect Simple,I had proposed,you had proposed,he/she/it had proposed,we had proposed,you had proposed,they had proposed
+B2,Propose,Past Perfect Continuous,I had been proposing,you had been proposing,he/she/it had been proposing,we had been proposing,you had been proposing,they had been proposing
+B2,Propose,Future Simple,I will propose,you will propose,he/she/it will propose,we will propose,you will propose,they will propose
+B2,Propose,Future Continuous,I will be proposing,you will be proposing,he/she/it will be proposing,we will be proposing,you will be proposing,they will be proposing
+B2,Propose,Future Perfect Simple,I will have proposed,you will have proposed,he/she/it will have proposed,we will have proposed,you will have proposed,they will have proposed
+B2,Propose,Future Perfect Continuous,I will have been proposing,you will have been proposing,he/she/it will have been proposing,we will have been proposing,you will have been proposing,they will have been proposing
+B2,React,Present Simple,I react,you react,he/she/it reacts,we react,you react,they react
+B2,React,Present Continuous,I am reacting,you are reacting,he/she/it is reacting,we are reacting,you are reacting,they are reacting
+B2,React,Present Perfect,I have reacted,you have reacted,he/she/it has reacted,we have reacted,you have reacted,they have reacted
+B2,React,Present Perfect Continuous,I have been reacting,you have been reacting,he/she/it has been reacting,we have been reacting,you have been reacting,they have been reacting
+B2,React,Past Simple,I reacted,you reacted,he/she/it reacted,we reacted,you reacted,they reacted
+B2,React,Past Continuous,I was reacting,you were reacting,he/she/it was reacting,we were reacting,you were reacting,they were reacting
+B2,React,Past Perfect Simple,I had reacted,you had reacted,he/she/it had reacted,we had reacted,you had reacted,they had reacted
+B2,React,Past Perfect Continuous,I had been reacting,you had been reacting,he/she/it had been reacting,we had been reacting,you had been reacting,they had been reacting
+B2,React,Future Simple,I will react,you will react,he/she/it will react,we will react,you will react,they will react
+B2,React,Future Continuous,I will be reacting,you will be reacting,he/she/it will be reacting,we will be reacting,you will be reacting,they will be reacting
+B2,React,Future Perfect Simple,I will have reacted,you will have reacted,he/she/it will have reacted,we will have reacted,you will have reacted,they will have reacted
+B2,React,Future Perfect Continuous,I will have been reacting,you will have been reacting,he/she/it will have been reacting,we will have been reacting,you will have been reacting,they will have been reacting
+B2,Recognize,Present Simple,I recognize,you recognize,he/she/it recognizes,we recognize,you recognize,they recognize
+B2,Recognize,Present Continuous,I am recognizing,you are recognizing,he/she/it is recognizing,we are recognizing,you are recognizing,they are recognizing
+B2,Recognize,Present Perfect,I have recognized,you have recognized,he/she/it has recognized,we have recognized,you have recognized,they have recognized
+B2,Recognize,Present Perfect Continuous,I have been recognizing,you have been recognizing,he/she/it has been recognizing,we have been recognizing,you have been recognizing,they have been recognizing
+B2,Recognize,Past Simple,I recognized,you recognized,he/she/it recognized,we recognized,you recognized,they recognized
+B2,Recognize,Past Continuous,I was recognizing,you were recognizing,he/she/it was recognizing,we were recognizing,you were recognizing,they were recognizing
+B2,Recognize,Past Perfect Simple,I had recognized,you had recognized,he/she/it had recognized,we had recognized,you had recognized,they had recognized
+B2,Recognize,Past Perfect Continuous,I had been recognizing,you had been recognizing,he/she/it had been recognizing,we had been recognizing,you had been recognizing,they had been recognizing
+B2,Recognize,Future Simple,I will recognize,you will recognize,he/she/it will recognize,we will recognize,you will recognize,they will recognize
+B2,Recognize,Future Continuous,I will be recognizing,you will be recognizing,he/she/it will be recognizing,we will be recognizing,you will be recognizing,they will be recognizing
+B2,Recognize,Future Perfect Simple,I will have recognized,you will have recognized,he/she/it will have recognized,we will have recognized,you will have recognized,they will have recognized
+B2,Recognize,Future Perfect Continuous,I will have been recognizing,you will have been recognizing,he/she/it will have been recognizing,we will have been recognizing,you will have been recognizing,they will have been recognizing
+B2,Reinforce,Present Simple,I reinforce,you reinforce,he/she/it reinforces,we reinforce,you reinforce,they reinforce
+B2,Reinforce,Present Continuous,I am reinforcing,you are reinforcing,he/she/it is reinforcing,we are reinforcing,you are reinforcing,they are reinforcing
+B2,Reinforce,Present Perfect,I have reinforced,you have reinforced,he/she/it has reinforced,we have reinforced,you have reinforced,they have reinforced
+B2,Reinforce,Present Perfect Continuous,I have been reinforcing,you have been reinforcing,he/she/it has been reinforcing,we have been reinforcing,you have been reinforcing,they have been reinforcing
+B2,Reinforce,Past Simple,I reinforced,you reinforced,he/she/it reinforced,we reinforced,you reinforced,they reinforced
+B2,Reinforce,Past Continuous,I was reinforcing,you were reinforcing,he/she/it was reinforcing,we were reinforcing,you were reinforcing,they were reinforcing
+B2,Reinforce,Past Perfect Simple,I had reinforced,you had reinforced,he/she/it had reinforced,we had reinforced,you had reinforced,they had reinforced
+B2,Reinforce,Past Perfect Continuous,I had been reinforcing,you had been reinforcing,he/she/it had been reinforcing,we had been reinforcing,you had been reinforcing,they had been reinforcing
+B2,Reinforce,Future Simple,I will reinforce,you will reinforce,he/she/it will reinforce,we will reinforce,you will reinforce,they will reinforce
+B2,Reinforce,Future Continuous,I will be reinforcing,you will be reinforcing,he/she/it will be reinforcing,we will be reinforcing,you will be reinforcing,they will be reinforcing
+B2,Reinforce,Future Perfect Simple,I will have reinforced,you will have reinforced,he/she/it will have reinforced,we will have reinforced,you will have reinforced,they will have reinforced
+B2,Reinforce,Future Perfect Continuous,I will have been reinforcing,you will have been reinforcing,he/she/it will have been reinforcing,we will have been reinforcing,you will have been reinforcing,they will have been reinforcing
+B2,Resolve,Present Simple,I resolve,you resolve,he/she/it resolves,we resolve,you resolve,they resolve
+B2,Resolve,Present Continuous,I am resolving,you are resolving,he/she/it is resolving,we are resolving,you are resolving,they are resolving
+B2,Resolve,Present Perfect,I have resolved,you have resolved,he/she/it has resolved,we have resolved,you have resolved,they have resolved
+B2,Resolve,Present Perfect Continuous,I have been resolving,you have been resolving,he/she/it has been resolving,we have been resolving,you have been resolving,they have been resolving
+B2,Resolve,Past Simple,I resolved,you resolved,he/she/it resolved,we resolved,you resolved,they resolved
+B2,Resolve,Past Continuous,I was resolving,you were resolving,he/she/it was resolving,we were resolving,you were resolving,they were resolving
+B2,Resolve,Past Perfect Simple,I had resolved,you had resolved,he/she/it had resolved,we had resolved,you had resolved,they had resolved
+B2,Resolve,Past Perfect Continuous,I had been resolving,you had been resolving,he/she/it had been resolving,we had been resolving,you had been resolving,they had been resolving
+B2,Resolve,Future Simple,I will resolve,you will resolve,he/she/it will resolve,we will resolve,you will resolve,they will resolve
+B2,Resolve,Future Continuous,I will be resolving,you will be resolving,he/she/it will be resolving,we will be resolving,you will be resolving,they will be resolving
+B2,Resolve,Future Perfect Simple,I will have resolved,you will have resolved,he/she/it will have resolved,we will have resolved,you will have resolved,they will have resolved
+B2,Resolve,Future Perfect Continuous,I will have been resolving,you will have been resolving,he/she/it will have been resolving,we will have been resolving,you will have been resolving,they will have been resolving
+B2,Confirm,Present Simple,I confirm,you confirm,he/she/it confirms,we confirm,you confirm,they confirm
+B2,Confirm,Present Continuous,I am confirming,you are confirming,he/she/it is confirming,we are confirming,you are confirming,they are confirming
+B2,Confirm,Present Perfect,I have confirmed,you have confirmed,he/she/it has confirmed,we have confirmed,you have confirmed,they have confirmed
+B2,Confirm,Present Perfect Continuous,I have been confirming,you have been confirming,he/she/it has been confirming,we have been confirming,you have been confirming,they have been confirming
+B2,Confirm,Past Simple,I confirmed,you confirmed,he/she/it confirmed,we confirmed,you confirmed,they confirmed
+B2,Confirm,Past Continuous,I was confirming,you were confirming,he/she/it was confirming,we were confirming,you were confirming,they were confirming
+B2,Confirm,Past Perfect Simple,I had confirmed,you had confirmed,he/she/it had confirmed,we had confirmed,you had confirmed,they had confirmed
+B2,Confirm,Past Perfect Continuous,I had been confirming,you had been confirming,he/she/it had been confirming,we had been confirming,you had been confirming,they had been confirming
+B2,Confirm,Future Simple,I will confirm,you will confirm,he/she/it will confirm,we will confirm,you will confirm,they will confirm
+B2,Confirm,Future Continuous,I will be confirming,you will be confirming,he/she/it will be confirming,we will be confirming,you will be confirming,they will be confirming
+B2,Confirm,Future Perfect Simple,I will have confirmed,you will have confirmed,he/she/it will have confirmed,we will have confirmed,you will have confirmed,they will have confirmed
+B2,Confirm,Future Perfect Continuous,I will have been confirming,you will have been confirming,he/she/it will have been confirming,we will have been confirming,you will have been confirming,they will have been confirming
+B2,Contribute,Present Simple,I contribute,you contribute,he/she/it contributes,we contribute,you contribute,they contribute
+B2,Contribute,Present Continuous,I am contributing,you are contributing,he/she/it is contributing,we are contributing,you are contributing,they are contributing
+B2,Contribute,Present Perfect,I have contributed,you have contributed,he/she/it has contributed,we have contributed,you have contributed,they have contributed
+B2,Contribute,Present Perfect Continuous,I have been contributing,you have been contributing,he/she/it has been contributing,we have been contributing,you have been contributing,they have been contributing
+B2,Contribute,Past Simple,I contributed,you contributed,he/she/it contributed,we contributed,you contributed,they contributed
+B2,Contribute,Past Continuous,I was contributing,you were contributing,he/she/it was contributing,we were contributing,you were contributing,they were contributing
+B2,Contribute,Past Perfect Simple,I had contributed,you had contributed,he/she/it had contributed,we had contributed,you had contributed,they had contributed
+B2,Contribute,Past Perfect Continuous,I had been contributing,you had been contributing,he/she/it had been contributing,we had been contributing,you had been contributing,they had been contributing
+B2,Contribute,Future Simple,I will contribute,you will contribute,he/she/it will contribute,we will contribute,you will contribute,they will contribute
+B2,Contribute,Future Continuous,I will be contributing,you will be contributing,he/she/it will be contributing,we will be contributing,you will be contributing,they will be contributing
+B2,Contribute,Future Perfect Simple,I will have contributed,you will have contributed,he/she/it will have contributed,we will have contributed,you will have contributed,they will have contributed
+B2,Contribute,Future Perfect Continuous,I will have been contributing,you will have been contributing,he/she/it will have been contributing,we will have been contributing,you will have been contributing,they will have been contributing
+B2,Assess,Present Simple,I assess,you assess,he/she/it assesses,we assess,you assess,they assess
+B2,Assess,Present Continuous,I am assessing,you are assessing,he/she/it is assessing,we are assessing,you are assessing,they are assessing
+B2,Assess,Present Perfect,I have assessed,you have assessed,he/she/it has assessed,we have assessed,you have assessed,they have assessed
+B2,Assess,Present Perfect Continuous,I have been assessing,you have been assessing,he/she/it has been assessing,we have been assessing,you have been assessing,they have been assessing
+B2,Assess,Past Simple,I assessed,you assessed,he/she/it assessed,we assessed,you assessed,they assessed
+B2,Assess,Past Continuous,I was assessing,you were assessing,he/she/it was assessing,we were assessing,you were assessing,they were assessing
+B2,Assess,Past Perfect Simple,I had assessed,you had assessed,he/she/it had assessed,we had assessed,you had assessed,they had assessed
+B2,Assess,Past Perfect Continuous,I had been assessing,you had been assessing,he/she/it had been assessing,we had been assessing,you had been assessing,they had been assessing
+B2,Assess,Future Simple,I will assess,you will assess,he/she/it will assess,we will assess,you will assess,they will assess
+B2,Assess,Future Continuous,I will be assessing,you will be assessing,he/she/it will be assessing,we will be assessing,you will be assessing,they will be assessing
+B2,Assess,Future Perfect Simple,I will have assessed,you will have assessed,he/she/it will have assessed,we will have assessed,you will have assessed,they will have assessed
+B2,Assess,Future Perfect Continuous,I will have been assessing,you will have been assessing,he/she/it will have been assessing,we will have been assessing,you will have been assessing,they will have been assessing
+B2,Assign,Present Simple,I assign,you assign,he/she/it assigns,we assign,you assign,they assign
+B2,Assign,Present Continuous,I am assigning,you are assigning,he/she/it is assigning,we are assigning,you are assigning,they are assigning
+B2,Assign,Present Perfect,I have assigned,you have assigned,he/she/it has assigned,we have assigned,you have assigned,they have assigned
+B2,Assign,Present Perfect Continuous,I have been assigning,you have been assigning,he/she/it has been assigning,we have been assigning,you have been assigning,they have been assigning
+B2,Assign,Past Simple,I assigned,you assigned,he/she/it assigned,we assigned,you assigned,they assigned
+B2,Assign,Past Continuous,I was assigning,you were assigning,he/she/it was assigning,we were assigning,you were assigning,they were assigning
+B2,Assign,Past Perfect Simple,I had assigned,you had assigned,he/she/it had assigned,we had assigned,you had assigned,they had assigned
+B2,Assign,Past Perfect Continuous,I had been assigning,you had been assigning,he/she/it had been assigning,we had been assigning,you had been assigning,they had been assigning
+B2,Assign,Future Simple,I will assign,you will assign,he/she/it will assign,we will assign,you will assign,they will assign
+B2,Assign,Future Continuous,I will be assigning,you will be assigning,he/she/it will be assigning,we will be assigning,you will be assigning,they will be assigning
+B2,Assign,Future Perfect Simple,I will have assigned,you will have assigned,he/she/it will have assigned,we will have assigned,you will have assigned,they will have assigned
+B2,Assign,Future Perfect Continuous,I will have been assigning,you will have been assigning,he/she/it will have been assigning,we will have been assigning,you will have been assigning,they will have been assigning
+B2,Assume,Present Simple,I assume,you assume,he/she/it assumes,we assume,you assume,they assume
+B2,Assume,Present Continuous,I am assuming,you are assuming,he/she/it is assuming,we are assuming,you are assuming,they are assuming
+B2,Assume,Present Perfect,I have assumed,you have assumed,he/she/it has assumed,we have assumed,you have assumed,they have assumed
+B2,Assume,Present Perfect Continuous,I have been assuming,you have been assuming,he/she/it has been assuming,we have been assuming,you have been assuming,they have been assuming
+B2,Assume,Past Simple,I assumed,you assumed,he/she/it assumed,we assumed,you assumed,they assumed
+B2,Assume,Past Continuous,I was assuming,you were assuming,he/she/it was assuming,we were assuming,you were assuming,they were assuming
+B2,Assume,Past Perfect Simple,I had assumed,you had assumed,he/she/it had assumed,we had assumed,you had assumed,they had assumed
+B2,Assume,Past Perfect Continuous,I had been assuming,you had been assuming,he/she/it had been assuming,we had been assuming,you had been assuming,they had been assuming
+B2,Assume,Future Simple,I will assume,you will assume,he/she/it will assume,we will assume,you will assume,they will assume
+B2,Assume,Future Continuous,I will be assuming,you will be assuming,he/she/it will be assuming,we will be assuming,you will be assuming,they will be assuming
+B2,Assume,Future Perfect Simple,I will have assumed,you will have assumed,he/she/it will have assumed,we will have assumed,you will have assumed,they will have assumed
+B2,Assume,Future Perfect Continuous,I will have been assuming,you will have been assuming,he/she/it will have been assuming,we will have been assuming,you will have been assuming,they will have been assuming
+B2,Astonish,Present Simple,I astonish,you astonish,he/she/it astonishes,we astonish,you astonish,they astonish
+B2,Astonish,Present Continuous,I am astonishing,you are astonishing,he/she/it is astonishing,we are astonishing,you are astonishing,they are astonishing
+B2,Astonish,Present Perfect,I have astonished,you have astonished,he/she/it has astonished,we have astonished,you have astonished,they have astonished
+B2,Astonish,Present Perfect Continuous,I have been astonishing,you have been astonishing,he/she/it has been astonishing,we have been astonishing,you have been astonishing,they have been astonishing
+B2,Astonish,Past Simple,I astonished,you astonished,he/she/it astonished,we astonished,you astonished,they astonished
+B2,Astonish,Past Continuous,I was astonishing,you were astonishing,he/she/it was astonishing,we were astonishing,you were astonishing,they were astonishing
+B2,Astonish,Past Perfect Simple,I had astonished,you had astonished,he/she/it had astonished,we had astonished,you had astonished,they had astonished
+B2,Astonish,Past Perfect Continuous,I had been astonishing,you had been astonishing,he/she/it had been astonishing,we had been astonishing,you had been astonishing,they had been astonishing
+B2,Astonish,Future Simple,I will astonish,you will astonish,he/she/it will astonish,we will astonish,you will astonish,they will astonish
+B2,Astonish,Future Continuous,I will be astonishing,you will be astonishing,he/she/it will be astonishing,we will be astonishing,you will be astonishing,they will be astonishing
+B2,Astonish,Future Perfect Simple,I will have astonished,you will have astonished,he/she/it will have astonished,we will have astonished,you will have astonished,they will have astonished
+B2,Astonish,Future Perfect Continuous,I will have been astonishing,you will have been astonishing,he/she/it will have been astonishing,we will have been astonishing,you will have been astonishing,they will have been astonishing
+B2,Attempt,Present Simple,I attempt,you attempt,he/she/it attempts,we attempt,you attempt,they attempt
+B2,Attempt,Present Continuous,I am attempting,you are attempting,he/she/it is attempting,we are attempting,you are attempting,they are attempting
+B2,Attempt,Present Perfect,I have attempted,you have attempted,he/she/it has attempted,we have attempted,you have attempted,they have attempted
+B2,Attempt,Present Perfect Continuous,I have been attempting,you have been attempting,he/she/it has been attempting,we have been attempting,you have been attempting,they have been attempting
+B2,Attempt,Past Simple,I attempted,you attempted,he/she/it attempted,we attempted,you attempted,they attempted
+B2,Attempt,Past Continuous,I was attempting,you were attempting,he/she/it was attempting,we were attempting,you were attempting,they were attempting
+B2,Attempt,Past Perfect Simple,I had attempted,you had attempted,he/she/it had attempted,we had attempted,you had attempted,they had attempted
+B2,Attempt,Past Perfect Continuous,I had been attempting,you had been attempting,he/she/it had been attempting,we had been attempting,you had been attempting,they had been attempting
+B2,Attempt,Future Simple,I will attempt,you will attempt,he/she/it will attempt,we will attempt,you will attempt,they will attempt
+B2,Attempt,Future Continuous,I will be attempting,you will be attempting,he/she/it will be attempting,we will be attempting,you will be attempting,they will be attempting
+B2,Attempt,Future Perfect Simple,I will have attempted,you will have attempted,he/she/it will have attempted,we will have attempted,you will have attempted,they will have attempted
+B2,Attempt,Future Perfect Continuous,I will have been attempting,you will have been attempting,he/she/it will have been attempting,we will have been attempting,you will have been attempting,they will have been attempting
+B2,Convert,Present Simple,I convert,you convert,he/she/it converts,we convert,you convert,they convert
+B2,Convert,Present Continuous,I am converting,you are converting,he/she/it is converting,we are converting,you are converting,they are converting
+B2,Convert,Present Perfect,I have converted,you have converted,he/she/it has converted,we have converted,you have converted,they have converted
+B2,Convert,Present Perfect Continuous,I have been converting,you have been converting,he/she/it has been converting,we have been converting,you have been converting,they have been converting
+B2,Convert,Past Simple,I converted,you converted,he/she/it converted,we converted,you converted,they converted
+B2,Convert,Past Continuous,I was converting,you were converting,he/she/it was converting,we were converting,you were converting,they were converting
+B2,Convert,Past Perfect Simple,I had converted,you had converted,he/she/it had converted,we had converted,you had converted,they had converted
+B2,Convert,Past Perfect Continuous,I had been converting,you had been converting,he/she/it had been converting,we had been converting,you had been converting,they had been converting
+B2,Convert,Future Simple,I will convert,you will convert,he/she/it will convert,we will convert,you will convert,they will convert
+B2,Convert,Future Continuous,I will be converting,you will be converting,he/she/it will be converting,we will be converting,you will be converting,they will be converting
+B2,Convert,Future Perfect Simple,I will have converted,you will have converted,he/she/it will have converted,we will have converted,you will have converted,they will have converted
+B2,Convert,Future Perfect Continuous,I will have been converting,you will have been converting,he/she/it will have been converting,we will have been converting,you will have been converting,they will have been converting
+B2,Convince,Present Simple,I convince,you convince,he/she/it convinces,we convince,you convince,they convince
+B2,Convince,Present Continuous,I am convincing,you are convincing,he/she/it is convincing,we are convincing,you are convincing,they are convincing
+B2,Convince,Present Perfect,I have convinced,you have convinced,he/she/it has convinced,we have convinced,you have convinced,they have convinced
+B2,Convince,Present Perfect Continuous,I have been convincing,you have been convincing,he/she/it has been convincing,we have been convincing,you have been convincing,they have been convincing
+B2,Convince,Past Simple,I convinced,you convinced,he/she/it convinced,we convinced,you convinced,they convinced
+B2,Convince,Past Continuous,I was convincing,you were convincing,he/she/it was convincing,we were convincing,you were convincing,they were convincing
+B2,Convince,Past Perfect Simple,I had convinced,you had convinced,he/she/it had convinced,we had convinced,you had convinced,they had convinced
+B2,Convince,Past Perfect Continuous,I had been convincing,you had been convincing,he/she/it had been convincing,we had been convincing,you had been convincing,they had been convincing
+B2,Convince,Future Simple,I will convince,you will convince,he/she/it will convince,we will convince,you will convince,they will convince
+B2,Convince,Future Continuous,I will be convincing,you will be convincing,he/she/it will be convincing,we will be convincing,you will be convincing,they will be convincing
+B2,Convince,Future Perfect Simple,I will have convinced,you will have convinced,he/she/it will have convinced,we will have convinced,you will have convinced,they will have convinced
+B2,Convince,Future Perfect Continuous,I will have been convincing,you will have been convincing,he/she/it will have been convincing,we will have been convincing,you will have been convincing,they will have been convincing
+B2,Criticize,Present Simple,I criticize,you criticize,he/she/it criticizes,we criticize,you criticize,they criticize
+B2,Criticize,Present Continuous,I am criticizing,you are criticizing,he/she/it is criticizing,we are criticizing,you are criticizing,they are criticizing
+B2,Criticize,Present Perfect,I have criticized,you have criticized,he/she/it has criticized,we have criticized,you have criticized,they have criticized
+B2,Criticize,Present Perfect Continuous,I have been criticizing,you have been criticizing,he/she/it has been criticizing,we have been criticizing,you have been criticizing,they have been criticizing
+B2,Criticize,Past Simple,I criticized,you criticized,he/she/it criticized,we criticized,you criticized,they criticized
+B2,Criticize,Past Continuous,I was criticizing,you were criticizing,he/she/it was criticizing,we were criticizing,you were criticizing,they were criticizing
+B2,Criticize,Past Perfect Simple,I had criticized,you had criticized,he/she/it had criticized,we had criticized,you had criticized,they had criticized
+B2,Criticize,Past Perfect Continuous,I had been criticizing,you had been criticizing,he/she/it had been criticizing,we had been criticizing,you had been criticizing,they had been criticizing
+B2,Criticize,Future Simple,I will criticize,you will criticize,he/she/it will criticize,we will criticize,you will criticize,they will criticize
+B2,Criticize,Future Continuous,I will be criticizing,you will be criticizing,he/she/it will be criticizing,we will be criticizing,you will be criticizing,they will be criticizing
+B2,Criticize,Future Perfect Simple,I will have criticized,you will have criticized,he/she/it will have criticized,we will have criticized,you will have criticized,they will have criticized
+B2,Criticize,Future Perfect Continuous,I will have been criticizing,you will have been criticizing,he/she/it will have been criticizing,we will have been criticizing,you will have been criticizing,they will have been criticizing
+B2,Exhibit,Present Simple,I exhibit,you exhibit,he/she/it exhibits,we exhibit,you exhibit,they exhibit
+B2,Exhibit,Present Continuous,I am exhibiting,you are exhibiting,he/she/it is exhibiting,we are exhibiting,you are exhibiting,they are exhibiting
+B2,Exhibit,Present Perfect,I have exhibited,you have exhibited,he/she/it has exhibited,we have exhibited,you have exhibited,they have exhibited
+B2,Exhibit,Present Perfect Continuous,I have been exhibiting,you have been exhibiting,he/she/it has been exhibiting,we have been exhibiting,you have been exhibiting,they have been exhibiting
+B2,Exhibit,Past Simple,I exhibited,you exhibited,he/she/it exhibited,we exhibited,you exhibited,they exhibited
+B2,Exhibit,Past Continuous,I was exhibiting,you were exhibiting,he/she/it was exhibiting,we were exhibiting,you were exhibiting,they were exhibiting
+B2,Exhibit,Past Perfect Simple,I had exhibited,you had exhibited,he/she/it had exhibited,we had exhibited,you had exhibited,they had exhibited
+B2,Exhibit,Past Perfect Continuous,I had been exhibiting,you had been exhibiting,he/she/it had been exhibiting,we had been exhibiting,you had been exhibiting,they had been exhibiting
+B2,Exhibit,Future Simple,I will exhibit,you will exhibit,he/she/it will exhibit,we will exhibit,you will exhibit,they will exhibit
+B2,Exhibit,Future Continuous,I will be exhibiting,you will be exhibiting,he/she/it will be exhibiting,we will be exhibiting,you will be exhibiting,they will be exhibiting
+B2,Exhibit,Future Perfect Simple,I will have exhibited,you will have exhibited,he/she/it will have exhibited,we will have exhibited,you will have exhibited,they will have exhibited
+B2,Exhibit,Future Perfect Continuous,I will have been exhibiting,you will have been exhibiting,he/she/it will have been exhibiting,we will have been exhibiting,you will have been exhibiting,they will have been exhibiting
+B2,Neglect,Present Simple,I neglect,you neglect,he/she/it neglects,we neglect,you neglect,they neglect
+B2,Neglect,Present Continuous,I am neglecting,you are neglecting,he/she/it is neglecting,we are neglecting,you are neglecting,they are neglecting
+B2,Neglect,Present Perfect,I have neglected,you have neglected,he/she/it has neglected,we have neglected,you have neglected,they have neglected
+B2,Neglect,Present Perfect Continuous,I have been neglecting,you have been neglecting,he/she/it has been neglecting,we have been neglecting,you have been neglecting,they have been neglecting
+B2,Neglect,Past Simple,I neglected,you neglected,he/she/it neglected,we neglected,you neglected,they neglected
+B2,Neglect,Past Continuous,I was neglecting,you were neglecting,he/she/it was neglecting,we were neglecting,you were neglecting,they were neglecting
+B2,Neglect,Past Perfect Simple,I had neglected,you had neglected,he/she/it had neglected,we had neglected,you had neglected,they had neglected
+B2,Neglect,Past Perfect Continuous,I had been neglecting,you had been neglecting,he/she/it had been neglecting,we had been neglecting,you had been neglecting,they had been neglecting
+B2,Neglect,Future Simple,I will neglect,you will neglect,he/she/it will neglect,we will neglect,you will neglect,they will neglect
+B2,Neglect,Future Continuous,I will be neglecting,you will be neglecting,he/she/it will be neglecting,we will be neglecting,you will be neglecting,they will be neglecting
+B2,Neglect,Future Perfect Simple,I will have neglected,you will have neglected,he/she/it will have neglected,we will have neglected,you will have neglected,they will have neglected
+B2,Neglect,Future Perfect Continuous,I will have been neglecting,you will have been neglecting,he/she/it will have been neglecting,we will have been neglecting,you will have been neglecting,they will have been neglecting
+
+

@@ -1,36 +1,80 @@
 import React, { useState } from 'react';
-import { getSupabaseClient } from '../services/supabaseClient';
+import { register, login, logout, currentUser } from '@/services/authService';
 
 export default function AuthPage(){
+  const [mode, setMode] = useState<'login'|'register'>('login');
+  const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [msg, setMsg] = useState('');
-  const isMock = import.meta.env.VITE_USE_MOCK !== 'false';
+  const [msg, setMsg] = useState<string|null>(null);
+  const [user, setUser] = useState(() => currentUser());
 
-  const onMockLogin = ()=>{
-    const user = { id: 'local_' + Math.random().toString(36).slice(2,9), email };
-    try{ localStorage.setItem('panda_user', JSON.stringify(user)); setMsg('Mock login successful'); window.location.href='/'; }catch(e){ setMsg('Error saving user'); }
-  };
+  async function onSubmit(e: React.FormEvent){
+    e.preventDefault();
+    setMsg(null);
+    try {
+      if (mode === 'register') {
+        if (!username || !email || !password) throw new Error('Compila username, email e password');
+        await register(username, email, password);
+        setMsg('Registrazione avvenuta con successo. Sei loggato.');
+      } else {
+        if (!email || !password) throw new Error('Inserisci email e password');
+        await login(email, password);
+        setMsg('Accesso consentito.');
+      }
+      setUser(currentUser());
+      setUsername(''); setEmail(''); setPassword('');
+    } catch (err: any) {
+      setMsg(err?.message || 'Errore');
+    }
+  }
 
-  const onSupabaseLogin = async ()=>{
-    const supabase = getSupabaseClient();
-    if(!supabase){ setMsg('Supabase not configured'); return; }
-    const { data, error } = await supabase.auth.signInWithPassword({ email, password });
-    if(error) setMsg('Login error: ' + error.message);
-    else { setMsg('Logged in'); window.location.href='/'; }
-  };
-
-  const onSubmit = (e:any)=>{ e.preventDefault(); if(isMock) onMockLogin(); else onSupabaseLogin(); };
+  function doLogout(){
+    logout();
+    setUser(null);
+    setMsg('Logout eseguito.');
+  }
 
   return (
     <div className="card">
-      <h3>Login / Register</h3>
-      <form onSubmit={onSubmit}>
-        <div style={{marginTop:8}}><input placeholder="Email" value={email} onChange={e=>setEmail(e.target.value)} /></div>
-        <div style={{marginTop:8}}><input placeholder="Password" type="password" value={password} onChange={e=>setPassword(e.target.value)} /></div>
-        <div style={{marginTop:8}}><button type="submit">Sign in / Register</button></div>
-      </form>
-      {msg && <div style={{marginTop:8}}>{msg}</div>}
+      <h3>Auth</h3>
+
+      {user ? (
+        <div>
+          <div>Signed in as <b>{user.username}</b> {user.email ? `(${user.email})` : null}</div>
+          <div style={{marginTop:8}}>
+            <button onClick={doLogout}>Logout</button>
+          </div>
+          {msg && <div style={{marginTop:8}}>{msg}</div>}
+        </div>
+      ) : (
+        <form onSubmit={onSubmit}>
+          <div style={{display:'flex', gap:8, marginBottom:12}}>
+            <button type="button" onClick={() => setMode('login')} style={{padding:'6px 12px', background: mode==='login' ? '#ddd' : 'transparent'}}>Login</button>
+            <button type="button" onClick={() => setMode('register')} style={{padding:'6px 12px', background: mode==='register' ? '#ddd' : 'transparent'}}>Register</button>
+          </div>
+
+          {mode === 'register' && (
+            <div style={{marginBottom:8}}>
+              <input placeholder="Username" value={username} onChange={e=>setUsername(e.target.value)} />
+            </div>
+          )}
+
+          <div style={{marginBottom:8}}>
+            <input placeholder="Email" value={email} onChange={e=>setEmail(e.target.value)} />
+          </div>
+
+          <div style={{marginBottom:8}}>
+            <input placeholder="Password" type="password" value={password} onChange={e=>setPassword(e.target.value)} />
+          </div>
+
+          <div>
+            <button type="submit">{mode==='login' ? 'Login' : 'Register'}</button>
+          </div>
+
+          {msg && <div style={{marginTop:8}}>{msg}</div>}
+        </form>
+      )}
     </div>
-  )
+  );
 }

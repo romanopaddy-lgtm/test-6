@@ -1,0 +1,201 @@
+level,verb,tense,1s,2s,3s,1p,2p,3p
+B1,be,present_simple,am,are,is,are,are,are
+B1,be,past_simple,was,were,was,were,were,were
+B1,be,future_simple,will be,will be,will be,will be,will be,will be
+B1,be,be_going_to,am going to be,are going to be,is going to be,are going to be,are going to be,are going to be
+B1,have,present_simple,have,have,has,have,have,have
+B1,have,past_simple,had,had,had,had,had,had
+B1,have,future_simple,will have,will have,will have,will have,will have,will have
+B1,have,be_going_to,am going to have,are going to have,is going to have,are going to have,are going to have,are going to have
+B1,do,present_simple,do,do,does,do,do,do
+B1,do,past_simple,did,did,did,did,did,did
+B1,do,future_simple,will do,will do,will do,will do,will do,will do
+B1,do,be_going_to,am going to do,are going to do,is going to do,are going to do,are going to do,are going to do
+B1,go,present_simple,go,go,goes,go,go,go
+B1,go,past_simple,went,went,went,went,went,went
+B1,go,future_simple,will go,will go,will go,will go,will go,will go
+B1,go,be_going_to,am going to go,are going to go,is going to go,are going to go,are going to go,are going to go
+B1,get,present_simple,get,get,gets,get,get,get
+B1,get,past_simple,got,got,got,got,got,got
+B1,get,future_simple,will get,will get,will get,will get,will get,will get
+B1,get,be_going_to,am going to get,are going to get,is going to get,are going to get,are going to get,are going to get
+B1,make,present_simple,make,make,makes,make,make,make
+B1,make,past_simple,made,made,made,made,made,made
+B1,make,future_simple,will make,will make,will make,will make,will make,will make
+B1,make,be_going_to,am going to make,are going to make,is going to make,are going to make,are going to make,are going to make
+B1,say,present_simple,say,say,says,say,say,say
+B1,say,past_simple,said,said,said,said,said,said
+B1,say,future_simple,will say,will say,will say,will say,will say,will say
+B1,say,be_going_to,am going to say,are going to say,is going to say,are going to say,are going to say,are going to say
+B1,take,present_simple,take,take,takes,take,take,take
+B1,take,past_simple,took,took,took,took,took,took
+B1,take,future_simple,will take,will take,will take,will take,will take,will take
+B1,take,be_going_to,am going to take,are going to take,is going to take,are going to take,are going to take,are going to take
+B1,come,present_simple,come,come,comes,come,come,come
+B1,come,past_simple,came,came,came,came,came,came
+B1,come,future_simple,will come,will come,will come,will come,will come,will come
+B1,come,be_going_to,am going to come,are going to come,is going to come,are going to come,are going to come,are going to come
+B1,think,present_simple,think,think,thinks,think,think,think
+B1,think,past_simple,thought,thought,thought,thought,thought,thought
+B1,think,future_simple,will think,will think,will think,will think,will think,will think
+B1,think,be_going_to,am going to think,are going to think,is going to think,are going to think,are going to think,are going to think
+B1,see,present_simple,see,see,sees,see,see,see
+B1,see,past_simple,saw,saw,saw,saw,saw,saw
+B1,see,future_simple,will see,will see,will see,will see,will see,will see
+B1,see,be_going_to,am going to see,are going to see,is going to see,are going to see,are going to see,are going to see
+B1,know,present_simple,know,know,knows,know,know,know
+B1,know,past_simple,knew,knew,knew,knew,knew,knew
+B1,know,future_simple,will know,will know,will know,will know,will know,will know
+B1,know,be_going_to,am going to know,are going to know,is going to know,are going to know,are going to know,are going to know
+B1,think,present_simple,think,think,thinks,think,think,think
+B1,think,past_simple,thought,thought,thought,thought,thought,thought
+B1,think,future_simple,will think,will think,will think,will think,will think,will think
+B1,think,be_going_to,am going to think,are going to think,is going to think,are going to think,are going to think,are going to think
+B1,find,present_simple,find,find,finds,find,find,find
+B1,find,past_simple,found,found,found,found,found,found
+B1,find,future_simple,will find,will find,will find,will find,will find,will find
+B1,find,be_going_to,am going to find,are going to find,is going to find,are going to find,are going to find,are going to find
+B1,give,present_simple,give,give,gives,give,give,give
+B1,give,past_simple,gave,gave,gave,gave,gave,gave
+B1,give,future_simple,will give,will give,will give,will give,will give,will give
+B1,give,be_going_to,am going to give,are going to give,is going to give,are going to give,are going to give,are going to give
+B1,work,present_simple,work,work,works,work,work,work
+B1,work,past_simple,worked,worked,worked,worked,worked,worked
+B1,work,future_simple,will work,will work,will work,will work,will work,will work
+B1,work,be_going_to,am going to work,are going to work,is going to work,are going to work,are going to work,are going to work
+B1,play,present_simple,play,play,plays,play,play,play
+B1,play,past_simple,played,played,played,played,played,played
+B1,play,future_simple,will play,will play,will play,will play,will play,will play
+B1,play,be_going_to,am going to play,are going to play,is going to play,are going to play,are going to play,are going to play
+B1,look,present_simple,look,look,looks,look,look,look
+B1,look,past_simple,looked,looked,looked,looked,looked,looked
+B1,look,future_simple,will look,will look,will look,will look,will look,will look
+B1,look,be_going_to,am going to look,are going to look,is going to look,are going to look,are going to look,are going to look
+B1,call,present_simple,call,call,calls,call,call,call
+B1,call,past_simple,called,called,called,called,called,called
+B1,call,future_simple,will call,will call,will call,will call,will call,will call
+B1,call,be_going_to,am going to call,are going to call,is going to call,are going to call,are going to call,are going to call
+B1,try,present_simple,try,try,tries,try,try,try
+B1,try,past_simple,tried,tried,tried,tried,tried,tried
+B1,try,future_simple,will try,will try,will try,will try,will try,will try
+B1,try,be_going_to,am going to try,are going to try,is going to try,are going to try,are going to try,are going to try
+B1,ask,present_simple,ask,ask,asks,ask,ask,ask
+B1,ask,past_simple,asked,asked,asked,asked,asked,asked
+B1,ask,future_simple,will ask,will ask,will ask,will ask,will ask,will ask
+B1,ask,be_going_to,am going to ask,are going to ask,is going to ask,are going to ask,are going to ask,are going to ask
+B1,need,present_simple,need,need,needs,need,need,need
+B1,need,past_simple,needed,needed,needed,needed,needed,needed
+B1,need,future_simple,will need,will need,will need,will need,will need,will need
+B1,need,be_going_to,am going to need,are going to need,is going to need,are going to need,are going to need,are going to need
+B1,feel,present_simple,feel,feel,feels,feel,feel,feel
+B1,feel,past_simple,felt,felt,felt,felt,felt,felt
+B1,feel,future_simple,will feel,will feel,will feel,will feel,will feel,will feel
+B1,feel,be_going_to,am going to feel,are going to feel,is going to feel,are going to feel,are going to feel,are going to feel
+B1,leave,present_simple,leave,leave,leaves,leave,leave,leave
+B1,leave,past_simple,left,left,left,left,left,left
+B1,leave,future_simple,will leave,will leave,will leave,will leave,will leave,will leave
+B1,leave,be_going_to,am going to leave,are going to leave,is going to leave,are going to leave,are going to leave,are going to leave
+B1,put,present_simple,put,put,puts,put,put,put
+B1,put,past_simple,put,put,put,put,put,put
+B1,put,future_simple,will put,will put,will put,will put,will put,will put
+B1,put,be_going_to,am going to put,are going to put,is going to put,are going to put,are going to put,are going to put
+B1,mean,present_simple,mean,mean,means,mean,mean,mean
+B1,mean,past_simple,meant,meant,meant,meant,meant,meant
+B1,mean,future_simple,will mean,will mean,will mean,will mean,will mean,will mean
+B1,mean,be_going_to,am going to mean,are going to mean,is going to mean,are going to mean,are going to mean,are going to mean
+B1,keep,present_simple,keep,keep,keeps,keep,keep,keep
+B1,keep,past_simple,kept,kept,kept,kept,kept,kept
+B1,keep,future_simple,will keep,will keep,will keep,will keep,will keep,will keep
+B1,keep,be_going_to,am going to keep,are going to keep,is going to keep,are going to keep,are going to keep,are going to keep
+B1,let,present_simple,let,let,lets,let,let,let
+B1,let,past_simple,let,let,let,let,let,let
+B1,let,future_simple,will let,will let,will let,will let,will let,will let
+B1,let,be_going_to,am going to let,are going to let,is going to let,are going to let,are going to let,are going to let
+B1,begin,present_simple,begin,begin,begins,begin,begin,begin
+B1,begin,past_simple,began,began,began,began,began,began
+B1,begin,future_simple,will begin,will begin,will begin,will begin,will begin,will begin
+B1,begin,be_going_to,am going to begin,are going to begin,is going to begin,are going to begin,are going to begin,are going to begin
+B1,seem,present_simple,seem,seem,seems,seem,seem,seem
+B1,seem,past_simple,seemed,seemed,seemed,seemed,seemed,seemed
+B1,seem,future_simple,will seem,will seem,will seem,will seem,will seem,will seem
+B1,seem,be_going_to,am going to seem,are going to seem,is going to seem,are going to seem,are going to seem,are going to seem
+B1,help,present_simple,help,help,helps,help,help,help
+B1,help,past_simple,helped,helped,helped,helped,helped,helped
+B1,help,future_simple,will help,will help,will help,will help,will help,will help
+B1,help,be_going_to,am going to help,are going to help,is going to help,are going to help,are going to help,are going to help
+B1,show,present_simple,show,show,shows,show,show,show
+B1,show,past_simple,showed,showed,showed,showed,showed,showed
+B1,show,future_simple,will show,will show,will show,will show,will show,will show
+B1,show,be_going_to,am going to show,are going to show,is going to show,are going to show,are going to show,are going to show
+B1,hear,present_simple,hear,hear,hears,hear,hear,hear
+B1,hear,past_simple,heard,heard,heard,heard,heard,heard
+B1,hear,future_simple,will hear,will hear,will hear,will hear,will hear,will hear
+B1,hear,be_going_to,am going to hear,are going to hear,is going to hear,are going to hear,are going to hear,are going to hear
+B1,play,present_simple,play,play,plays,play,play,play
+B1,play,past_simple,played,played,played,played,played,played
+B1,play,future_simple,will play,will play,will play,will play,will play,will play
+B1,play,be_going_to,am going to play,are going to play,is going to play,are going to play,are going to play,are going to play
+B1,run,present_simple,run,run,runs,run,run,run
+B1,run,past_simple,ran,ran,ran,ran,ran,ran
+B1,run,future_simple,will run,will run,will run,will run,will run,will run
+B1,run,be_going_to,am going to run,are going to run,is going to run,are going to run,are going to run,are going to run
+B1,move,present_simple,move,move,moves,move,move,move
+B1,move,past_simple,moved,moved,moved,moved,moved,moved
+B1,move,future_simple,will move,will move,will move,will move,will move,will move
+B1,move,be_going_to,am going to move,are going to move,is going to move,are going to move,are going to move,are going to move
+B1,live,present_simple,live,live,lives,live,live,live
+B1,live,past_simple,lived,lived,lived,lived,lived,lived
+B1,live,future_simple,will live,will live,will live,will live,will live,will live
+B1,live,be_going_to,am going to live,are going to live,is going to live,are going to live,are going to live,are going to live
+B1,believe,present_simple,believe,believe,believes,believe,believe,believe
+B1,believe,past_simple,believed,believed,believed,believed,believed,believed
+B1,believe,future_simple,will believe,will believe,will believe,will believe,will believe,will believe
+B1,believe,be_going_to,am going to believe,are going to believe,is going to believe,are going to believe,are going to believe,are going to believe
+B1,bring,present_simple,bring,bring,brings,bring,bring,bring
+B1,bring,past_simple,brought,brought,brought,brought,brought,brought
+B1,bring,future_simple,will bring,will bring,will bring,will bring,will bring,will bring
+B1,bring,be_going_to,am going to bring,are going to bring,is going to bring,are going to bring,are going to bring,are going to bring
+B1,write,present_simple,write,write,writes,write,write,write
+B1,write,past_simple,wrote,wrote,wrote,wrote,wrote,wrote
+B1,write,future_simple,will write,will write,will write,will write,will write,will write
+B1,write,be_going_to,am going to write,are going to write,is going to write,are going to write,are going to write,are going to write
+B1,provide,present_simple,provide,provide,provides,provide,provide,provide
+B1,provide,past_simple,provided,provided,provided,provided,provided,provided
+B1,provide,future_simple,will provide,will provide,will provide,will provide,will provide,will provide
+B1,provide,be_going_to,am going to provide,are going to provide,is going to provide,are going to provide,are going to provide,are going to provide
+B1,sit,present_simple,sit,sit,sits,sit,sit,sit
+B1,sit,past_simple,sat,sat,sat,sat,sat,sat
+B1,sit,future_simple,will sit,will sit,will sit,will sit,will sit,will sit
+B1,sit,be_going_to,am going to sit,are going to sit,is going to sit,are going to sit,are going to sit,are going to sit
+B1,stand,present_simple,stand,stand,stands,stand,stand,stand
+B1,stand,past_simple,stood,stood,stood,stood,stood,stood
+B1,stand,future_simple,will stand,will stand,will stand,will stand,will stand,will stand
+B1,stand,be_going_to,am going to stand,are going to stand,is going to stand,are going to stand,are going to stand,are going to stand
+B1,lose,present_simple,lose,lose,loses,lose,lose,lose
+B1,lose,past_simple,lost,lost,lost,lost,lost,lost
+B1,lose,future_simple,will lose,will lose,will lose,will lose,will lose,will lose
+B1,lose,be_going_to,am going to lose,are going to lose,is going to lose,are going to lose,are going to lose,are going to lose
+B1,pay,present_simple,pay,pay,pays,pay,pay,pay
+B1,pay,past_simple,paid,paid,paid,paid,paid,paid
+B1,pay,future_simple,will pay,will pay,will pay,will pay,will pay,will pay
+B1,pay,be_going_to,am going to pay,are going to pay,is going to pay,are going to pay,are going to pay,are going to pay
+B1,meet,present_simple,meet,meet,meets,meet,meet,meet
+B1,meet,past_simple,met,met,met,met,met,met
+B1,meet,future_simple,will meet,will meet,will meet,will meet,will meet,will meet
+B1,meet,be_going_to,am going to meet,are going to meet,is going to meet,are going to meet,are going to meet,are going to meet
+B1,teach,present_simple,teach,teach,teaches,teach,teach,teach
+B1,teach,past_simple,taught,taught,taught,taught,taught,taught
+B1,teach,future_simple,will teach,will teach,will teach,will teach,will teach,will teach
+B1,teach,be_going_to,am going to teach,are going to teach,is going to teach,are going to teach,are going to teach,are going to teach
+B1,catch,present_simple,catch,catch,catches,catch,catch,catch
+B1,catch,past_simple,caught,caught,caught,caught,caught,caught
+B1,catch,future_simple,will catch,will catch,will catch,will catch,will catch,will catch
+B1,catch,be_going_to,am going to catch,are going to catch,is going to catch,are going to catch,are going to catch,are going to catch
+B1,choose,present_simple,choose,choose,chooses,choose,choose,choose
+B1,choose,past_simple,chose,chose,chose,chose,chose,chose
+B1,choose,future_simple,will choose,will choose,will choose,will choose,will choose,will choose
+B1,choose,be_going_to,am going to choose,are going to choose,is going to choose,are going to choose,are going to choose,are going to choose
+B1,drive,present_simple,drive,drive,drives,drive,drive,drive
+B1,drive,past_simple,drove,drove,drove,drove,drove,drove
+B1,drive,future_simple,will drive,will drive,will drive,will drive,will drive,will drive
+B1,drive,be_going_to,am going to drive,are going to drive,is going to drive,are going to drive,are going to drive,are going to drive

@@ -12,6 +12,8 @@ import PhrasalVerbs from './pages/PhrasalVerbs';
 import Synonyms from './pages/Synonyms';
 import VoiceSettings from './pages/VoiceSettings';
 import Idioms from './pages/Idioms';
+import Auth from './pages/Auth';
+import Users from './pages/Users';
 
 export default function App(): JSX.Element {
   return (
@@ -28,6 +30,8 @@ export default function App(): JSX.Element {
             <Link to="/phrasal-verbs">Phrasal Verbs</Link>
             <Link to="/synonyms">Synonyms</Link>
             <Link to="/voice-settings">Voice Settings</Link>
+            <Link to="/auth">Auth</Link>
+            <Link to="/users" style={{marginLeft:8}}>Users</Link>
           </div>
           <div style={{marginLeft:12}}><LevelSelector /></div>
         </nav>
@@ -44,6 +48,8 @@ export default function App(): JSX.Element {
           <Route path="/phrasal-verbs" element={<PhrasalVerbs />} />
           <Route path="/synonyms" element={<Synonyms />} />
           <Route path="/voice-settings" element={<VoiceSettings />} />
+          <Route path="/auth" element={<Auth />} />
+          <Route path="/users" element={<Users />} />
         </Routes>
       </main>
     </LevelProvider>

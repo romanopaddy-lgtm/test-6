@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
 import { getIdioms } from '@/services/datasetLoader';
+import { addOrUpdateError } from '@/services/errorService';
 
 type IdiomItem = {
   idiom?: string;
@@ -59,7 +60,31 @@ export default function Idioms(): JSX.Element {
     (reverse ? (o.idiom || o.phrase || '') : (o.meaning || '')) === correctKey
   );
 
-  function onCheck() { setChecked(true); }
+  function onCheck() {
+    setChecked(true);
+
+    // registra l'errore se la risposta è sbagliata
+    if (selected !== null && selected !== correctOptionIndex) {
+      try {
+        const promptText = reverse ? (item.meaning || '') : (item.idiom || item.phrase || '');
+        const expectedText = reverse ? (item.idiom || item.phrase || '') : (item.meaning || '');
+        const userAnswerText = reverse
+          ? (options[selected]?.idiom || options[selected]?.phrase || '')
+          : (options[selected]?.meaning || '');
+
+        addOrUpdateError({
+          type: 'idiom',
+          level: item.level || level,
+          prompt: promptText,
+          expected: expectedText,
+          userAnswer: userAnswerText
+        });
+        console.debug('[Idioms] addOrUpdateError called', { prompt: promptText, expected: expectedText, userAnswer: userAnswerText });
+      } catch (err) {
+        console.error('[Idioms] addOrUpdateError failed', err);
+      }
+    }
+  }
   function onNext() { setIndex(i => i + 1); setSelected(null); setChecked(false); }
 
   return (

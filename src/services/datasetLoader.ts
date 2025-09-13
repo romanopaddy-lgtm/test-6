@@ -18,6 +18,8 @@ function pick<T = any>(module: any, ...candidates: string[]): T {
   return undefined as unknown as T;
 }
 
+type CSVRow = Record<string, string>;
+
 const PHRASAL_A1_LIST: any[] = pick<any[]>(PhrasalA1, 'PHRASAL_A1', 'PHRASAL', 'default') ?? [];
 const A1_ADJECTIVES = pick<any[]>(TransA1, 'A1_ADJECTIVES', 'ADJECTIVES', 'default') ?? [];
 const A1_VERBS = pick<any[]>(TransA1, 'A1_VERBS', 'VERBS', 'default') ?? [];
@@ -40,19 +42,87 @@ function pickAdaptive(level: string) {
   return Math.random() < 0.5 ? 'A1' : 'A2';
 }
 
+// helper: trova righe CSV per un prefisso (phrasal/idioms/translations/synonyms) e livello
+function loadCsvRows(prefix: string, level: string) {
+  const lvl = pickAdaptive(level);
+  const lc = String(lvl || 'A1').toLowerCase();
+  const keys = Object.keys(csvData || {});
+  const candidates = [`${prefix}_${lc}`, `${prefix}${lc}`];
+  const key = keys.find(k => candidates.includes(k) || candidates.includes(k.toLowerCase()));
+  return key ? (csvData[key] || []) : [];
+}
+
 export function getPhrasal(level: string) {
   try {
+    const rows = loadCsvRows('phrasal', level);
+    if (rows && rows.length) return rows as any[];
     const lvl = pickAdaptive(level);
-    if (lvl === 'A2') return PHRASAL_A2;
-    return PHRASAL_A1_LIST;
+    return lvl === 'A2' ? PHRASAL_A2 : PHRASAL_A1_LIST;
   } catch (err) {
     console.warn('getPhrasal fallback', err);
     return PHRASAL_A1_LIST.length ? PHRASAL_A1_LIST : PHRASAL_A2;
   }
 }
 
+export function getIdioms(level: string) {
+  try {
+    const rows = loadCsvRows('idioms', level);
+    if (rows && rows.length) return rows as any[];
+    const lvl = pickAdaptive(level);
+    return lvl === 'A2' ? IDIOMS_A2 : IDIOMS_A1;
+  } catch (err) {
+    console.warn('getIdioms fallback', err);
+    return IDIOMS_A1;
+  }
+}
+
 export function getTranslations(level: string) {
   try {
+    const rows = loadCsvRows('translations', level);
+    if (rows && rows.length) {
+      const verbs: any[] = [];
+      const nouns: any[] = [];
+      const adjectives: any[] = [];
+
+      const pick = (row: Record<string, any>, keys: string[]) => {
+        for (const k of keys) {
+          if (row[k] !== undefined && String(row[k] || '').trim().length) return String(row[k]).trim();
+          // try lowercase/uppercase variants
+          const kl = k.toLowerCase();
+          for (const rk of Object.keys(row)) {
+            if (rk.toLowerCase() === kl && String(row[rk] || '').trim().length) return String(row[rk]).trim();
+          }
+        }
+        return '';
+      };
+
+      for (const r of rows) {
+        // normalizza possibili header CSV per en/it/category/pos/type
+        const en = pick(r, ['en', 'eng', 'english', 'english_text', 'word', 'text']);
+        const it = pick(r, ['it', 'ita', 'italian', 'translation', 'italian_translation']);
+        const typeRaw = pick(r, ['type', 'pos', 'category', 'role', 'Category']);
+        const type = (typeRaw || '').toString().toLowerCase().trim();
+
+        const obj = { ...(r || {}), en, it };
+
+        if (type.includes('verb')) verbs.push(obj);
+        else if (type.includes('noun')) nouns.push(obj);
+        else if (type.includes('adj') || type.includes('adject')) adjectives.push(obj);
+        else {
+          // last-resort: if Category cell exists with plural like "adjectives"/"verbs"
+          const catCell = pick(r, ['Category', 'category', 'Level']);
+          const catLower = (catCell || '').toLowerCase();
+          if (catLower.includes('adject')) adjectives.push(obj);
+          else if (catLower.includes('verb')) verbs.push(obj);
+          else if (catLower.includes('noun')) nouns.push(obj);
+          else verbs.push(obj); // default to verbs
+        }
+      }
+
+      return { adjectives, verbs, nouns };
+    }
+
+    // legacy behavior
     const lvl = pickAdaptive(level);
     const isA2 = lvl === 'A2';
     return {
@@ -66,33 +136,90 @@ export function getTranslations(level: string) {
   }
 }
 
-export function getConjugations(level: string) {
+export function getSynonyms(level: string) {
   try {
-    const lvl = pickAdaptive(level);
-    return lvl === 'A2' ? CONJ_A2_OBJ : CONJ_A1_OBJ;
+    const rows = loadCsvRows('synonyms', level);
+    if (rows && rows.length) {
+      const map: Record<string, string[]> = {};
+      for (const r of rows) {
+        const w = (r.word || r.lemma || r.base || '').toString().toLowerCase().trim();
+        if (!w) continue;
+        const raw = String(r.synonyms || r.values || r.syn || '');
+        const syns = raw.split(/[;,]/).map(s => s.trim()).filter(Boolean);
+        map[w] = syns;
+      }
+      return map;
+    }
+    return {};
   } catch (err) {
-    console.warn('getConjugations fallback', err);
+    console.warn('getSynonyms fallback', err);
     return {};
   }
 }
 
-export function getIdioms(level: string) {
+// Import all CSVs eager (aggiornato: query '?raw' + import default)
+const rawCsvModules = import.meta.glob('/src/data/csv/*.csv', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
+const csvData: Record<string, CSVRow[]> = {};
+for (const [path, rawContent] of Object.entries(rawCsvModules)) {
   try {
-    const lvl = pickAdaptive(level);
-    return lvl === 'A2' ? IDIOMS_A2 : IDIOMS_A1;
-  } catch (err) {
-    console.warn('getIdioms fallback', err);
-    return [];
+    const name = path.split('/').pop()?.replace('.csv', '') ?? path;
+    csvData[name.toLowerCase()] = parseCSV(String(rawContent));
+  } catch {
+    csvData[path.toLowerCase()] = [];
   }
 }
 
 // aggiungi questi helpers (se hai già glob per /src/data/csv/*.csv puoi riusarli)
+// lightweight CSV parser used locally to avoid a missing import
+function parseCSV(raw: string): Record<string, string>[] {
+  if (!raw) return [];
+  const normalize = (s: string) => s.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  const text = normalize(raw).trim();
+  if (!text) return [];
+
+  function parseLine(line: string) {
+    const cols: string[] = [];
+    let cur = '';
+    let inQuotes = false;
+    for (let i = 0; i < line.length; i++) {
+      const ch = line[i];
+      if (ch === '"') {
+        if (inQuotes && line[i + 1] === '"') {
+          cur += '"';
+          i++;
+        } else {
+          inQuotes = !inQuotes;
+        }
+      } else if (ch === ',' && !inQuotes) {
+        cols.push(cur);
+        cur = '';
+      } else {
+        cur += ch;
+      }
+    }
+    cols.push(cur);
+    return cols;
+  }
+
+  const lines = text.split('\n').filter(l => l.trim().length > 0);
+  const headers = parseLine(lines[0]).map(h => h.trim());
+  const out: Record<string, string>[] = [];
+  for (let i = 1; i < lines.length; i++) {
+    const cols = parseLine(lines[i]);
+    const row: Record<string, string> = {};
+    for (let j = 0; j < headers.length; j++) {
+      row[headers[j]] = (cols[j] ?? '').trim();
+    }
+    out.push(row);
+  }
+  return out;
+}
+
 async function loadCSVByName(name: string) {
-  const key = Object.keys(csvModules).find(k => k.endsWith(`/${name}.csv`));
+  const key = Object.keys(rawCsvModules).find(k => k.endsWith(`/${name}.csv`));
   if (!key) return [];
-  const loader = csvModules[key] as () => Promise<string>;
-  const raw = await loader();
-  return parseCSV(raw);
+  const raw = rawCsvModules[key];
+  return parseCSV(String(raw));
 }
 
 export async function getSynonymsRaw(level: string) {
@@ -134,4 +261,16 @@ export async function getConjugationsRaw(level: string) {
     out2[verb][r.tense][r.person] = r.form;
   }
   return out2;
+}
+
+try {
+  // espone i dati CSV e la funzione di accesso nel global scope per debug runtime
+  (globalThis as any).__csvData = csvData;
+  (globalThis as any).__getConjugations = (lvl: string) => {
+    try { return getConjugationsRaw(lvl); } catch (e) { console.warn(e); return {}; }
+  };
+  console.debug && console.debug('[datasetLoader:DEBUG] csv keys ->', Object.keys(csvData || {}));
+} catch (e) {
+  // non bloccare l'app se globalThis non è scrivibile
+  void e;
 }

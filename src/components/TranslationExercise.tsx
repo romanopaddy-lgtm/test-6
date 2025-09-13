@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
 import { getTranslations } from '@/services/datasetLoader';
+import { addOrUpdateError } from '@/services/errorService';
 
 function normalize(s?: string) { return (s || '').toLowerCase().trim(); }
 
@@ -59,6 +60,20 @@ export default function TranslationExercise(): JSX.Element {
     const ok = normalize(input) === normalize(correct);
     setChecked(true);
     setResult(ok ? 'correct' : 'wrong');
+
+    // Log the error with the service
+    try {
+      addOrUpdateError({
+        type: 'translation',
+        level: level,
+        prompt: String(prompt ?? ''),
+        expected: String(correct ?? ''),
+        userAnswer: String(input ?? '')
+      });
+      console.debug('[TranslationExercise] addOrUpdateError called', { prompt, expected: correct, userAnswer: input });
+    } catch (err) {
+      console.error('[TranslationExercise] addOrUpdateError failed', err);
+    }
   }
   function onNext() {
     setIndex(i => i + 1);

@@ -1,6 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
 import { getPhrasal } from '@/services/datasetLoader';
+import { addOrUpdateError } from '@/services/errorService';
 
 type Item = { verb?: string; meaning?: string; level?: string; [k:string]: any };
 
@@ -34,7 +35,34 @@ export default function PhrasalExercise(): JSX.Element {
   const item = pool[idx];
   const options = useMemo(()=> buildOptions(pool, idx, 4), [pool, idx, index, reverse]);
 
-  function checkAnswer(){ setChecked(true); }
+  function checkAnswer(){
+    setChecked(true);
+
+    const isCorrect = mode === 'mc'
+      ? selected === correctOptionIndex
+      : input.trim().toLowerCase() === (correctKey || '').toLowerCase();
+
+    if (!isCorrect) {
+      try {
+        const promptText = reverse ? (item.meaning || '') : (item.verb || '');
+        const expectedText = reverse ? (item.verb || '') : (item.meaning || '');
+        const userAnswerText = mode === 'mc'
+          ? String(selected !== null && options[selected] ? (reverse ? (options[selected].verb || '') : (options[selected].meaning || '')) : '')
+          : input;
+
+        addOrUpdateError({
+          type: 'phrasal',
+          level: level || undefined,
+          prompt: promptText,
+          expected: expectedText,
+          userAnswer: userAnswerText
+        });
+        console.debug('[PhrasalExercise] addOrUpdateError called', { prompt: promptText, expected: expectedText, userAnswer: userAnswerText });
+      } catch (err) {
+        console.error('[PhrasalExercise] addOrUpdateError failed', err);
+      }
+    }
+  }
   function next(){ setIndex(i=>i+1); setSelected(null); setInput(''); setChecked(false); }
 
   function play(text?:string){
@@ -70,26 +98,60 @@ export default function PhrasalExercise(): JSX.Element {
               const isCorrect = checked && i === correctOptionIndex;
               const isWrong = checked && isSelected && i !== correctOptionIndex;
               return (
-                <label key={i} onClick={()=>!checked && setSelected(i)} style={{display:'flex',alignItems:'center',gap:8,padding:10,borderRadius:6,cursor: checked ? 'default' : 'pointer', background: isCorrect ? '#e6ffed' : isWrong ? '#ffecec' : '#fff', border: isCorrect ? '1px solid #8ae39d' : isWrong ? '1px solid #f5a6a6' : '1px solid #eee'}}>
-                  <input type="radio" checked={isSelected} readOnly/>
-                  <div>{label}</div>
+                <label
+                  key={i}
+                  onClick={()=>!checked && setSelected(i)}
+                  style={{
+                    display:'flex',
+                    alignItems:'center',
+                    gap:8,
+                    padding:10,
+                    borderRadius:6,
+                    cursor: checked ? 'default' : 'pointer',
+                    background: isCorrect ? '#e6ffed' : isWrong ? '#ffecec' : '#fff',
+                    border: isCorrect ? '1px solid #8ae39d' : isWrong ? '1px solid #f5a6a6' : '1px solid #eee'
+                  }}
+                >
+                  <input
+                    type="radio"
+                    readOnly
+                    checked={isSelected}
+                    style={{margin:0}}
+                  />
+                  <span>{label}</span>
                 </label>
               );
             })}
           </div>
         ) : (
           <div style={{marginTop:12}}>
-            <input value={input} onChange={e=>setInput(e.target.value)} placeholder={reverse ? 'Scrivi il phrasal verb' : 'Scrivi la definizione'} style={{width:'100%',padding:8}} />
+            <input
+              value={input}
+              onChange={e=>{ setInput(e.target.value); if (checked) setChecked(false); }}
+              placeholder={reverse ? 'Digita il verbo' : 'Digita il significato'}
+              style={{width:'100%',padding:8,border:'1px solid #ccc',borderRadius:4}}
+            />
           </div>
         )}
 
-        <div style={{marginTop:12,display:'flex',gap:8,alignItems:'center'}}>
-          <button onClick={checkAnswer} disabled={checked || (mode==='mc' ? selected===null : input.trim()==='')}>Check</button>
-          <button onClick={next}>Next</button>
-          <div style={{marginLeft:'auto',fontSize:13,opacity:0.8}}>
+        <div style={{marginTop:16,display:'flex',alignItems:'center',gap:12}}>
+          {!checked ? (
+            <button
+              onClick={checkAnswer}
+              disabled={mode==='mc' ? selected===null : input.trim()===''}
+            >Verifica</button>
+          ) : (
+            <button onClick={next}>Avanti</button>
+          )}
+          <div style={{fontSize:14}}>
             {checked ? (
-              mode==='mc' ? (correctOptionIndex===selected ? 'Corretto ✅' : `Sbagliato — risposta: ${reverse ? (options[correctOptionIndex].verb) : (options[correctOptionIndex].meaning)}`) :
-              ( (mode==='write' && (reverse ? (input.trim().toLowerCase() === (item.verb||'').toLowerCase()) : (input.trim().toLowerCase() === (item.meaning||'').toLowerCase()) ) ) ? 'Corretto ✅' : `Risposta corretta: ${reverse ? item.verb : item.meaning}` )
+              mode==='mc'
+                ? (correctOptionIndex===selected
+                    ? 'Corretto ✅'
+                    : `Sbagliato — risposta corretta: ${reverse ? (options[correctOptionIndex]?.verb || '') : (options[correctOptionIndex]?.meaning || '')}`)
+                : (input.trim().toLowerCase() === correctKey.toLowerCase()
+                    ? 'Corretto ✅'
+                    : `Risposta corretta: ${correctKey}`)
             ) : `Item ${idx+1} / ${pool.length}`}
           </div>
         </div>
@@ -97,3 +159,4 @@ export default function PhrasalExercise(): JSX.Element {
     </div>
   );
 }
+

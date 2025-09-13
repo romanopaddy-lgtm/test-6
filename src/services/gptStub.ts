@@ -1,4 +1,3 @@
-
 /**
  * Improved deterministic GPT stub.
  * - Works when import.meta.env.VITE_BACKEND === 'mock' or VITE_USE_MOCK === 'true'
@@ -157,6 +156,10 @@ export async function generateSynonyms(word: string, level: Level = DEFAULT_LEVE
 
 export async function rewriteSentence(input: string, opts?: {useContractions?: boolean; targetLevel?: Level}) {
   if (!isMockBackend()) throw new Error("rewriteSentence called in non-mock mode");
+
+  // logging diagnostico aggiuntivo
+  console.log('[gptStub] rewriteSentence called', { input, opts });
+
   const text = input.trim();
   let out = text
     .replace(/\s+/g, " ")

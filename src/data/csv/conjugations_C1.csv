@@ -1,0 +1,839 @@
+level,verb,tense,1s,2s,3s,1p,2p,3p
+C1,Abide,Present Simple,I abide,you abide,he/she/it abides,we abide,you abide,they abide
+C1,Abide,Present Continuous,I am abiding,you are abiding,he/she/it is abiding,we are abiding,you are abiding,they are abiding
+C1,Abide,Present Perfect,I have abided,you have abided,he/she/it has abided,we have abided,you have abided,they have abided
+C1,Abide,Present Perfect Continuous,I have been abiding,you have been abiding,he/she/it has been abiding,we have been abiding,you have been abiding,they have been abiding
+C1,Abide,Past Simple,I abode,you abode,he/she/it abode,we abode,you abode,they abode
+C1,Abide,Past Continuous,I was abiding,you were abiding,he/she/it was abiding,we were abiding,you were abiding,they were abiding
+C1,Abide,Past Perfect Simple,I had abided,you had abided,he/she/it had abided,we had abided,you had abided,they had abided
+C1,Abide,Past Perfect Continuous,I had been abiding,you had been abiding,he/she/it had been abiding,we had been abiding,you had been abiding,they had been abiding
+C1,Abide,Future Simple,I will abide,you will abide,he/she/it will abide,we will abide,you will abide,they will abide
+C1,Abide,Future Continuous,I will be abiding,you will be abiding,he/she/it will be abiding,we will be abiding,you will be abiding,they will be abiding
+C1,Abide,Future Perfect Simple,I will have abided,you will have abided,he/she/it will have abided,we will have abided,you will have abided,they will have abided
+C1,Abide,Future Perfect Continuous,I will have been abiding,you will have been abiding,he/she/it will have been abiding,we will have been abiding,you will have been abiding,they will have been abiding
+C1,Abide,First Conditional,If I abide,you will abide,he/she/it will abide,we will abide,you will abide,they will abide
+C1,Abide,Second Conditional,If I abided,you would abide,he/she/it would abide,we would abide,you would abide,they would abide
+C1,Arise,Present Simple,I arise,you arise,he/she/it arises,we arise,you arise,they arise
+C1,Arise,Present Continuous,I am arising,you are arising,he/she/it is arising,we are arising,you are arising,they are arising
+C1,Arise,Present Perfect,I have arisen,you have arisen,he/she/it has arisen,we have arisen,you have arisen,they have arisen
+C1,Arise,Present Perfect Continuous,I have been arising,you have been arising,he/she/it has been arising,we have been arising,you have been arising,they have been arising
+C1,Arise,Past Simple,I arose,you arose,he/she/it arose,we arose,you arose,they arose
+C1,Arise,Past Continuous,I was arising,you were arising,he/she/it was arising,we were arising,you were arising,they were arising
+C1,Arise,Past Perfect Simple,I had arisen,you had arisen,he/she/it had arisen,we had arisen,you had arisen,they had arisen
+C1,Arise,Past Perfect Continuous,I had been arising,you had been arising,he/she/it had been arising,we had been arising,you had been arising,they had been arising
+C1,Arise,Future Simple,I will arise,you will arise,he/she/it will arise,we will arise,you will arise,they will arise
+C1,Arise,Future Continuous,I will be arising,you will be arising,he/she/it will be arising,we will be arising,you will be arising,they will be arising
+C1,Arise,Future Perfect Simple,I will have arisen,you will have arisen,he/she/it will have arisen,we will have arisen,you will have arisen,they will have arisen
+C1,Arise,Future Perfect Continuous,I will have been arising,you will have been arising,he/she/it will have been arising,we will have been arising,you will have been arising,they will have been arising
+C1,Arise,First Conditional,If I arise,you will arise,he/she/it will arise,we will arise,you will arise,they will arise
+C1,Arise,Second Conditional,If I arose,you would arise,he/she/it would arise,we would arise,you would arise,they would arise
+C1,Awake,Present Simple,I awake,you awake,he/she/it awakes,we awake,you awake,they awake
+C1,Awake,Present Continuous,I am awaking,you are awaking,he/she/it is awaking,we are awaking,you are awaking,they are awaking
+C1,Awake,Present Perfect,I have awoken,you have awoken,he/she/it has awoken,we have awoken,you have awoken,they have awoken
+C1,Awake,Present Perfect Continuous,I have been awaking,you have been awaking,he/she/it has been awaking,we have been awaking,you have been awaking,they have been awaking
+C1,Awake,Past Simple,I awoke,you awoke,he/she/it awoke,we awoke,you awoke,they awoke
+C1,Awake,Past Continuous,I was awaking,you were awaking,he/she/it was awaking,we were awaking,you were awaking,they were awaking
+C1,Awake,Past Perfect Simple,I had awoken,you had awoken,he/she/it had awoken,we had awoken,you had awoken,they had awoken
+C1,Awake,Past Perfect Continuous,I had been awaking,you had been awaking,he/she/it had been awaking,we had been awaking,you had been awaking,they had been awaking
+C1,Awake,Future Simple,I will awake,you will awake,he/she/it will awake,we will awake,you will awake,they will awake
+C1,Awake,Future Continuous,I will be awaking,you will be awaking,he/she/it will be awaking,we will be awaking,you will be awaking,they will be awaking
+C1,Awake,Future Perfect Simple,I will have awoken,you will have awoken,he/she/it will have awoken,we will have awoken,you will have awoken,they will have awoken
+C1,Awake,Future Perfect Continuous,I will have been awaking,you will have been awaking,he/she/it will have been awaking,we will have been awaking,you will have been awaking,they will have been awaking
+C1,Awake,First Conditional,If I awake,you will awake,he/she/it will awake,we will awake,you will awake,they will awake
+C1,Awake,Second Conditional,If I awoke,you would awake,he/she/it would awake,we would awake,you would awake,they would awake
+C1,Bear,Present Simple,I bear,you bear,he/she/it bears,we bear,you bear,they bear
+C1,Bear,Present Continuous,I am bearing,you are bearing,he/she/it is bearing,we are bearing,you are bearing,they are bearing
+C1,Bear,Present Perfect,I have borne,you have borne,he/she/it has borne,we have borne,you have borne,they have borne
+C1,Bear,Present Perfect Continuous,I have been bearing,you have been bearing,he/she/it has been bearing,we have been bearing,you have been bearing,they have been bearing
+C1,Bear,Past Simple,I bore,you bore,he/she/it bore,we bore,you bore,they bore
+C1,Bear,Past Continuous,I was bearing,you were bearing,he/she/it was bearing,we were bearing,you were bearing,they were bearing
+C1,Bear,Past Perfect Simple,I had borne,you had borne,he/she/it had borne,we had borne,you had borne,they had borne
+C1,Bear,Past Perfect Continuous,I had been bearing,you had been bearing,he/she/it had been bearing,we had been bearing,you had been bearing,they had been bearing
+C1,Bear,Future Simple,I will bear,you will bear,he/she/it will bear,we will bear,you will bear,they will bear
+C1,Bear,Future Continuous,I will be bearing,you will be bearing,he/she/it will be bearing,we will be bearing,you will be bearing,they will be bearing
+C1,Bear,Future Perfect Simple,I will have borne,you will have borne,he/she/it will have borne,we will have borne,you will have borne,they will have borne
+C1,Bear,Future Perfect Continuous,I will have been bearing,you will have been bearing,he/she/it will have been bearing,we will have been bearing,you will have been bearing,they will have been bearing
+C1,Bear,First Conditional,If I bear,you will bear,he/she/it will bear,we will bear,you will bear,they will bear
+C1,Bear,Second Conditional,If I bore,you would bear,he/she/it would bear,we would bear,you would bear,they would bear
+C1,Behold,Present Simple,I behold,you behold,he/she/it beholds,we behold,you behold,they behold
+C1,Behold,Present Continuous,I am beholding,you are beholding,he/she/it is beholding,we are beholding,you are beholding,they are beholding
+C1,Behold,Present Perfect,I have beheld,you have beheld,he/she/it has beheld,we have beheld,you have beheld,they have beheld
+C1,Behold,Present Perfect Continuous,I have been beholding,you have been beholding,he/she/it has been beholding,we have been beholding,you have been beholding,they have been beholding
+C1,Behold,Past Simple,I beheld,you beheld,he/she/it beheld,we beheld,you beheld,they beheld
+C1,Behold,Past Continuous,I was beholding,you were beholding,he/she/it was beholding,we were beholding,you were beholding,they were beholding
+C1,Behold,Past Perfect Simple,I had beheld,you had beheld,he/she/it had beheld,we had beheld,you had beheld,they had beheld
+C1,Behold,Past Perfect Continuous,I had been beholding,you had been beholding,he/she/it had been beholding,we had been beholding,you had been beholding,they had been beholding
+C1,Behold,Future Simple,I will behold,you will behold,he/she/it will behold,we will behold,you will behold,they will behold
+C1,Behold,Future Continuous,I will be beholding,you will be beholding,he/she/it will be beholding,we will be beholding,you will be beholding,they will be beholding
+C1,Behold,Future Perfect Simple,I will have beheld,you will have beheld,he/she/it will have beheld,we will have beheld,you will have beheld,they will have beheld
+C1,Behold,Future Perfect Continuous,I will have been beholding,you will have been beholding,he/she/it will have been beholding,we will have been beholding,you will have been beholding,they will have been beholding
+C1,Behold,First Conditional,If I behold,you will behold,he/she/it will behold,we will behold,you will behold,they will behold
+C1,Behold,Second Conditional,If I beheld,you would behold,he/she/it would behold,we would behold,you would behold,they would behold
+C1,Overcome,Present Simple,I overcome,you overcome,he/she/it overcomes,we overcome,you overcome,they overcome
+C1,Overcome,Present Continuous,I am overcoming,you are overcoming,he/she/it is overcoming,we are overcoming,you are overcoming,they are overcoming
+C1,Overcome,Present Perfect,I have overcome,you have overcome,he/she/it has overcome,we have overcome,you have overcome,they have overcome
+C1,Overcome,Present Perfect Continuous,I have been overcoming,you have been overcoming,he/she/it has been overcoming,we have been overcoming,you have been overcoming,they have been overcoming
+C1,Overcome,Past Simple,I overcame,you overcame,he/she/it overcame,we overcame,you overcame,they overcame
+C1,Overcome,Past Continuous,I was overcoming,you were overcoming,he/she/it was overcoming,we were overcoming,you were overcoming,they were overcoming
+C1,Overcome,Past Perfect Simple,I had overcome,you had overcome,he/she/it had overcome,we had overcome,you had overcome,they had overcome
+C1,Overcome,Past Perfect Continuous,I had been overcoming,you had been overcoming,he/she/it had been overcoming,we had been overcoming,you had been overcoming,they had been overcoming
+C1,Overcome,Future Simple,I will overcome,you will overcome,he/she/it will overcome,we will overcome,you will overcome,they will overcome
+C1,Overcome,Future Continuous,I will be overcoming,you will be overcoming,he/she/it will be overcoming,we will be overcoming,you will be overcoming,they will be overcoming
+C1,Overcome,Future Perfect Simple,I will have overcome,you will have overcome,he/she/it will have overcome,we will have overcome,you will have overcome,they will have overcome
+C1,Overcome,Future Perfect Continuous,I will have been overcoming,you will have been overcoming,he/she/it will have been overcoming,we will have been overcoming,you will have been overcoming,they will have been overcoming
+C1,Overcome,First Conditional,If I overcome,you will overcome,he/she/it will overcome,we will overcome,you will overcome,they will overcome
+C1,Overcome,Second Conditional,If I overcame,you would overcome,he/she/it would overcome,we would overcome,you would overcome,they would overcome
+C1,Contribute,Present Simple,I contribute,you contribute,he/she/it contributes,we contribute,you contribute,they contribute
+C1,Contribute,Present Continuous,I am contributing,you are contributing,he/she/it is contributing,we are contributing,you are contributing,they are contributing
+C1,Contribute,Present Perfect,I have contributed,you have contributed,he/she/it has contributed,we have contributed,you have contributed,they have contributed
+C1,Contribute,Present Perfect Continuous,I have been contributing,you have been contributing,he/she/it has been contributing,we have been contributing,you have been contributing,they have been contributing
+C1,Contribute,Past Simple,I contributed,you contributed,he/she/it contributed,we contributed,you contributed,they contributed
+C1,Contribute,Past Continuous,I was contributing,you were contributing,he/she/it was contributing,we were contributing,you were contributing,they were contributing
+C1,Contribute,Past Perfect Simple,I had contributed,you had contributed,he/she/it had contributed,we had contributed,you had contributed,they had contributed
+C1,Contribute,Past Perfect Continuous,I had been contributing,you had been contributing,he/she/it had been contributing,we had been contributing,you had been contributing,they had been contributing
+C1,Contribute,Future Simple,I will contribute,you will contribute,he/she/it will contribute,we will contribute,you will contribute,they will contribute
+C1,Contribute,Future Continuous,I will be contributing,you will be contributing,he/she/it will be contributing,we will be contributing,you will be contributing,they will be contributing
+C1,Contribute,Future Perfect Simple,I will have contributed,you will have contributed,he/she/it will have contributed,we will have contributed,you will have contributed,they will have contributed
+C1,Contribute,Future Perfect Continuous,I will have been contributing,you will have been contributing,he/she/it will have been contributing,we will have been contributing,you will have been contributing,they will have been contributing
+C1,Contribute,First Conditional,If I contribute,you will contribute,he/she/it will contribute,we will contribute,you will contribute,they will contribute
+C1,Contribute,Second Conditional,If I contributed,you would contribute,he/she/it would contribute,we would contribute,you would contribute,they would contribute
+C1,Comprise,Present Simple,I comprise,you comprise,he/she/it comprises,we comprise,you comprise,they comprise
+C1,Comprise,Present Continuous,I am comprising,you are comprising,he/she/it is comprising,we are comprising,you are comprising,they are comprising
+C1,Comprise,Present Perfect,I have comprised,you have comprised,he/she/it has comprised,we have comprised,you have comprised,they have comprised
+C1,Comprise,Present Perfect Continuous,I have been comprising,you have been comprising,he/she/it has been comprising,we have been comprising,you have been comprising,they have been comprising
+C1,Comprise,Past Simple,I comprised,you comprised,he/she/it comprised,we comprised,you comprised,they comprised
+C1,Comprise,Past Continuous,I was comprising,you were comprising,he/she/it was comprising,we were comprising,you were comprising,they were comprising
+C1,Comprise,Past Perfect Simple,I had comprised,you had comprised,he/she/it had comprised,we had comprised,you had comprised,they had comprised
+C1,Comprise,Past Perfect Continuous,I had been comprising,you had been comprising,he/she/it had been comprising,we had been comprising,you had been comprising,they had been comprising
+C1,Comprise,Future Simple,I will comprise,you will comprise,he/she/it will comprise,we will comprise,you will comprise,they will comprise
+C1,Comprise,Future Continuous,I will be comprising,you will be comprising,he/she/it will be comprising,we will be comprising,you will be comprising,they will be comprising
+C1,Comprise,Future Perfect Simple,I will have comprised,you will have comprised,he/she/it will have comprised,we will have comprised,you will have comprised,they will have comprised
+C1,Comprise,Future Perfect Continuous,I will have been comprising,you will have been comprising,he/she/it will have been comprising,we will have been comprising,you will have been comprising,they will have been comprising
+C1,Comprise,First Conditional,If I comprise,you will comprise,he/she/it will comprise,we will comprise,you will comprise,they will comprise
+C1,Comprise,Second Conditional,If I comprised,you would comprise,he/she/it would comprise,we would comprise,you would comprise,they would comprise
+C1,Deduce,Present Simple,I deduce,you deduce,he/she/it deduces,we deduce,you deduce,they deduce
+C1,Deduce,Present Continuous,I am deducing,you are deducing,he/she/it is deducing,we are deducing,you are deducing,they are deducing
+C1,Deduce,Present Perfect,I have deduced,you have deduced,he/she/it has deduced,we have deduced,you have deduced,they have deduced
+C1,Deduce,Present Perfect Continuous,I have been deducing,you have been deducing,he/she/it has been deducing,we have been deducing,you have been deducing,they have been deducing
+C1,Deduce,Past Simple,I deduced,you deduced,he/she/it deduced,we deduced,you deduced,they deduced
+C1,Deduce,Past Continuous,I was deducing,you were deducing,he/she/it was deducing,we were deducing,you were deducing,they were deducing
+C1,Deduce,Past Perfect Simple,I had deduced,you had deduced,he/she/it had deduced,we had deduced,you had deduced,they had deduced
+C1,Deduce,Past Perfect Continuous,I had been deducing,you had been deducing,he/she/it had been deducing,we had been deducing,you had been deducing,they had been deducing
+C1,Deduce,Future Simple,I will deduce,you will deduce,he/she/it will deduce,we will deduce,you will deduce,they will deduce
+C1,Deduce,Future Continuous,I will be deducing,you will be deducing,he/she/it will be deducing,we will be deducing,you will be deducing,they will be deducing
+C1,Deduce,Future Perfect Simple,I will have deduced,you will have deduced,he/she/it will have deduced,we will have deduced,you will have deduced,they will have deduced
+C1,Deduce,Future Perfect Continuous,I will have been deducing,you will have been deducing,he/she/it will have been deducing,we will have been deducing,you will have been deducing,they will have been deducing
+C1,Deduce,First Conditional,If I deduce,you will deduce,he/she/it will deduce,we will deduce,you will deduce,they will deduce
+C1,Deduce,Second Conditional,If I deduced,you would deduce,he/she/it would deduce,we would deduce,you would deduce,they would deduce
+C1,Endure,Present Simple,I endure,you endure,he/she/it endures,we endure,you endure,they endure
+C1,Endure,Present Continuous,I am enduring,you are enduring,he/she/it is enduring,we are enduring,you are enduring,they are enduring
+C1,Endure,Present Perfect,I have endured,you have endured,he/she/it has endured,we have endured,you have endured,they have endured
+C1,Endure,Present Perfect Continuous,I have been enduring,you have been enduring,he/she/it has been enduring,we have been enduring,you have been enduring,they have been enduring
+C1,Endure,Past Simple,I endured,you endured,he/she/it endured,we endured,you endured,they endured
+C1,Endure,Past Continuous,I was enduring,you were enduring,he/she/it was enduring,we were enduring,you were enduring,they were enduring
+C1,Endure,Past Perfect Simple,I had endured,you had endured,he/she/it had endured,we had endured,you had endured,they had endured
+C1,Endure,Past Perfect Continuous,I had been enduring,you had been enduring,he/she/it had been enduring,we had been enduring,you had been enduring,they had been enduring
+C1,Endure,Future Simple,I will endure,you will endure,he/she/it will endure,we will endure,you will endure,they will endure
+C1,Endure,Future Continuous,I will be enduring,you will be enduring,he/she/it will be enduring,we will be enduring,you will be enduring,they will be enduring
+C1,Endure,Future Perfect Simple,I will have endured,you will have endured,he/she/it will have endured,we will have endured,you will have endured,they will have endured
+C1,Endure,Future Perfect Continuous,I will have been enduring,you will have been enduring,he/she/it will have been enduring,we will have been enduring,you will have been enduring,they will have been enduring
+C1,Endure,First Conditional,If I endure,you will endure,he/she/it will endure,we will endure,you will endure,they will endure
+C1,Endure,Second Conditional,If I endured,you would endure,he/she/it would endure,we would endure,you would endure,they would endure
+C1,Exhibit,Present Simple,I exhibit,you exhibit,he/she/it exhibits,we exhibit,you exhibit,they exhibit
+C1,Exhibit,Present Continuous,I am exhibiting,you are exhibiting,he/she/it is exhibiting,we are exhibiting,you are exhibiting,they are exhibiting
+C1,Exhibit,Present Perfect,I have exhibited,you have exhibited,he/she/it has exhibited,we have exhibited,you have exhibited,they have exhibited
+C1,Exhibit,Present Perfect Continuous,I have been exhibiting,you have been exhibiting,he/she/it has been exhibiting,we have been exhibiting,you have been exhibiting,they have been exhibiting
+C1,Exhibit,Past Simple,I exhibited,you exhibited,he/she/it exhibited,we exhibited,you exhibited,they exhibited
+C1,Exhibit,Past Continuous,I was exhibiting,you were exhibiting,he/she/it was exhibiting,we were exhibiting,you were exhibiting,they were exhibiting
+C1,Exhibit,Past Perfect Simple,I had exhibited,you had exhibited,he/she/it had exhibited,we had exhibited,you had exhibited,they had exhibited
+C1,Exhibit,Past Perfect Continuous,I had been exhibiting,you had been exhibiting,he/she/it had been exhibiting,we had been exhibiting,you had been exhibiting,they had been exhibiting
+C1,Exhibit,Future Simple,I will exhibit,you will exhibit,he/she/it will exhibit,we will exhibit,you will exhibit,they will exhibit
+C1,Exhibit,Future Continuous,I will be exhibiting,you will be exhibiting,he/she/it will be exhibiting,we will be exhibiting,you will be exhibiting,they will be exhibiting
+C1,Exhibit,Future Perfect Simple,I will have exhibited,you will have exhibited,he/she/it will have exhibited,we will have exhibited,you will have exhibited,they will have exhibited
+C1,Exhibit,Future Perfect Continuous,I will have been exhibiting,you will have been exhibiting,he/she/it will have been exhibiting,we will have been exhibiting,you will have been exhibiting,they will have been exhibiting
+C1,Exhibit,First Conditional,If I exhibit,you will exhibit,he/she/it will exhibit,we will exhibit,you will exhibit,they will exhibit
+C1,Exhibit,Second Conditional,If I exhibited,you would exhibit,he/she/it would exhibit,we would exhibit,you would exhibit,they would exhibit
+C1,Facilitate,Present Simple,I facilitate,you facilitate,he/she/it facilitates,we facilitate,you facilitate,they facilitate
+C1,Facilitate,Present Continuous,I am facilitating,you are facilitating,he/she/it is facilitating,we are facilitating,you are facilitating,they are facilitating
+C1,Facilitate,Present Perfect,I have facilitated,you have facilitated,he/she/it has facilitated,we have facilitated,you have facilitated,they have facilitated
+C1,Facilitate,Present Perfect Continuous,I have been facilitating,you have been facilitating,he/she/it has been facilitating,we have been facilitating,you have been facilitating,they have been facilitating
+C1,Facilitate,Past Simple,I facilitated,you facilitated,he/she/it facilitated,we facilitated,you facilitated,they facilitated
+C1,Facilitate,Past Continuous,I was facilitating,you were facilitating,he/she/it was facilitating,we were facilitating,you were facilitating,they were facilitating
+C1,Facilitate,Past Perfect Simple,I had facilitated,you had facilitated,he/she/it had facilitated,we had facilitated,you had facilitated,they had facilitated
+C1,Facilitate,Past Perfect Continuous,I had been facilitating,you had been facilitating,he/she/it had been facilitating,we had been facilitating,you had been facilitating,they had been facilitating
+C1,Facilitate,Future Simple,I will facilitate,you will facilitate,he/she/it will facilitate,we will facilitate,you will facilitate,they will facilitate
+C1,Facilitate,Future Continuous,I will be facilitating,you will be facilitating,he/she/it will be facilitating,we will be facilitating,you will be facilitating,they will be facilitating
+C1,Facilitate,Future Perfect Simple,I will have facilitated,you will have facilitated,he/she/it will have facilitated,we will have facilitated,you will have facilitated,they will have facilitated
+C1,Facilitate,Future Perfect Continuous,I will have been facilitating,you will have been facilitating,he/she/it will have been facilitating,we will have been facilitating,you will have been facilitating,they will have been facilitating
+C1,Facilitate,First Conditional,If I facilitate,you will facilitate,he/she/it will facilitate,we will facilitate,you will facilitate,they will facilitate
+C1,Facilitate,Second Conditional,If I facilitated,you would facilitate,he/she/it would facilitate,we would facilitate,you would facilitate,they would facilitate
+C1,Generate,Present Simple,I generate,you generate,he/she/it generates,we generate,you generate,they generate
+C1,Generate,Present Continuous,I am generating,you are generating,he/she/it is generating,we are generating,you are generating,they are generating
+C1,Generate,Present Perfect,I have generated,you have generated,he/she/it has generated,we have generated,you have generated,they have generated
+C1,Generate,Present Perfect Continuous,I have been generating,you have been generating,he/she/it has been generating,we have been generating,you have been generating,they have been generating
+C1,Generate,Past Simple,I generated,you generated,he/she/it generated,we generated,you generated,they generated
+C1,Generate,Past Continuous,I was generating,you were generating,he/she/it was generating,we were generating,you were generating,they were generating
+C1,Generate,Past Perfect Simple,I had generated,you had generated,he/she/it had generated,we had generated,you had generated,they had generated
+C1,Generate,Past Perfect Continuous,I had been generating,you had been generating,he/she/it had been generating,we had been generating,you had been generating,they had been generating
+C1,Generate,Future Simple,I will generate,you will generate,he/she/it will generate,we will generate,you will generate,they will generate
+C1,Generate,Future Continuous,I will be generating,you will be generating,he/she/it will be generating,we will be generating,you will be generating,they will be generating
+C1,Generate,Future Perfect Simple,I will have generated,you will have generated,he/she/it will have generated,we will have generated,you will have generated,they will have generated
+C1,Generate,Future Perfect Continuous,I will have been generating,you will have been generating,he/she/it will have been generating,we will have been generating,you will have been generating,they will have been generating
+C1,Generate,First Conditional,If I generate,you will generate,he/she/it will generate,we will generate,you will generate,they will generate
+C1,Generate,Second Conditional,If I generated,you would generate,he/she/it would generate,we would generate,you would generate,they would generate
+C1,Illustrate,Present Simple,I illustrate,you illustrate,he/she/it illustrates,we illustrate,you illustrate,they illustrate
+C1,Illustrate,Present Continuous,I am illustrating,you are illustrating,he/she/it is illustrating,we are illustrating,you are illustrating,they are illustrating
+C1,Illustrate,Present Perfect,I have illustrated,you have illustrated,he/she/it has illustrated,we have illustrated,you have illustrated,they have illustrated
+C1,Illustrate,Present Perfect Continuous,I have been illustrating,you have been illustrating,he/she/it has been illustrating,we have been illustrating,you have been illustrating,they have been illustrating
+C1,Illustrate,Past Simple,I illustrated,you illustrated,he/she/it illustrated,we illustrated,you illustrated,they illustrated
+C1,Illustrate,Past Continuous,I was illustrating,you were illustrating,he/she/it was illustrating,we were illustrating,you were illustrating,they were illustrating
+C1,Illustrate,Past Perfect Simple,I had illustrated,you had illustrated,he/she/it had illustrated,we had illustrated,you had illustrated,they had illustrated
+C1,Illustrate,Past Perfect Continuous,I had been illustrating,you had been illustrating,he/she/it had been illustrating,we had been illustrating,you had been illustrating,they had been illustrating
+C1,Illustrate,Future Simple,I will illustrate,you will illustrate,he/she/it will illustrate,we will illustrate,you will illustrate,they will illustrate
+C1,Illustrate,Future Continuous,I will be illustrating,you will be illustrating,he/she/it will be illustrating,we will be illustrating,you will be illustrating,they will be illustrating
+C1,Illustrate,Future Perfect Simple,I will have illustrated,you will have illustrated,he/she/it will have illustrated,we will have illustrated,you will have illustrated,they will have illustrated
+C1,Illustrate,Future Perfect Continuous,I will have been illustrating,you will have been illustrating,he/she/it will have been illustrating,we will have been illustrating,you will have been illustrating,they will have been illustrating
+C1,Illustrate,First Conditional,If I illustrate,you will illustrate,he/she/it will illustrate,we will illustrate,you will illustrate,they will illustrate
+C1,Illustrate,Second Conditional,If I illustrated,you would illustrate,he/she/it would illustrate,we would illustrate,you would illustrate,they would illustrate
+C1,Implement,Present Simple,I implement,you implement,he/she/it implements,we implement,you implement,they implement
+C1,Implement,Present Continuous,I am implementing,you are implementing,he/she/it is implementing,we are implementing,you are implementing,they are implementing
+C1,Implement,Present Perfect,I have implemented,you have implemented,he/she/it has implemented,we have implemented,you have implemented,they have implemented
+C1,Implement,Present Perfect Continuous,I have been implementing,you have been implementing,he/she/it has been implementing,we have been implementing,you have been implementing,they have been implementing
+C1,Implement,Past Simple,I implemented,you implemented,he/she/it implemented,we implemented,you implemented,they implemented
+C1,Implement,Past Continuous,I was implementing,you were implementing,he/she/it was implementing,we were implementing,you were implementing,they were implementing
+C1,Implement,Past Perfect Simple,I had implemented,you had implemented,he/she/it had implemented,we had implemented,you had implemented,they had implemented
+C1,Implement,Past Perfect Continuous,I had been implementing,you had been implementing,he/she/it had been implementing,we had been implementing,you had been implementing,they had been implementing
+C1,Implement,Future Simple,I will implement,you will implement,he/she/it will implement,we will implement,you will implement,they will implement
+C1,Implement,Future Continuous,I will be implementing,you will be implementing,he/she/it will be implementing,we will be implementing,you will be implementing,they will be implementing
+C1,Implement,Future Perfect Simple,I will have implemented,you will have implemented,he/she/it will have implemented,we will have implemented,you will have implemented,they will have implemented
+C1,Implement,Future Perfect Continuous,I will have been implementing,you will have been implementing,he/she/it will have been implementing,we will have been implementing,you will have been implementing,they will have been implementing
+C1,Implement,First Conditional,If I implement,you will implement,he/she/it will implement,we will implement,you will implement,they will implement
+C1,Implement,Second Conditional,If I implemented,you would implement,he/she/it would implement,we would implement,you would implement,they would implement
+C1,Chide,Present Simple,I chide,you chide,he/she/it chides,we chide,you chide,they chide
+C1,Chide,Present Continuous,I am chiding,you are chiding,he/she/it is chiding,we are chiding,you are chiding,they are chiding
+C1,Chide,Present Perfect,I have chided,you have chided,he/she/it has chided,we have chided,you have chided,they have chided
+C1,Chide,Present Perfect Continuous,I have been chiding,you have been chiding,he/she/it has been chiding,we have been chiding,you have been chiding,they have been chiding
+C1,Chide,Past Simple,I chid,you chid,he/she/it chid,we chid,you chid,they chid
+C1,Chide,Past Continuous,I was chiding,you were chiding,he/she/it was chiding,we were chiding,you were chiding,they were chiding
+C1,Chide,Past Perfect Simple,I had chided,you had chided,he/she/it had chided,we had chided,you had chided,they had chided
+C1,Chide,Past Perfect Continuous,I had been chiding,you had been chiding,he/she/it had been chiding,we had been chiding,you had been chiding,they had been chiding
+C1,Chide,Future Simple,I will chide,you will chide,he/she/it will chide,we will chide,you will chide,they will chide
+C1,Chide,Future Continuous,I will be chiding,you will be chiding,he/she/it will be chiding,we will be chiding,you will be chiding,they will be chiding
+C1,Chide,Future Perfect Simple,I will have chided,you will have chided,he/she/it will have chided,we will have chided,you will have chided,they will have chided
+C1,Chide,Future Perfect Continuous,I will have been chiding,you will have been chiding,he/she/it will have been chiding,we will have been chiding,you will have been chiding,they will have been chiding
+C1,Chide,First Conditional,If I chide,you will chide,he/she/it will chide,we will chide,you will chide,they will chide
+C1,Chide,Second Conditional,If I chided,you would chide,he/she/it would chide,we would chide,you would chide,they would chide
+C1,Cling,Present Simple,I cling,you cling,he/she/it clings,we cling,you cling,they cling
+C1,Cling,Present Continuous,I am clinging,you are clinging,he/she/it is clinging,we are clinging,you are clinging,they are clinging
+C1,Cling,Present Perfect,I have clung,you have clung,he/she/it has clung,we have clung,you have clung,they have clung
+C1,Cling,Present Perfect Continuous,I have been clinging,you have been clinging,he/she/it has been clinging,we have been clinging,you have been clinging,they have been clinging
+C1,Cling,Past Simple,I clung,you clung,he/she/it clung,we clung,you clung,they clung
+C1,Cling,Past Continuous,I was clinging,you were clinging,he/she/it was clinging,we were clinging,you were clinging,they were clinging
+C1,Cling,Past Perfect Simple,I had clung,you had clung,he/she/it had clung,we had clung,you had clung,they had clung
+C1,Cling,Past Perfect Continuous,I had been clinging,you had been clinging,he/she/it had been clinging,we had been clinging,you had been clinging,they had been clinging
+C1,Cling,Future Simple,I will cling,you will cling,he/she/it will cling,we will cling,you will cling,they will cling
+C1,Cling,Future Continuous,I will be clinging,you will be clinging,he/she/it will be clinging,we will be clinging,you will be clinging,they will be clinging
+C1,Cling,Future Perfect Simple,I will have clung,you will have clung,he/she/it will have clung,we will have clung,you will have clung,they will have clung
+C1,Cling,Future Perfect Continuous,I will have been clinging,you will have been clinging,he/she/it will have been clinging,we will have been clinging,you will have been clinging,they will have been clinging
+C1,Cling,First Conditional,If I cling,you will cling,he/she/it will cling,we will cling,you will cling,they will cling
+C1,Cling,Second Conditional,If I clung,you would cling,he/she/it would cling,we would cling,you would cling,they would cling
+C1,Cleave,Present Simple,I cleave,you cleave,he/she/it cleaves,we cleave,you cleave,they cleave
+C1,Cleave,Present Continuous,I am cleaving,you are cleaving,he/she/it is cleaving,we are cleaving,you are cleaving,they are cleaving
+C1,Cleave,Present Perfect,I have cleaved,you have cleaved,he/she/it has cleaved,we have cleaved,you have cleaved,they have cleaved
+C1,Cleave,Present Perfect Continuous,I have been cleaving,you have been cleaving,he/she/it has been cleaving,we have been cleaving,you have been cleaving,they have been cleaving
+C1,Cleave,Past Simple,I cleaved,you cleaved,he/she/it cleaved,we cleaved,you cleaved,they cleaved
+C1,Cleave,Past Continuous,I was cleaving,you were cleaving,he/she/it was cleaving,we were cleaving,you were cleaving,they were cleaving
+C1,Cleave,Past Perfect Simple,I had cleaved,you had cleaved,he/she/it had cleaved,we had cleaved,you had cleaved,they had cleaved
+C1,Cleave,Past Perfect Continuous,I had been cleaving,you had been cleaving,he/she/it had been cleaving,we had been cleaving,you had been cleaving,they had been cleaving
+C1,Cleave,Future Simple,I will cleave,you will cleave,he/she/it will cleave,we will cleave,you will cleave,they will cleave
+C1,Cleave,Future Continuous,I will be cleaving,you will be cleaving,he/she/it will be cleaving,we will be cleaving,you will be cleaving,they will be cleaving
+C1,Cleave,Future Perfect Simple,I will have cleaved,you will have cleaved,he/she/it will have cleaved,we will have cleaved,you will have cleaved,they will have cleaved
+C1,Cleave,Future Perfect Continuous,I will have been cleaving,you will have been cleaving,he/she/it will have been cleaving,we will have been cleaving,you will have been cleaving,they will have been cleaving
+C1,Cleave,First Conditional,If I cleave,you will cleave,he/she/it will cleave,we will cleave,you will cleave,they will cleave
+C1,Cleave,Second Conditional,If I cleaved,you would cleave,he/she/it would cleave,we would cleave,you would cleave,they would cleave
+C1,Fling,Present Simple,I fling,you fling,he/she/it flings,we fling,you fling,they fling
+C1,Fling,Present Continuous,I am flinging,you are flinging,he/she/it is flinging,we are flinging,you are flinging,they are flinging
+C1,Fling,Present Perfect,I have flung,you have flung,he/she/it has flung,we have flung,you have flung,they have flung
+C1,Fling,Present Perfect Continuous,I have been flinging,you have been flinging,he/she/it has been flinging,we have been flinging,you have been flinging,they have been flinging
+C1,Fling,Past Simple,I flung,you flung,he/she/it flung,we flung,you flung,they flung
+C1,Fling,Past Continuous,I was flinging,you were flinging,he/she/it was flinging,we were flinging,you were flinging,they were flinging
+C1,Fling,Past Perfect Simple,I had flung,you had flung,he/she/it had flung,we had flung,you had flung,they had flung
+C1,Fling,Past Perfect Continuous,I had been flinging,you had been flinging,he/she/it had been flinging,we had been flinging,you had been flinging,they had been flinging
+C1,Fling,Future Simple,I will fling,you will fling,he/she/it will fling,we will fling,you will fling,they will fling
+C1,Fling,Future Continuous,I will be flinging,you will be flinging,he/she/it will be flinging,we will be flinging,you will be flinging,they will be flinging
+C1,Fling,Future Perfect Simple,I will have flung,you will have flung,he/she/it will have flung,we will have flung,you will have flung,they will have flung
+C1,Fling,Future Perfect Continuous,I will have been flinging,you will have been flinging,he/she/it will have been flinging,we will have been flinging,you will have been flinging,they will have been flinging
+C1,Fling,First Conditional,If I fling,you will fling,he/she/it will fling,we will fling,you will fling,they will fling
+C1,Fling,Second Conditional,If I flung,you would fling,he/she/it would fling,we would fling,you would fling,they would fling
+C1,Gainsay,Present Simple,I gainsay,you gainsay,he/she/it gainsays,we gainsay,you gainsay,they gainsay
+C1,Gainsay,Present Continuous,I am gainsaying,you are gainsaying,he/she/it is gainsaying,we are gainsaying,you are gainsaying,they are gainsaying
+C1,Gainsay,Present Perfect,I have gainsaid,you have gainsaid,he/she/it has gainsaid,we have gainsaid,you have gainsaid,they have gainsaid
+C1,Gainsay,Present Perfect Continuous,I have been gainsaying,you have been gainsaying,he/she/it has been gainsaying,we have been gainsaying,you have been gainsaying,they have been gainsaying
+C1,Gainsay,Past Simple,I gainsaid,you gainsaid,he/she/it gainsaid,we gainsaid,you gainsaid,they gainsaid
+C1,Gainsay,Past Continuous,I was gainsaying,you were gainsaying,he/she/it was gainsaying,we were gainsaying,you were gainsaying,they were gainsaying
+C1,Gainsay,Past Perfect Simple,I had gainsaid,you had gainsaid,he/she/it had gainsaid,we had gainsaid,you had gainsaid,they had gainsaid
+C1,Gainsay,Past Perfect Continuous,I had been gainsaying,you had been gainsaying,he/she/it had been gainsaying,we had been gainsaying,you had been gainsaying,they had been gainsaying
+C1,Gainsay,Future Simple,I will gainsay,you will gainsay,he/she/it will gainsay,we will gainsay,you will gainsay,they will gainsay
+C1,Gainsay,Future Continuous,I will be gainsaying,you will be gainsaying,he/she/it will be gainsaying,we will be gainsaying,you will be gainsaying,they will be gainsaying
+C1,Gainsay,Future Perfect Simple,I will have gainsaid,you will have gainsaid,he/she/it will have gainsaid,we will have gainsaid,you will have gainsaid,they will have gainsaid
+C1,Gainsay,Future Perfect Continuous,I will have been gainsaying,you will have been gainsaying,he/she/it will have been gainsaying,we will have been gainsaying,you will have been gainsaying,they will have been gainsaying
+C1,Gainsay,First Conditional,If I gainsay,you will gainsay,he/she/it will gainsay,we will gainsay,you will gainsay,they will gainsay
+C1,Gainsay,Second Conditional,If I gainsaid,you would gainsay,he/she/it would gainsay,we would gainsay,you would gainsay,they would gainsay
+C1,Grind,Present Simple,I grind,you grind,he/she/it grinds,we grind,you grind,they grind
+C1,Grind,Present Continuous,I am grinding,you are grinding,he/she/it is grinding,we are grinding,you are grinding,they are grinding
+C1,Grind,Present Perfect,I have ground,you have ground,he/she/it has ground,we have ground,you have ground,they have ground
+C1,Grind,Present Perfect Continuous,I have been grinding,you have been grinding,he/she/it has been grinding,we have been grinding,you have been grinding,they have been grinding
+C1,Grind,Past Simple,I ground,you ground,he/she/it ground,we ground,you ground,they ground
+C1,Grind,Past Continuous,I was grinding,you were grinding,he/she/it was grinding,we were grinding,you were grinding,they were grinding
+C1,Grind,Past Perfect Simple,I had ground,you had ground,he/she/it had ground,we had ground,you had ground,they had ground
+C1,Grind,Past Perfect Continuous,I had been grinding,you had been grinding,he/she/it had been grinding,we had been grinding,you had been grinding,they had been grinding
+C1,Grind,Future Simple,I will grind,you will grind,he/she/it will grind,we will grind,you will grind,they will grind
+C1,Grind,Future Continuous,I will be grinding,you will be grinding,he/she/it will be grinding,we will be grinding,you will be grinding,they will be grinding
+C1,Grind,Future Perfect Simple,I will have ground,you will have ground,he/she/it will have ground,we will have ground,you will have ground,they will have ground
+C1,Grind,Future Perfect Continuous,I will have been grinding,you will have been grinding,he/she/it will have been grinding,we will have been grinding,you will have been grinding,they will have been grinding
+C1,Grind,First Conditional,If I grind,you will grind,he/she/it will grind,we will grind,you will grind,they will grind
+C1,Grind,Second Conditional,If I ground,you would grind,he/she/it would grind,we would grind,you would grind,they would grind
+C1,Heave,Present Simple,I heave,you heave,he/she/it heaves,we heave,you heave,they heave
+C1,Heave,Present Continuous,I am heaving,you are heaving,he/she/it is heaving,we are heaving,you are heaving,they are heaving
+C1,Heave,Present Perfect,I have heaved,you have heaved,he/she/it has heaved,we have heaved,you have heaved,they have heaved
+C1,Heave,Present Perfect Continuous,I have been heaving,you have been heaving,he/she/it has been heaving,we have been heaving,you have been heaving,they have been heaving
+C1,Heave,Past Simple,I heaved,you heaved,he/she/it heaved,we heaved,you heaved,they heaved
+C1,Heave,Past Continuous,I was heaving,you were heaving,he/she/it was heaving,we were heaving,you were heaving,they were heaving
+C1,Heave,Past Perfect Simple,I had heaved,you had heaved,he/she/it had heaved,we had heaved,you had heaved,they had heaved
+C1,Heave,Past Perfect Continuous,I had been heaving,you had been heaving,he/she/it had been heaving,we had been heaving,you had been heaving,they had been heaving
+C1,Heave,Future Simple,I will heave,you will heave,he/she/it will heave,we will heave,you will heave,they will heave
+C1,Heave,Future Continuous,I will be heaving,you will be heaving,he/she/it will be heaving,we will be heaving,you will be heaving,they will be heaving
+C1,Heave,Future Perfect Simple,I will have heaved,you will have heaved,he/she/it will have heaved,we will have heaved,you will have heaved,they will have heaved
+C1,Heave,Future Perfect Continuous,I will have been heaving,you will have been heaving,he/she/it will have been heaving,we will have been heaving,you will have been heaving,they will have been heaving
+C1,Heave,First Conditional,If I heave,you will heave,he/she/it will heave,we will heave,you will heave,they will heave
+C1,Heave,Second Conditional,If I heaved,you would heave,he/she/it would heave,we would heave,you would heave,they would heave
+C1,Inlay,Present Simple,I inlay,you inlay,he/she/it inlays,we inlay,you inlay,they inlay
+C1,Inlay,Present Continuous,I am inlaying,you are inlaying,he/she/it is inlaying,we are inlaying,you are inlaying,they are inlaying
+C1,Inlay,Present Perfect,I have inlaid,you have inlaid,he/she/it has inlaid,we have inlaid,you have inlaid,they have inlaid
+C1,Inlay,Present Perfect Continuous,I have been inlaying,you have been inlaying,he/she/it has been inlaying,we have been inlaying,you have been inlaying,they have been inlaying
+C1,Inlay,Past Simple,I inlaid,you inlaid,he/she/it inlaid,we inlaid,you inlaid,they inlaid
+C1,Inlay,Past Continuous,I was inlaying,you were inlaying,he/she/it was inlaying,we were inlaying,you were inlaying,they were inlaying
+C1,Inlay,Past Perfect Simple,I had inlaid,you had inlaid,he/she/it had inlaid,we had inlaid,you had inlaid,they had inlaid
+C1,Inlay,Past Perfect Continuous,I had been inlaying,you had been inlaying,he/she/it had been inlaying,we had been inlaying,you had been inlaying,they had been inlaying
+C1,Inlay,Future Simple,I will inlay,you will inlay,he/she/it will inlay,we will inlay,you will inlay,they will inlay
+C1,Inlay,Future Continuous,I will be inlaying,you will be inlaying,he/she/it will be inlaying,we will be inlaying,you will be inlaying,they will be inlaying
+C1,Inlay,Future Perfect Simple,I will have inlaid,you will have inlaid,he/she/it will have inlaid,we will have inlaid,you will have inlaid,they will have inlaid
+C1,Inlay,Future Perfect Continuous,I will have been inlaying,you will have been inlaying,he/she/it will have been inlaying,we will have been inlaying,you will have been inlaying,they will have been inlaying
+C1,Inlay,First Conditional,If I inlay,you will inlay,he/she/it will inlay,we will inlay,you will inlay,they will inlay
+C1,Inlay,Second Conditional,If I inlaid,you would inlay,he/she/it would inlay,we would inlay,you would inlay,they would inlay
+C1,Dabble,Present Simple,I dabble,you dabble,he/she/it dabbles,we dabble,you dabble,they dabble
+C1,Dabble,Present Continuous,I am dabbling,you are dabbling,he/she/it is dabbling,we are dabbling,you are dabbling,they are dabbling
+C1,Dabble,Present Perfect,I have dabbled,you have dabbled,he/she/it has dabbled,we have dabbled,you have dabbled,they have dabbled
+C1,Dabble,Present Perfect Continuous,I have been dabbling,you have been dabbling,he/she/it has been dabbling,we have been dabbling,you have been dabbling,they have been dabbling
+C1,Dabble,Past Simple,I dabbled,you dabbled,he/she/it dabbled,we dabbled,you dabbled,they dabbled
+C1,Dabble,Past Continuous,I was dabbling,you were dabbling,he/she/it was dabbling,we were dabbling,you were dabbling,they were dabbling
+C1,Dabble,Past Perfect Simple,I had dabbled,you had dabbled,he/she/it had dabbled,we had dabbled,you had dabbled,they had dabbled
+C1,Dabble,Past Perfect Continuous,I had been dabbling,you had been dabbling,he/she/it had been dabbling,we had been dabbling,you had been dabbling,they had been dabbling
+C1,Dabble,Future Simple,I will dabble,you will dabble,he/she/it will dabble,we will dabble,you will dabble,they will dabble
+C1,Dabble,Future Continuous,I will be dabbling,you will be dabbling,he/she/it will be dabbling,we will be dabbling,you will be dabbling,they will be dabbling
+C1,Dabble,Future Perfect Simple,I will have dabbled,you will have dabbled,he/she/it will have dabbled,we will have dabbled,you will have dabbled,they will have dabbled
+C1,Dabble,Future Perfect Continuous,I will have been dabbling,you will have been dabbling,he/she/it will have been dabbling,we will have been dabbling,you will have been dabbling,they will have been dabbling
+C1,Dabble,First Conditional,If I dabble,you will dabble,he/she/it will dabble,we will dabble,you will dabble,they will dabble
+C1,Dabble,Second Conditional,If I dabbled,you would dabble,he/she/it would dabble,we would dabble,you would dabble,they would dabble
+C1,Daydream,Present Simple,I daydream,you daydream,he/she/it daydreams,we daydream,you daydream,they daydream
+C1,Daydream,Present Continuous,I am daydreaming,you are daydreaming,he/she/it is daydreaming,we are daydreaming,you are daydreaming,they are daydreaming
+C1,Daydream,Present Perfect,I have daydreamed,you have daydreamed,he/she/it has daydreamed,we have daydreamed,you have daydreamed,they have daydreamed
+C1,Daydream,Present Perfect Continuous,I have been daydreaming,you have been daydreaming,he/she/it has been daydreaming,we have been daydreaming,you have been daydreaming,they have been daydreaming
+C1,Daydream,Past Simple,I daydreamed,you daydreamed,he/she/it daydreamed,we daydreamed,you daydreamed,they daydreamed
+C1,Daydream,Past Continuous,I was daydreaming,you were daydreaming,he/she/it was daydreaming,we were daydreaming,you were daydreaming,they were daydreaming
+C1,Daydream,Past Perfect Simple,I had daydreamed,you had daydreamed,he/she/it had daydreamed,we had daydreamed,you had daydreamed,they had daydreamed
+C1,Daydream,Past Perfect Continuous,I had been daydreaming,you had been daydreaming,he/she/it had been daydreaming,we had been daydreaming,you had been daydreaming,they had been daydreaming
+C1,Daydream,Future Simple,I will daydream,you will daydream,he/she/it will daydream,we will daydream,you will daydream,they will daydream
+C1,Daydream,Future Continuous,I will be daydreaming,you will be daydreaming,he/she/it will be daydreaming,we will be daydreaming,you will be daydreaming,they will be daydreaming
+C1,Daydream,Future Perfect Simple,I will have daydreamed,you will have daydreamed,he/she/it will have daydreamed,we will have daydreamed,you will have daydreamed,they will have daydreamed
+C1,Daydream,Future Perfect Continuous,I will have been daydreaming,you will have been daydreaming,he/she/it will have been daydreaming,we will have been daydreaming,you will have been daydreaming,they will have been daydreaming
+C1,Daydream,First Conditional,If I daydream,you will daydream,he/she/it will daydream,we will daydream,you will daydream,they will daydream
+C1,Daydream,Second Conditional,If I daydreamed,you would daydream,he/she/it would daydream,we would daydream,you would daydream,they would daydream
+C1,Drift,Present Simple,I drift,you drift,he/she/it drifts,we drift,you drift,they drift
+C1,Drift,Present Continuous,I am drifting,you are drifting,he/she/it is drifting,we are drifting,you are drifting,they are drifting
+C1,Drift,Present Perfect,I have drifted,you have drifted,he/she/it has drifted,we have drifted,you have drifted,they have drifted
+C1,Drift,Present Perfect Continuous,I have been drifting,you have been drifting,he/she/it has been drifting,we have been drifting,you have been drifting,they have been drifting
+C1,Drift,Past Simple,I drifted,you drifted,he/she/it drifted,we drifted,you drifted,they drifted
+C1,Drift,Past Continuous,I was drifting,you were drifting,he/she/it was drifting,we were drifting,you were drifting,they were drifting
+C1,Drift,Past Perfect Simple,I had drifted,you had drifted,he/she/it had drifted,we had drifted,you had drifted,they had drifted
+C1,Drift,Past Perfect Continuous,I had been drifting,you had been drifting,he/she/it had been drifting,we had been drifting,you had been drifting,they had been drifting
+C1,Drift,Future Simple,I will drift,you will drift,he/she/it will drift,we will drift,you will drift,they will drift
+C1,Drift,Future Continuous,I will be drifting,you will be drifting,he/she/it will be drifting,we will be drifting,you will be drifting,they will be drifting
+C1,Drift,Future Perfect Simple,I will have drifted,you will have drifted,he/she/it will have drifted,we will have drifted,you will have drifted,they will have drifted
+C1,Drift,Future Perfect Continuous,I will have been drifting,you will have been drifting,he/she/it will have been drifting,we will have been drifting,you will have been drifting,they will have been drifting
+C1,Drift,First Conditional,If I drift,you will drift,he/she/it will drift,we will drift,you will drift,they will drift
+C1,Drift,Second Conditional,If I drifted,you would drift,he/she/it would drift,we would drift,you would drift,they would drift
+C1,Dwindle,Present Simple,I dwindle,you dwindle,he/she/it dwindles,we dwindle,you dwindle,they dwindle
+C1,Dwindle,Present Continuous,I am dwindling,you are dwindling,he/she/it is dwindling,we are dwindling,you are dwindling,they are dwindling
+C1,Dwindle,Present Perfect,I have dwindled,you have dwindled,he/she/it has dwindled,we have dwindled,you have dwindled,they have dwindled
+C1,Dwindle,Present Perfect Continuous,I have been dwindling,you have been dwindling,he/she/it has been dwindling,we have been dwindling,you have been dwindling,they have been dwindling
+C1,Dwindle,Past Simple,I dwindled,you dwindled,he/she/it dwindled,we dwindled,you dwindled,they dwindled
+C1,Dwindle,Past Continuous,I was dwindling,you were dwindling,he/she/it was dwindling,we were dwindling,you were dwindling,they were dwindling
+C1,Dwindle,Past Perfect Simple,I had dwindled,you had dwindled,he/she/it had dwindled,we had dwindled,you had dwindled,they had dwindled
+C1,Dwindle,Past Perfect Continuous,I had been dwindling,you had been dwindling,he/she/it had been dwindling,we had been dwindling,you had been dwindling,they had been dwindling
+C1,Dwindle,Future Simple,I will dwindle,you will dwindle,he/she/it will dwindle,we will dwindle,you will dwindle,they will dwindle
+C1,Dwindle,Future Continuous,I will be dwindling,you will be dwindling,he/she/it will be dwindling,we will be dwindling,you will be dwindling,they will be dwindling
+C1,Dwindle,Future Perfect Simple,I will have dwindled,you will have dwindled,he/she/it will have dwindled,we will have dwindled,you will have dwindled,they will have dwindled
+C1,Dwindle,Future Perfect Continuous,I will have been dwindling,you will have been dwindling,he/she/it will have been dwindling,we will have been dwindling,you will have been dwindling,they will have been dwindling
+C1,Dwindle,First Conditional,If I dwindle,you will dwindle,he/she/it will dwindle,we will dwindle,you will dwindle,they will dwindle
+C1,Dwindle,Second Conditional,If I dwindled,you would dwindle,he/she/it would dwindle,we would dwindle,you would dwindle,they would dwindle
+C1,Entail,Present Simple,I entail,you entail,he/she/it entails,we entail,you entail,they entail
+C1,Entail,Present Continuous,I am entailing,you are entailing,he/she/it is entailing,we are entailing,you are entailing,they are entailing
+C1,Entail,Present Perfect,I have entailed,you have entailed,he/she/it has entailed,we have entailed,you have entailed,they have entailed
+C1,Entail,Present Perfect Continuous,I have been entailing,you have been entailing,he/she/it has been entailing,we have been entailing,you have been entailing,they have been entailing
+C1,Entail,Past Simple,I entailed,you entailed,he/she/it entailed,we entailed,you entailed,they entailed
+C1,Entail,Past Continuous,I was entailing,you were entailing,he/she/it was entailing,we were entailing,you were entailing,they were entailing
+C1,Entail,Past Perfect Simple,I had entailed,you had entailed,he/she/it had entailed,we had entailed,you had entailed,they had entailed
+C1,Entail,Past Perfect Continuous,I had been entailing,you had been entailing,he/she/it had been entailing,we had been entailing,you had been entailing,they had been entailing
+C1,Entail,Future Simple,I will entail,you will entail,he/she/it will entail,we will entail,you will entail,they will entail
+C1,Entail,Future Continuous,I will be entailing,you will be entailing,he/she/it will be entailing,we will be entailing,you will be entailing,they will be entailing
+C1,Entail,Future Perfect Simple,I will have entailed,you will have entailed,he/she/it will have entailed,we will have entailed,you will have entailed,they will have entailed
+C1,Entail,Future Perfect Continuous,I will have been entailing,you will have been entailing,he/she/it will have been entailing,we will have been entailing,you will have been entailing,they will have been entailing
+C1,Entail,First Conditional,If I entail,you will entail,he/she/it will entail,we will entail,you will entail,they will entail
+C1,Entail,Second Conditional,If I entailed,you would entail,he/she/it would entail,we would entail,you would entail,they would entail
+C1,Forsake,Present Simple,I forsake,you forsake,he/she/it forsakes,we forsake,you forsake,they forsake
+C1,Forsake,Present Continuous,I am forsaking,you are forsaking,he/she/it is forsaking,we are forsaking,you are forsaking,they are forsaking
+C1,Forsake,Present Perfect,I have forsaken,you have forsaken,he/she/it has forsaken,we have forsaken,you have forsaken,they have forsaken
+C1,Forsake,Present Perfect Continuous,I have been forsaking,you have been forsaking,he/she/it has been forsaking,we have been forsaking,you have been forsaking,they have been forsaking
+C1,Forsake,Past Simple,I forsook,you forsook,he/she/it forsook,we forsook,you forsook,they forsook
+C1,Forsake,Past Continuous,I was forsaking,you were forsaking,he/she/it was forsaking,we were forsaking,you were forsaking,they were forsaking
+C1,Forsake,Past Perfect Simple,I had forsaken,you had forsaken,he/she/it had forsaken,we had forsaken,you had forsaken,they had forsaken
+C1,Forsake,Past Perfect Continuous,I had been forsaking,you had been forsaking,he/she/it had been forsaking,we had been forsaking,you had been forsaking,they had been forsaking
+C1,Forsake,Future Simple,I will forsake,you will forsake,he/she/it will forsake,we will forsake,you will forsake,they will forsake
+C1,Forsake,Future Continuous,I will be forsaking,you will be forsaking,he/she/it will be forsaking,we will be forsaking,you will be forsaking,they will be forsaking
+C1,Forsake,Future Perfect Simple,I will have forsaken,you will have forsaken,he/she/it will have forsaken,we will have forsaken,you will have forsaken,they will have forsaken
+C1,Forsake,Future Perfect Continuous,I will have been forsaking,you will have been forsaking,he/she/it will have been forsaking,we will have been forsaking,you will have been forsaking,they will have been forsaking
+C1,Forsake,First Conditional,If I forsake,you will forsake,he/she/it will forsake,we will forsake,you will forsake,they will forsake
+C1,Forsake,Second Conditional,If I forsook,you would forsake,he/she/it would forsake,we would forsake,you would forsake,they would forsake
+C1,Conceive,Present Simple,I conceive,you conceive,he/she/it conceives,we conceive,you conceive,they conceive
+C1,Conceive,Present Continuous,I am conceiving,you are conceiving,he/she/it is conceiving,we are conceiving,you are conceiving,they are conceiving
+C1,Conceive,Present Perfect,I have conceived,you have conceived,he/she/it has conceived,we have conceived,you have conceived,they have conceived
+C1,Conceive,Present Perfect Continuous,I have been conceiving,you have been conceiving,he/she/it has been conceiving,we have been conceiving,you have been conceiving,they have been conceiving
+C1,Conceive,Past Simple,I conceived,you conceived,he/she/it conceived,we conceived,you conceived,they conceived
+C1,Conceive,Past Continuous,I was conceiving,you were conceiving,he/she/it was conceiving,we were conceiving,you were conceiving,they were conceiving
+C1,Conceive,Past Perfect Simple,I had conceived,you had conceived,he/she/it had conceived,we had conceived,you had conceived,they had conceived
+C1,Conceive,Past Perfect Continuous,I had been conceiving,you had been conceiving,he/she/it had been conceiving,we had been conceiving,you had been conceiving,they had been conceiving
+C1,Conceive,Future Simple,I will conceive,you will conceive,he/she/it will conceive,we will conceive,you will conceive,they will conceive
+C1,Conceive,Future Continuous,I will be conceiving,you will be conceiving,he/she/it will be conceiving,we will be conceiving,you will be conceiving,they will be conceiving
+C1,Conceive,Future Perfect Simple,I will have conceived,you will have conceived,he/she/it will have conceived,we will have conceived,you will have conceived,they will have conceived
+C1,Conceive,Future Perfect Continuous,I will have been conceiving,you will have been conceiving,he/she/it will have been conceiving,we will have been conceiving,you will have been conceiving,they will have been conceiving
+C1,Conceive,First Conditional,If I conceive,you will conceive,he/she/it will conceive,we will conceive,you will conceive,they will conceive
+C1,Conceive,Second Conditional,If I conceived,you would conceive,he/she/it would conceive,we would conceive,you would conceive,they would conceive
+C1,Espouse,Present Simple,I espouse,you espouse,he/she/it espouses,we espouse,you espouse,they espouse
+C1,Espouse,Present Continuous,I am espousing,you are espousing,he/she/it is espousing,we are espousing,you are espousing,they are espousing
+C1,Espouse,Present Perfect,I have espoused,you have espoused,he/she/it has espoused,we have espoused,you have espoused,they have espoused
+C1,Espouse,Present Perfect Continuous,I have been espousing,you have been espousing,he/she/it has been espousing,we have been espousing,you have been espousing,they have been espousing
+C1,Espouse,Past Simple,I espoused,you espoused,he/she/it espoused,we espoused,you espoused,they espoused
+C1,Espouse,Past Continuous,I was espousing,you were espousing,he/she/it was espousing,we were espousing,you were espousing,they were espousing
+C1,Espouse,Past Perfect Simple,I had espoused,you had espoused,he/she/it had espoused,we had espoused,you had espoused,they had espoused
+C1,Espouse,Past Perfect Continuous,I had been espousing,you had been espousing,he/she/it had been espousing,we had been espousing,you had been espousing,they had been espousing
+C1,Espouse,Future Simple,I will espouse,you will espouse,he/she/it will espouse,we will espouse,you will espouse,they will espouse
+C1,Espouse,Future Continuous,I will be espousing,you will be espousing,he/she/it will be espousing,we will be espousing,you will be espousing,they will be espousing
+C1,Espouse,Future Perfect Simple,I will have espoused,you will have espoused,he/she/it will have espoused,we will have espoused,you will have espoused,they will have espoused
+C1,Espouse,Future Perfect Continuous,I will have been espousing,you will have been espousing,he/she/it will have been espousing,we will have been espousing,you will have been espousing,they will have been espousing
+C1,Espouse,First Conditional,If I espouse,you will espouse,he/she/it will espouse,we will espouse,you will espouse,they will espouse
+C1,Espouse,Second Conditional,If I espoused,you would espouse,he/she/it would espouse,we would espouse,you would espouse,they would espouse
+C1,Unbind,Present Simple,I unbind,you unbind,he/she/it unbinds,we unbind,you unbind,they unbind
+C1,Unbind,Present Continuous,I am unbinding,you are unbinding,he/she/it is unbinding,we are unbinding,you are unbinding,they are unbinding
+C1,Unbind,Present Perfect,I have unbound,you have unbound,he/she/it has unbound,we have unbound,you have unbound,they have unbound
+C1,Unbind,Present Perfect Continuous,I have been unbinding,you have been unbinding,he/she/it has been unbinding,we have been unbinding,you have been unbinding,they have been unbinding
+C1,Unbind,Past Simple,I unbound,you unbound,he/she/it unbound,we unbound,you unbound,they unbound
+C1,Unbind,Past Continuous,I was unbinding,you were unbinding,he/she/it was unbinding,we were unbinding,you were unbinding,they were unbinding
+C1,Unbind,Past Perfect Simple,I had unbound,you had unbound,he/she/it had unbound,we had unbound,you had unbound,they had unbound
+C1,Unbind,Past Perfect Continuous,I had been unbinding,you had been unbinding,he/she/it had been unbinding,we had been unbinding,you had been unbinding,they had been unbinding
+C1,Unbind,Future Simple,I will unbind,you will unbind,he/she/it will unbind,we will unbind,you will unbind,they will unbind
+C1,Unbind,Future Continuous,I will be unbinding,you will be unbinding,he/she/it will be unbinding,we will be unbinding,you will be unbinding,they will be unbinding
+C1,Unbind,Future Perfect Simple,I will have unbound,you will have unbound,he/she/it will have unbound,we will have unbound,you will have unbound,they will have unbound
+C1,Unbind,Future Perfect Continuous,I will have been unbinding,you will have been unbinding,he/she/it will have been unbinding,we will have been unbinding,you will have been unbinding,they will have been unbinding
+C1,Unbind,First Conditional,If I unbind,you will unbind,he/she/it will unbind,we will unbind,you will unbind,they will unbind
+C1,Unbind,Second Conditional,If I unbound,you would unbind,he/she/it would unbind,we would unbind,you would unbind,they would unbind
+C1,Undo,Present Simple,I undo,you undo,he/she/it undoes,we undo,you undo,they undo
+C1,Undo,Present Continuous,I am undoing,you are undoing,he/she/it is undoing,we are undoing,you are undoing,they are undoing
+C1,Undo,Present Perfect,I have undone,you have undone,he/she/it has undone,we have undone,you have undone,they have undone
+C1,Undo,Present Perfect Continuous,I have been undoing,you have been undoing,he/she/it has been undoing,we have been undoing,you have been undoing,they have been undoing
+C1,Undo,Past Simple,I undid,you undid,he/she/it undid,we undid,you undid,they undid
+C1,Undo,Past Continuous,I was undoing,you were undoing,he/she/it was undoing,we were undoing,you were undoing,they were undoing
+C1,Undo,Past Perfect Simple,I had undone,you had undone,he/she/it had undone,we had undone,you had undone,they had undone
+C1,Undo,Past Perfect Continuous,I had been undoing,you had been undoing,he/she/it had been undoing,we had been undoing,you had been undoing,they had been undoing
+C1,Undo,Future Simple,I will undo,you will undo,he/she/it will undo,we will undo,you will undo,they will undo
+C1,Undo,Future Continuous,I will be undoing,you will be undoing,he/she/it will be undoing,we will be undoing,you will be undoing,they will be undoing
+C1,Undo,Future Perfect Simple,I will have undone,you will have undone,he/she/it will have undone,we will have undone,you will have undone,they will have undone
+C1,Undo,Future Perfect Continuous,I will have been undoing,you will have been undoing,he/she/it will have been undoing,we will have been undoing,you will have been undoing,they will have been undoing
+C1,Undo,First Conditional,If I undo,you will undo,he/she/it will undo,we will undo,you will undo,they will undo
+C1,Undo,Second Conditional,If I undid,you would undo,he/she/it would undo,we would undo,you would undo,they would undo
+C1,Unwind,Present Simple,I unwind,you unwind,he/she/it unwinds,we unwind,you unwind,they unwind
+C1,Unwind,Present Continuous,I am unwinding,you are unwinding,he/she/it is unwinding,we are unwinding,you are unwinding,they are unwinding
+C1,Unwind,Present Perfect,I have unwound,you have unwound,he/she/it has unwound,we have unwound,you have unwound,they have unwound
+C1,Unwind,Present Perfect Continuous,I have been unwinding,you have been unwinding,he/she/it has been unwinding,we have been unwinding,you have been unwinding,they have been unwinding
+C1,Unwind,Past Simple,I unwound,you unwound,he/she/it unwound,we unwound,you unwound,they unwound
+C1,Unwind,Past Continuous,I was unwinding,you were unwinding,he/she/it was unwinding,we were unwinding,you were unwinding,they were unwinding
+C1,Unwind,Past Perfect Simple,I had unwound,you had unwound,he/she/it had unwound,we had unwound,you had unwound,they had unwound
+C1,Unwind,Past Perfect Continuous,I had been unwinding,you had been unwinding,he/she/it had been unwinding,we had been unwinding,you had been unwinding,they had been unwinding
+C1,Unwind,Future Simple,I will unwind,you will unwind,he/she/it will unwind,we will unwind,you will unwind,they will unwind
+C1,Unwind,Future Continuous,I will be unwinding,you will be unwinding,he/she/it will be unwinding,we will be unwinding,you will be unwinding,they will be unwinding
+C1,Unwind,Future Perfect Simple,I will have unwound,you will have unwound,he/she/it will have unwound,we will have unwound,you will have unwound,they will have unwound
+C1,Unwind,Future Perfect Continuous,I will have been unwinding,you will have been unwinding,he/she/it will have been unwinding,we will have been unwinding,you will have been unwinding,they will have been unwinding
+C1,Unwind,First Conditional,If I unwind,you will unwind,he/she/it will unwind,we will unwind,you will unwind,they will unwind
+C1,Unwind,Second Conditional,If I unwound,you would unwind,he/she/it would unwind,we would unwind,you would unwind,they would unwind
+C1,Uphold,Present Simple,I uphold,you uphold,he/she/it upholds,we uphold,you uphold,they uphold
+C1,Uphold,Present Continuous,I am upholding,you are upholding,he/she/it is upholding,we are upholding,you are upholding,they are upholding
+C1,Uphold,Present Perfect,I have upheld,you have upheld,he/she/it has upheld,we have upheld,you have upheld,they have upheld
+C1,Uphold,Present Perfect Continuous,I have been upholding,you have been upholding,he/she/it has been upholding,we have been upholding,you have been upholding,they have been upholding
+C1,Uphold,Past Simple,I upheld,you upheld,he/she/it upheld,we upheld,you upheld,they upheld
+C1,Uphold,Past Continuous,I was upholding,you were upholding,he/she/it was upholding,we were upholding,you were upholding,they were upholding
+C1,Uphold,Past Perfect Simple,I had upheld,you had upheld,he/she/it had upheld,we had upheld,you had upheld,they had upheld
+C1,Uphold,Past Perfect Continuous,I had been upholding,you had been upholding,he/she/it had been upholding,we had been upholding,you had been upholding,they had been upholding
+C1,Uphold,Future Simple,I will uphold,you will uphold,he/she/it will uphold,we will uphold,you will uphold,they will uphold
+C1,Uphold,Future Continuous,I will be upholding,you will be upholding,he/she/it will be upholding,we will be upholding,you will be upholding,they will be upholding
+C1,Uphold,Future Perfect Simple,I will have upheld,you will have upheld,he/she/it will have upheld,we will have upheld,you will have upheld,they will have upheld
+C1,Uphold,Future Perfect Continuous,I will have been upholding,you will have been upholding,he/she/it will have been upholding,we will have been upholding,you will have been upholding,they will have been upholding
+C1,Uphold,First Conditional,If I uphold,you will uphold,he/she/it will uphold,we will uphold,you will uphold,they will uphold
+C1,Uphold,Second Conditional,If I upheld,you would uphold,he/she/it would uphold,we would uphold,you would uphold,they would uphold
+C1,Upset,Present Simple,I upset,you upset,he/she/it upsets,we upset,you upset,they upset
+C1,Upset,Present Continuous,I am upsetting,you are upsetting,he/she/it is upsetting,we are upsetting,you are upsetting,they are upsetting
+C1,Upset,Present Perfect,I have upset,you have upset,he/she/it has upset,we have upset,you have upset,they have upset
+C1,Upset,Present Perfect Continuous,I have been upsetting,you have been upsetting,he/she/it has been upsetting,we have been upsetting,you have been upsetting,they have been upsetting
+C1,Upset,Past Simple,I upset,you upset,he/she/it upset,we upset,you upset,they upset
+C1,Upset,Past Continuous,I was upsetting,you were upsetting,he/she/it was upsetting,we were upsetting,you were upsetting,they were upsetting
+C1,Upset,Past Perfect Simple,I had upset,you had upset,he/she/it had upset,we had upset,you had upset,they had upset
+C1,Upset,Past Perfect Continuous,I had been upsetting,you had been upsetting,he/she/it had been upsetting,we had been upsetting,you had been upsetting,they had been upsetting
+C1,Upset,Future Simple,I will upset,you will upset,he/she/it will upset,we will upset,you will upset,they will upset
+C1,Upset,Future Continuous,I will be upsetting,you will be upsetting,he/she/it will be upsetting,we will be upsetting,you will be upsetting,they will be upsetting
+C1,Upset,Future Perfect Simple,I will have upset,you will have upset,he/she/it will have upset,we will have upset,you will have upset,they will have upset
+C1,Upset,Future Perfect Continuous,I will have been upsetting,you will have been upsetting,he/she/it will have been upsetting,we will have been upsetting,you will have been upsetting,they will have been upsetting
+C1,Undertake,Present Simple,I undertake,you undertake,he/she/it undertakes,we undertake,you undertake,they undertake
+C1,Undertake,Present Continuous,I am undertaking,you are undertaking,he/she/it is undertaking,we are undertaking,you are undertaking,they are undertaking
+C1,Undertake,Present Perfect,I have undertaken,you have undertaken,he/she/it has undertaken,we have undertaken,you have undertaken,they have undertaken
+C1,Undertake,Present Perfect Continuous,I have been undertaking,you have been undertaking,he/she/it has been undertaking,we have been undertaking,you have been undertaking,they have been undertaking
+C1,Undertake,Past Simple,I undertook,you undertook,he/she/it undertook,we undertook,you undertook,they undertook
+C1,Undertake,Past Continuous,I was undertaking,you were undertaking,he/she/it was undertaking,we were undertaking,you were undertaking,they were undertaking
+C1,Undertake,Past Perfect Simple,I had undertaken,you had undertaken,he/she/it had undertaken,we had undertaken,you had undertaken,they had undertaken
+C1,Undertake,Past Perfect Continuous,I had been undertaking,you had been undertaking,he/she/it had been undertaking,we had been undertaking,you had been undertaking,they had been undertaking
+C1,Undertake,Future Simple,I will undertake,you will undertake,he/she/it will undertake,we will undertake,you will undertake,they will undertake
+C1,Undertake,Future Continuous,I will be undertaking,you will be undertaking,he/she/it will be undertaking,we will be undertaking,you will be undertaking,they will be undertaking
+C1,Undertake,Future Perfect Simple,I will have undertaken,you will have undertaken,he/she/it will have undertaken,we will have undertaken,you will have undertaken,they will have undertaken
+C1,Undertake,Future Perfect Continuous,I will have been undertaking,you will have been undertaking,he/she/it will have been undertaking,we will have been undertaking,you will have been undertaking,they will have been undertaking
+C1,Undertake,First Conditional,If I undertake,you will undertake,he/she/it will undertake,we will undertake,you will undertake,they will undertake
+C1,Undertake,Second Conditional,If I undertook,you would undertake,he/she/it would undertake,we would undertake,you would undertake,they would undertake
+C1,Undergo,Present Simple,I undergo,you undergo,he/she/it undergoes,we undergo,you undergo,they undergo
+C1,Undergo,Present Continuous,I am undergoing,you are undergoing,he/she/it is undergoing,we are undergoing,you are undergoing,they are undergoing
+C1,Undergo,Present Perfect,I have undergone,you have undergone,he/she/it has undergone,we have undergone,you have undergone,they have undergone
+C1,Undergo,Present Perfect Continuous,I have been undergoing,you have been undergoing,he/she/it has been undergoing,we have been undergoing,you have been undergoing,they have been undergoing
+C1,Undergo,Past Simple,I underwent,you underwent,he/she/it underwent,we underwent,you underwent,they underwent
+C1,Undergo,Past Continuous,I was undergoing,you were undergoing,he/she/it was undergoing,we were undergoing,you were undergoing,they were undergoing
+C1,Undergo,Past Perfect Simple,I had undergone,you had undergone,he/she/it had undergone,we had undergone,you had undergone,they had undergone
+C1,Undergo,Past Perfect Continuous,I had been undergoing,you had been undergoing,he/she/it had been undergoing,we had been undergoing,you had been undergoing,they had been undergoing
+C1,Undergo,Future Simple,I will undergo,you will undergo,he/she/it will undergo,we will undergo,you will undergo,they will undergo
+C1,Undergo,Future Continuous,I will be undergoing,you will be undergoing,he/she/it will be undergoing,we will be undergoing,you will be undergoing,they will be undergoing
+C1,Undergo,Future Perfect Simple,I will have undergone,you will have undergone,he/she/it will have undergone,we will have undergone,you will have undergone,they will have undergone
+C1,Undergo,Future Perfect Continuous,I will have been undergoing,you will have been undergoing,he/she/it will have been undergoing,we will have been undergoing,you will have been undergoing,they will have been undergoing
+C1,Undergo,First Conditional,If I undergo,you will undergo,he/she/it will undergo,we will undergo,you will undergo,they will undergo
+C1,Undergo,Second Conditional,If I underwent,you would undergo,he/she/it would undergo,we would undergo,you would undergo,they would undergo
+C1,Underwrite,Present Simple,I underwrite,you underwrite,he/she/it underwrites,we underwrite,you underwrite,they underwrite
+C1,Underwrite,Present Continuous,I am underwriting,you are underwriting,he/she/it is underwriting,we are underwriting,you are underwriting,they are underwriting
+C1,Underwrite,Present Perfect,I have underwritten,you have underwritten,he/she/it has underwritten,we have underwritten,you have underwritten,they have underwritten
+C1,Underwrite,Present Perfect Continuous,I have been underwriting,you have been underwriting,he/she/it has been underwriting,we have been underwriting,you have been underwriting,they have been underwriting
+C1,Underwrite,Past Simple,I underwrote,you underwrote,he/she/it underwrote,we underwrote,you underwrote,they underwrote
+C1,Underwrite,Past Continuous,I was underwriting,you were underwriting,he/she/it was underwriting,we were underwriting,you were underwriting,they were underwriting
+C1,Underwrite,Past Perfect Simple,I had underwritten,you had underwritten,he/she/it had underwritten,we had underwritten,you had underwritten,they had underwritten
+C1,Underwrite,Past Perfect Continuous,I had been underwriting,you had been underwriting,he/she/it had been underwriting,we had been underwriting,you had been underwriting,they had been underwriting
+C1,Underwrite,Future Simple,I will underwrite,you will underwrite,he/she/it will underwrite,we will underwrite,you will underwrite,they will underwrite
+C1,Underwrite,Future Continuous,I will be underwriting,you will be underwriting,he/she/it will be underwriting,we will be underwriting,you will be underwriting,they will be underwriting
+C1,Underwrite,Future Perfect Simple,I will have underwritten,you will have underwritten,he/she/it will have underwritten,we will have underwritten,you will have underwritten,they will have underwritten
+C1,Underwrite,Future Perfect Continuous,I will have been underwriting,you will have been underwriting,he/she/it will have been underwriting,we will have been underwriting,you will have been underwriting,they will have been underwriting
+C1,Underwrite,First Conditional,If I underwrite,you will underwrite,he/she/it will underwrite,we will underwrite,you will underwrite,they will underwrite
+C1,Underwrite,Second Conditional,If I underwrote,you would underwrite,he/she/it would underwrite,we would underwrite,you would underwrite,they would underwrite
+C1,Withhold,Present Simple,I withhold,you withhold,he/she/it withholds,we withhold,you withhold,they withhold
+C1,Withhold,Present Continuous,I am withholding,you are withholding,he/she/it is withholding,we are withholding,you are withholding,they are withholding
+C1,Withhold,Present Perfect,I have withheld,you have withheld,he/she/it has withheld,we have withheld,you have withheld,they have withheld
+C1,Withhold,Present Perfect Continuous,I have been withholding,you have been withholding,he/she/it has been withholding,we have been withholding,you have been withholding,they have been withholding
+C1,Withhold,Past Simple,I withheld,you withheld,he/she/it withheld,we withheld,you withheld,they withheld
+C1,Withhold,Past Continuous,I was withholding,you were withholding,he/she/it was withholding,we were withholding,you were withholding,they were withholding
+C1,Withhold,Past Perfect Simple,I had withheld,you had withheld,he/she/it had withheld,we had withheld,you had withheld,they had withheld
+C1,Withhold,Past Perfect Continuous,I had been withholding,you had been withholding,he/she/it had been withholding,we had been withholding,you had been withholding,they had been withholding
+C1,Withhold,Future Simple,I will withhold,you will withhold,he/she/it will withhold,we will withhold,you will withhold,they will withhold
+C1,Withhold,Future Continuous,I will be withholding,you will be withholding,he/she/it will be withholding,we will be withholding,you will be withholding,they will be withholding
+C1,Withhold,Future Perfect Simple,I will have withheld,you will have withheld,he/she/it will have withheld,we will have withheld,you will have withheld,they will have withheld
+C1,Withhold,Future Perfect Continuous,I will have been withholding,you will have been withholding,he/she/it will have been withholding,we will have been withholding,you will have been withholding,they will have been withholding
+C1,Withhold,First Conditional,If I withhold,you will withhold,he/she/it will withhold,we will withhold,you will withhold,they will withhold
+C1,Withhold,Second Conditional,If I withheld,you would withhold,he/she/it would withhold,we would withhold,you would withhold,they would withhold
+C1,Beget,Present Simple,I beget,you beget,he/she/it begets,we beget,you beget,they beget
+C1,Beget,Present Continuous,I am begetting,you are begetting,he/she/it is begetting,we are begetting,you are begetting,they are begetting
+C1,Beget,Present Perfect,I have begotten,you have begotten,he/she/it has begotten,we have begotten,you have begotten,they have begotten
+C1,Beget,Present Perfect Continuous,I have been begetting,you have been begetting,he/she/it has been begetting,we have been begetting,you have been begetting,they have been begetting
+C1,Beget,Past Simple,I begot,you begot,he/she/it begot,we begot,you begot,they begot
+C1,Beget,Past Continuous,I was begetting,you were begetting,he/she/it was begetting,we were begetting,you were begetting,they were begetting
+C1,Beget,Past Perfect Simple,I had begotten,you had begotten,he/she/it had begotten,we had begotten,you had begotten,they had begotten
+C1,Beget,Past Perfect Continuous,I had been begetting,you had been begetting,he/she/it had been begetting,we had been begetting,you had been begetting,they had been begetting
+C1,Beget,Future Simple,I will beget,you will beget,he/she/it will beget,we will beget,you will beget,they will beget
+C1,Beget,Future Continuous,I will be begetting,you will be begetting,he/she/it will be begetting,we will be begetting,you will be begetting,they will be begetting
+C1,Beget,Future Perfect Simple,I will have begotten,you will have begotten,he/she/it will have begotten,we will have begotten,you will have begotten,they will have begotten
+C1,Beget,Future Perfect Continuous,I will have been begetting,you will have been begetting,he/she/it will have been begetting,we will have been begetting,you will have been begetting,they will have been begetting
+C1,Beget,First Conditional,If I beget,you will beget,he/she/it will beget,we will beget,you will beget,they will beget
+C1,Beget,Second Conditional,If I begot,you would beget,he/she/it would beget,we would beget,you would beget,they would beget
+C1,Befall,Present Simple,I befall,you befall,he/she/it befalls,we befall,you befall,they befall
+C1,Befall,Present Continuous,I am befalling,you are befalling,he/she/it is befalling,we are befalling,you are befalling,they are befalling
+C1,Befall,Present Perfect,I have befallen,you have befallen,he/she/it has befallen,we have befallen,you have befallen,they have befallen
+C1,Befall,Present Perfect Continuous,I have been befalling,you have been befalling,he/she/it has been befalling,we have been befalling,you have been befalling,they have been befalling
+C1,Befall,Past Simple,I befell,you befell,he/she/it befell,we befell,you befell,they befell
+C1,Befall,Past Continuous,I was befalling,you were befalling,he/she/it was befalling,we were befalling,you were befalling,they were befalling
+C1,Befall,Past Perfect Simple,I had befallen,you had befallen,he/she/it had befallen,we had befallen,you had befallen,they had befallen
+C1,Befall,Past Perfect Continuous,I had been befalling,you had been befalling,he/she/it had been befalling,we had been befalling,you had been befalling,they had been befalling
+C1,Befall,Future Simple,I will befall,you will befall,he/she/it will befall,we will befall,you will befall,they will befall
+C1,Befall,Future Continuous,I will be befalling,you will be befalling,he/she/it will be befalling,we will be befalling,you will be befalling,they will be befalling
+C1,Befall,Future Perfect Simple,I will have befallen,you will have befallen,he/she/it will have befallen,we will have befallen,you will have befallen,they will have befallen
+C1,Befall,Future Perfect Continuous,I will have been befalling,you will have been befalling,he/she/it will have been befalling,we will have been befalling,you will have been befalling,they will have been befalling
+C1,Befall,First Conditional,If I befall,you will befall,he/she/it will befall,we will befall,you will befall,they will befall
+C1,Befall,Second Conditional,If I befell,you would befall,he/she/it would befall,we would befall,you would befall,they would befall
+C1,Beset,Present Simple,I beset,you beset,he/she/it besets,we beset,you beset,they beset
+C1,Beset,Present Continuous,I am besetting,you are besetting,he/she/it is besetting,we are besetting,you are besetting,they are besetting
+C1,Beset,Present Perfect,I have beset,you have beset,he/she/it has beset,we have beset,you have beset,they have beset
+C1,Beset,Present Perfect Continuous,I have been besetting,you have been besetting,he/she/it has been besetting,we have been besetting,you have been besetting,they have been besetting
+C1,Beset,Past Simple,I beset,you beset,he/she/it beset,we beset,you beset,they beset
+C1,Beset,Past Continuous,I was besetting,you were besetting,he/she/it was besetting,we were besetting,you were besetting,they were besetting
+C1,Beset,Past Perfect Simple,I had beset,you had beset,he/she/it had beset,we had beset,you had beset,they had beset
+C1,Beset,Past Perfect Continuous,I had been besetting,you had been besetting,he/she/it had been besetting,we had been besetting,you had been besetting,they had been besetting
+C1,Beset,Future Simple,I will beset,you will beset,he/she/it will beset,we will beset,you will beset,they will beset
+C1,Beset,Future Continuous,I will be besetting,you will be besetting,he/she/it will be besetting,we will be besetting,you will be besetting,they will be besetting
+C1,Beset,Future Perfect Simple,I will have beset,you will have beset,he/she/it will have beset,we will have beset,you will have beset,they will have beset
+C1,Beset,Future Perfect Continuous,I will have been besetting,you will have been besetting,he/she/it will have been besetting,we will have been besetting,you will have been besetting,they will have been besetting
+C1,Beset,First Conditional,If I beset,you will beset,he/she/it will beset,we will beset,you will beset,they will beset
+C1,Beset,Second Conditional,If I beset,you would beset,he/she/it would beset,we would beset,you would beset,they would beset
+C1,Overtake,Present Simple,I overtake,you overtake,he/she/it overtakes,we overtake,you overtake,they overtake
+C1,Overtake,Present Continuous,I am overtaking,you are overtaking,he/she/it is overtaking,we are overtaking,you are overtaking,they are overtaking
+C1,Overtake,Present Perfect,I have overtaken,you have overtaken,he/she/it has overtaken,we have overtaken,you have overtaken,they have overtaken
+C1,Overtake,Present Perfect Continuous,I have been overtaking,you have been overtaking,he/she/it has been overtaking,we have been overtaking,you have been overtaking,they have been overtaking
+C1,Overtake,Past Simple,I overtook,you overtook,he/she/it overtook,we overtook,you overtook,they overtook
+C1,Overtake,Past Continuous,I was overtaking,you were overtaking,he/she/it was overtaking,we were overtaking,you were overtaking,they were overtaking
+C1,Overtake,Past Perfect Simple,I had overtaken,you had overtaken,he/she/it had overtaken,we had overtaken,you had overtaken,they had overtaken
+C1,Overtake,Past Perfect Continuous,I had been overtaking,you had been overtaking,he/she/it had been overtaking,we had been overtaking,you had been overtaking,they had been overtaking
+C1,Overtake,Future Simple,I will overtake,you will overtake,he/she/it will overtake,we will overtake,you will overtake,they will overtake
+C1,Overtake,Future Continuous,I will be overtaking,you will be overtaking,he/she/it will be overtaking,we will be overtaking,you will be overtaking,they will be overtaking
+C1,Overtake,Future Perfect Simple,I will have overtaken,you will have overtaken,he/she/it will have overtaken,we will have overtaken,you will have overtaken,they will have overtaken
+C1,Overtake,Future Perfect Continuous,I will have been overtaking,you will have been overtaking,he/she/it will have been overtaking,we will have been overtaking,you will have been overtaking,they will have been overtaking
+C1,Overtake,First Conditional,If I overtake,you will overtake,he/she/it will overtake,we will overtake,you will overtake,they will overtake
+C1,Overtake,Second Conditional,If I overtook,you would overtake,he/she/it would overtake,we would overtake,you would overtake,they would overtake
+C1,Overthrow,Present Simple,I overthrow,you overthrow,he/she/it overthrows,we overthrow,you overthrow,they overthrow
+C1,Overthrow,Present Continuous,I am overthrowing,you are overthrowing,he/she/it is overthrowing,we are overthrowing,you are overthrowing,they are overthrowing
+C1,Overthrow,Present Perfect,I have overthrown,you have overthrown,he/she/it has overthrown,we have overthrown,you have overthrown,they have overthrown
+C1,Overthrow,Present Perfect Continuous,I have been overthrowing,you have been overthrowing,he/she/it has been overthrowing,we have been overthrowing,you have been overthrowing,they have been overthrowing
+C1,Overthrow,Past Simple,I overthrew,you overthrew,he/she/it overthrew,we overthrew,you overthrew,they overthrew
+C1,Overthrow,Past Continuous,I was overthrowing,you were overthrowing,he/she/it was overthrowing,we were overthrowing,you were overthrowing,they were overthrowing
+C1,Overthrow,Past Perfect Simple,I had overthrown,you had overthrown,he/she/it had overthrown,we had overthrown,you had overthrown,they had overthrown
+C1,Overthrow,Past Perfect Continuous,I had been overthrowing,you had been overthrowing,he/she/it had been overthrowing,we had been overthrowing,you had been overthrowing,they had been overthrowing
+C1,Overthrow,Future Simple,I will overthrow,you will overthrow,he/she/it will overthrow,we will overthrow,you will overthrow,they will overthrow
+C1,Overthrow,Future Continuous,I will be overthrowing,you will be overthrowing,he/she/it will be overthrowing,we will be overthrowing,you will be overthrowing,they will be overthrowing
+C1,Overthrow,Future Perfect Simple,I will have overthrown,you will have overthrown,he/she/it will have overthrown,we will have overthrown,you will have overthrown,they will have overthrown
+C1,Overthrow,Future Perfect Continuous,I will have been overthrowing,you will have been overthrowing,he/she/it will have been overthrowing,we will have been overthrowing,you will have been overthrowing,they will have been overthrowing
+C1,Overthrow,First Conditional,If I overthrow,you will overthrow,he/she/it will overthrow,we will overthrow,you will overthrow,they will overthrow
+C1,Overthrow,Second Conditional,If I overthrew,you would overthrow,he/she/it would overthrow,we would overthrow,you would overthrow,they would overthrow
+C1,Withstand,Present Simple,I withstand,you withstand,he/she/it withstands,we withstand,you withstand,they withstand
+C1,Withstand,Present Continuous,I am withstanding,you are withstanding,he/she/it is withstanding,we are withstanding,you are withstanding,they are withstanding
+C1,Withstand,Present Perfect,I have withstood,you have withstood,he/she/it has withstood,we have withstood,you have withstood,they have withstood
+C1,Withstand,Present Perfect Continuous,I have been withstanding,you have been withstanding,he/she/it has been withstanding,we have been withstanding,you have been withstanding,they have been withstanding
+C1,Withstand,Past Simple,I withstood,you withstood,he/she/it withstood,we withstood,you withstood,they withstood
+C1,Withstand,Past Continuous,I was withstanding,you were withstanding,he/she/it was withstanding,we were withstanding,you were withstanding,they were withstanding
+C1,Withstand,Past Perfect Simple,I had withstood,you had withstood,he/she/it had withstood,we had withstood,you had withstood,they had withstood
+C1,Withstand,Past Perfect Continuous,I had been withstanding,you had been withstanding,he/she/it had been withstanding,we had been withstanding,you had been withstanding,they had been withstanding
+C1,Withstand,Future Simple,I will withstand,you will withstand,he/she/it will withstand,we will withstand,you will withstand,they will withstand
+C1,Withstand,Future Continuous,I will be withstanding,you will be withstanding,he/she/it will be withstanding,we will be withstanding,you will be withstanding,they will be withstanding
+C1,Withstand,Future Perfect Simple,I will have withstood,you will have withstood,he/she/it will have withstood,we will have withstood,you will have withstood,they will have withstood
+C1,Withstand,Future Perfect Continuous,I will have been withstanding,you will have been withstanding,he/she/it will have been withstanding,we will have been withstanding,you will have been withstanding,they will have been withstanding
+C1,Withstand,First Conditional,If I withstand,you will withstand,he/she/it will withstand,we will withstand,you will withstand,they will withstand
+C1,Withstand,Second Conditional,If I withstood,you would withstand,he/she/it would withstand,we would withstand,you would withstand,they would withstand
+C1,Wring,Present Simple,I wring,you wring,he/she/it wrings,we wring,you wring,they wring
+C1,Wring,Present Continuous,I am wringing,you are wringing,he/she/it is wringing,we are wringing,you are wringing,they are wringing
+C1,Wring,Present Perfect,I have wrung,you have wrung,he/she/it has wrung,we have wrung,you have wrung,they have wrung
+C1,Wring,Present Perfect Continuous,I have been wringing,you have been wringing,he/she/it has been wringing,we have been wringing,you have been wringing,they have been wringing
+C1,Wring,Past Simple,I wrung,you wrung,he/she/it wrung,we wrung,you wrung,they wrung
+C1,Wring,Past Continuous,I was wringing,you were wringing,he/she/it was wringing,we were wringing,you were wringing,they were wringing
+C1,Wring,Past Perfect Simple,I had wrung,you had wrung,he/she/it had wrung,we had wrung,you had wrung,they had wrung
+C1,Wring,Past Perfect Continuous,I had been wringing,you had been wringing,he/she/it had been wringing,we had been wringing,you had been wringing,they had been wringing
+C1,Wring,Future Simple,I will wring,you will wring,he/she/it will wring,we will wring,you will wring,they will wring
+C1,Wring,Future Continuous,I will be wringing,you will be wringing,he/she/it will be wringing,we will be wringing,you will be wringing,they will be wringing
+C1,Wring,Future Perfect Simple,I will have wrung,you will have wrung,he/she/it will have wrung,we will have wrung,you will have wrung,they will have wrung
+C1,Wring,Future Perfect Continuous,I will have been wringing,you will have been wringing,he/she/it will have been wringing,we will have been wringing,you will have been wringing,they will have been wringing
+C1,Wring,First Conditional,If I wring,you will wring,he/she/it will wring,we will wring,you will wring,they will wring
+C1,Wring,Second Conditional,If I wrung,you would wring,he/she/it would wring,we would wring,you would wring,they would wring
+C1,Slay,Present Simple,I slay,you slay,he/she/it slays,we slay,you slay,they slay
+C1,Slay,Present Continuous,I am slaying,you are slaying,he/she/it is slaying,we are slaying,you are slaying,they are slaying
+C1,Slay,Present Perfect,I have slain,you have slain,he/she/it has slain,we have slain,you have slain,they have slain
+C1,Slay,Present Perfect Continuous,I have been slaying,you have been slaying,he/she/it has been slaying,we have been slaying,you have been slaying,they have been slaying
+C1,Slay,Past Simple,I slew,you slew,he/she/it slew,we slew,you slew,they slew
+C1,Slay,Past Continuous,I was slaying,you were slaying,he/she/it was slaying,we were slaying,you were slaying,they were slaying
+C1,Slay,Past Perfect Simple,I had slain,you had slain,he/she/it had slain,we had slain,you had slain,they had slain
+C1,Slay,Past Perfect Continuous,I had been slaying,you had been slaying,he/she/it had been slaying,we had been slaying,you had been slaying,they had been slaying
+C1,Slay,Future Simple,I will slay,you will slay,he/she/it will slay,we will slay,you will slay,they will slay
+C1,Slay,Future Continuous,I will be slaying,you will be slaying,he/she/it will be slaying,we will be slaying,you will be slaying,they will be slaying
+C1,Slay,Future Perfect Simple,I will have slain,you will have slain,he/she/it will have slain,we will have slain,you will have slain,they will have slain
+C1,Slay,Future Perfect Continuous,I will have been slaying,you will have been slaying,he/she/it will have been slaying,we will have been slaying,you will have been slaying,they will have been slaying
+C1,Slay,First Conditional,If I slay,you will slay,he/she/it will slay,we will slay,you will slay,they will slay
+C1,Slay,Second Conditional,If I slew,you would slay,he/she/it would slay,we would slay,you would slay,they would slay
+C1,Smite,Present Simple,I smite,you smite,he/she/it smites,we smite,you smite,they smite
+C1,Smite,Present Continuous,I am smiting,you are smiting,he/she/it is smiting,we are smiting,you are smiting,they are smiting
+C1,Smite,Present Perfect,I have smitten,you have smitten,he/she/it has smitten,we have smitten,you have smitten,they have smitten
+C1,Smite,Present Perfect Continuous,I have been smiting,you have been smiting,he/she/it has been smiting,we have been smiting,you have been smiting,they have been smiting
+C1,Smite,Past Simple,I smote,you smote,he/she/it smote,we smote,you smote,they smote
+C1,Smite,Past Continuous,I was smiting,you were smiting,he/she/it was smiting,we were smiting,you were smiting,they were smiting
+C1,Smite,Past Perfect Simple,I had smitten,you had smitten,he/she/it had smitten,we had smitten,you had smitten,they had smitten
+C1,Smite,Past Perfect Continuous,I had been smiting,you had been smiting,he/she/it had been smiting,we had been smiting,you had been smiting,they had been smiting
+C1,Smite,Future Simple,I will smite,you will smite,he/she/it will smite,we will smite,you will smite,they will smite
+C1,Smite,Future Continuous,I will be smiting,you will be smiting,he/she/it will be smiting,we will be smiting,you will be smiting,they will be smiting
+C1,Smite,Future Perfect Simple,I will have smitten,you will have smitten,he/she/it will have smitten,we will have smitten,you will have smitten,they will have smitten
+C1,Smite,Future Perfect Continuous,I will have been smiting,you will have been smiting,he/she/it will have been smiting,we will have been smiting,you will have been smiting,they will have been smiting
+C1,Smite,First Conditional,If I smite,you will smite,he/she/it will smite,we will smite,you will smite,they will smite
+C1,Smite,Second Conditional,If I smote,you would smite,he/she/it would smite,we would smite,you would smite,they would smite
+C1,Sow,Present Simple,I sow,you sow,he/she/it sows,we sow,you sow,they sow
+C1,Sow,Present Continuous,I am sowing,you are sowing,he/she/it is sowing,we are sowing,you are sowing,they are sowing
+C1,Sow,Present Perfect,I have sown,you have sown,he/she/it has sown,we have sown,you have sown,they have sown
+C1,Sow,Present Perfect Continuous,I have been sowing,you have been sowing,he/she/it has been sowing,we have been sowing,you have been sowing,they have been sowing
+C1,Sow,Past Simple,I sowed,you sowed,he/she/it sowed,we sowed,you sowed,they sowed
+C1,Sow,Past Continuous,I was sowing,you were sowing,he/she/it was sowing,we were sowing,you were sowing,they were sowing
+C1,Sow,Past Perfect Simple,I had sown,you had sown,he/she/it had sown,we had sown,you had sown,they had sown
+C1,Sow,Past Perfect Continuous,I had been sowing,you had been sowing,he/she/it had been sowing,we had been sowing,you had been sowing,they had been sowing
+C1,Sow,Future Simple,I will sow,you will sow,he/she/it will sow,we will sow,you will sow,they will sow
+C1,Sow,Future Continuous,I will be sowing,you will be sowing,he/she/it will be sowing,we will be sowing,you will be sowing,they will be sowing
+C1,Sow,Future Perfect Simple,I will have sown,you will have sown,he/she/it will have sown,we will have sown,you will have sown,they will have sown
+C1,Sow,Future Perfect Continuous,I will have been sowing,you will have been sowing,he/she/it will have been sowing,we will have been sowing,you will have been sowing,they will have been sowing
+C1,Sow,First Conditional,If I sow,you will sow,he/she/it will sow,we will sow,you will sow,they will sow
+C1,Sow,Second Conditional,If I sowed,you would sow,he/she/it would sow,we would sow,you would sow,they would sow
+C1,Forswear,Present Simple,I forswear,you forswear,he/she/it forswears,we forswear,you forswear,they forswear
+C1,Forswear,Present Continuous,I am forswearing,you are forswearing,he/she/it is forswearing,we are forswearing,you are forswearing,they are forswearing
+C1,Forswear,Present Perfect,I have forsworn,you have forsworn,he/she/it has forsworn,we have forsworn,you have forsworn,they have forsworn
+C1,Forswear,Present Perfect Continuous,I have been forswearing,you have been forswearing,he/she/it has been forswearing,we have been forswearing,you have been forswearing,they have been forswearing
+C1,Forswear,Past Simple,I forswore,you forswore,he/she/it forswore,we forswore,you forswore,they forswore
+C1,Forswear,Past Continuous,I was forswearing,you were forswearing,he/she/it was forswearing,we were forswearing,you were forswearing,they were forswearing
+C1,Forswear,Past Perfect Simple,I had forsworn,you had forsworn,he/she/it had forsworn,we had forsworn,you had forsworn,they had forsworn
+C1,Forswear,Past Perfect Continuous,I had been forswearing,you had been forswearing,he/she/it had been forswearing,we had been forswearing,you had been forswearing,they had been forswearing
+C1,Forswear,Future Simple,I will forswear,you will forswear,he/she/it will forswear,we will forswear,you will forswear,they will forswear
+C1,Forswear,Future Continuous,I will be forswearing,you will be forswearing,he/she/it will be forswearing,we will be forswearing,you will be forswearing,they will be forswearing
+C1,Forswear,Future Perfect Simple,I will have forsworn,you will have forsworn,he/she/it will have forsworn,we will have forsworn,you will have forsworn,they will have forsworn
+C1,Forswear,Future Perfect Continuous,I will have been forswearing,you will have been forswearing,he/she/it will have been forswearing,we will have been forswearing,you will have been forswearing,they will have been forswearing
+C1,Forswear,First Conditional,If I forswear,you will forswear,he/she/it will forswear,we will forswear,you will forswear,they will forswear
+C1,Forswear,Second Conditional,If I forswore,you would forswear,he/she/it would forswear,we would forswear,you would forswear,they would forswear
+C1,Wreak,Present Simple,I wreak,you wreak,he/she/it wreaks,we wreak,you wreak,they wreak
+C1,Wreak,Present Continuous,I am wreaking,you are wreaking,he/she/it is wreaking,we are wreaking,you are wreaking,they are wreaking
+C1,Wreak,Present Perfect,I have wreaked,you have wreaked,he/she/it has wreaked,we have wreaked,you have wreaked,they have wreaked
+C1,Wreak,Present Perfect Continuous,I have been wreaking,you have been wreaking,he/she/it has been wreaking,we have been wreaking,you have been wreaking,they have been wreaking
+C1,Wreak,Past Simple,I wreaked,you wreaked,he/she/it wreaked,we wreaked,you wreaked,they wreaked
+C1,Wreak,Past Continuous,I was wreaking,you were wreaking,he/she/it was wreaking,we were wreaking,you were wreaking,they were wreaking
+C1,Wreak,Past Perfect Simple,I had wreaked,you had wreaked,he/she/it had wreaked,we had wreaked,you had wreaked,they had wreaked
+C1,Wreak,Past Perfect Continuous,I had been wreaking,you had been wreaking,he/she/it had been wreaking,we had been wreaking,you had been wreaking,they had been wreaking
+C1,Wreak,Future Simple,I will wreak,you will wreak,he/she/it will wreak,we will wreak,you will wreak,they will wreak
+C1,Wreak,Future Continuous,I will be wreaking,you will be wreaking,he/she/it will be wreaking,we will be wreaking,you will be wreaking,they will be wreaking
+C1,Wreak,Future Perfect Simple,I will have wreaked,you will have wreaked,he/she/it will have wreaked,we will have wreaked,you will have wreaked,they will have wreaked
+C1,Wreak,Future Perfect Continuous,I will have been wreaking,you will have been wreaking,he/she/it will have been wreaking,we will have been wreaking,you will have been wreaking,they will have been wreaking
+C1,Wreak,First Conditional,If I wreak,you will wreak,he/she/it will wreak,we will wreak,you will wreak,they will wreak
+C1,Wreak,Second Conditional,If I wreaked,you would wreak,he/she/it would wreak,we would wreak,you would wreak,they would wreak
+C1,Spit,Present Simple,I spit,you spit,he/she/it spits,we spit,you spit,they spit
+C1,Spit,Present Continuous,I am spitting,you are spitting,he/she/it is spitting,we are spitting,you are spitting,they are spitting
+C1,Spit,Present Perfect,I have spat,you have spat,he/she/it has spat,we have spat,you have spat,they have spat
+C1,Spit,Present Perfect Continuous,I have been spitting,you have been spitting,he/she/it has been spitting,we have been spitting,you have been spitting,they have been spitting
+C1,Spit,Past Simple,I spat,you spat,he/she/it spat,we spat,you spat,they spat
+C1,Spit,Past Continuous,I was spitting,you were spitting,he/she/it was spitting,we were spitting,you were spitting,they were spitting
+C1,Spit,Past Perfect Simple,I had spat,you had spat,he/she/it had spat,we had spat,you had spat,they had spat
+C1,Spit,Past Perfect Continuous,I had been spitting,you had been spitting,he/she/it had been spitting,we had been spitting,you had been spitting,they had been spitting
+C1,Spit,Future Simple,I will spit,you will spit,he/she/it will spit,we will spit,you will spit,they will spit
+C1,Spit,Future Continuous,I will be spitting,you will be spitting,he/she/it will be spitting,we will be spitting,you will be spitting,they will be spitting
+C1,Spit,Future Perfect Simple,I will have spat,you will have spat,he/she/it will have spat,we will have spat,you will have spat,they will have spat
+C1,Spit,Future Perfect Continuous,I will have been spitting,you will have been spitting,he/she/it will have been spitting,we will have been spitting,you will have been spitting,they will have been spitting
+C1,Spit,First Conditional,If I spit,you will spit,he/she/it will spit,we will spit,you will spit,they will spit
+C1,Spit,Second Conditional,If I spat,you would spit,he/she/it would spit,we would spit,you would spit,they would spit
+C1,Strew,Present Simple,I strew,you strew,he/she/it strews,we strew,you strew,they strew
+C1,Strew,Present Continuous,I am strewing,you are strewing,he/she/it is strewing,we are strewing,you are strewing,they are strewing
+C1,Strew,Present Perfect,I have strewn,you have strewn,he/she/it has strewn,we have strewn,you have strewn,they have strewn
+C1,Strew,Present Perfect Continuous,I have been strewing,you have been strewing,he/she/it has been strewing,we have been strewing,you have been strewing,they have been strewing
+C1,Strew,Past Simple,I strewed,you strewed,he/she/it strewed,we strewed,you strewed,they strewed
+C1,Strew,Past Continuous,I was strewing,you were strewing,he/she/it was strewing,we were strewing,you were strewing,they were strewing
+C1,Strew,Past Perfect Simple,I had strewn,you had strewn,he/she/it had strewn,we had strewn,you had strewn,they had strewn
+C1,Strew,Past Perfect Continuous,I had been strewing,you had been strewing,he/she/it had been strewing,we had been strewing,you had been strewing,they had been strewing
+C1,Strew,Future Simple,I will strew,you will strew,he/she/it will strew,we will strew,you will strew,they will strew
+C1,Strew,Future Continuous,I will be strewing,you will be strewing,he/she/it will be strewing,we will be strewing,you will be strewing,they will be strewing
+C1,Strew,Future Perfect Simple,I will have strewn,you will have strewn,he/she/it will have strewn,we will have strewn,you will have strewn,they will have strewn
+C1,Strew,Future Perfect Continuous,I will have been strewing,you will have been strewing,he/she/it will have been strewing,we will have been strewing,you will have been strewing,they will have been strewing
+C1,Strew,First Conditional,If I strew,you will strew,he/she/it will strew,we will strew,you will strew,they will strew
+C1,Strew,Second Conditional,If I strewed,you would strew,he/she/it would strew,we would strew,you would strew,they would strew
+C1,Stride,Present Simple,I stride,you stride,he/she/it strides,we stride,you stride,they stride
+C1,Stride,Present Continuous,I am striding,you are striding,he/she/it is striding,we are striding,you are striding,they are striding
+C1,Stride,Present Perfect,I have stridden,you have stridden,he/she/it has stridden,we have stridden,you have stridden,they have stridden
+C1,Stride,Present Perfect Continuous,I have been striding,you have been striding,he/she/it has been striding,we have been striding,you have been striding,they have been striding
+C1,Stride,Past Simple,I strode,you strode,he/she/it strode,we strode,you strode,they strode
+C1,Stride,Past Continuous,I was striding,you were striding,he/she/it was striding,we were striding,you were striding,they were striding
+C1,Stride,Past Perfect Simple,I had stridden,you had stridden,he/she/it had stridden,we had stridden,you had stridden,they had stridden
+C1,Stride,Past Perfect Continuous,I had been striding,you had been striding,he/she/it had been striding,we had been striding,you had been striding,they had been striding
+C1,Stride,Future Simple,I will stride,you will stride,he/she/it will stride,we will stride,you will stride,they will stride
+C1,Stride,Future Continuous,I will be striding,you will be striding,he/she/it will be striding,we will be striding,you will be striding,they will be striding
+C1,Stride,Future Perfect Simple,I will have stridden,you will have stridden,he/she/it will have stridden,we will have stridden,you will have stridden,they will have stridden
+C1,Stride,Future Perfect Continuous,I will have been striding,you will have been striding,he/she/it will have been striding,we will have been striding,you will have been striding,they will have been striding
+C1,Stride,First Conditional,If I stride,you will stride,he/she/it will stride,we will stride,you will stride,they will stride
+C1,Stride,Second Conditional,If I strode,you would stride,he/she/it would stride,we would stride,you would stride,they would stride
+C1,Forbear,Present Simple,I forbear,you forbear,he/she/it forbears,we forbear,you forbear,they forbear
+C1,Forbear,Present Continuous,I am forbearing,you are forbearing,he/she/it is forbearing,we are forbearing,you are forbearing,they are forbearing
+C1,Forbear,Present Perfect,I have forborne,you have forborne,he/she/it has forborne,we have forborne,you have forborne,they have forborne
+C1,Forbear,Present Perfect Continuous,I have been forbearing,you have been forbearing,he/she/it has been forbearing,we have been forbearing,you have been forbearing,they have been forbearing
+C1,Forbear,Past Simple,I forbore,you forbore,he/she/it forbore,we forbore,you forbore,they forbore
+C1,Forbear,Past Continuous,I was forbearing,you were forbearing,he/she/it was forbearing,we were forbearing,you were forbearing,they were forbearing
+C1,Forbear,Past Perfect Simple,I had forborne,you had forborne,he/she/it had forborne,we had forborne,you had forborne,they had forborne
+C1,Forbear,Past Perfect Continuous,I had been forbearing,you had been forbearing,he/she/it had been forbearing,we had been forbearing,you had been forbearing,they had been forbearing
+C1,Forbear,Future Simple,I will forbear,you will forbear,he/she/it will forbear,we will forbear,you will forbear,they will forbear
+C1,Forbear,Future Continuous,I will be forbearing,you will be forbearing,he/she/it will be forbearing,we will be forbearing,you will be forbearing,they will be forbearing
+C1,Forbear,Future Perfect Simple,I will have forborne,you will have forborne,he/she/it will have forborne,we will have forborne,you will have forborne,they will have forborne
+C1,Forbear,Future Perfect Continuous,I will have been forbearing,you will have been forbearing,he/she/it will have been forbearing,we will have been forbearing,you will have been forbearing,they will have been forbearing
+C1,Forbear,First Conditional,If I forbear,you will forbear,he/she/it will forbear,we will forbear,you will forbear,they will forbear
+C1,Forbear,Second Conditional,If I forbore,you would forbear,he/she/it would forbear,we would forbear,you would forbear,they would forbear
+C1,Beguile,Present Simple,I beguile,you beguile,he/she/it beguiles,we beguile,you beguile,they beguile
+C1,Beguile,Present Continuous,I am beguiling,you are beguiling,he/she/it is beguiling,we are beguiling,you are beguiling,they are beguiling
+C1,Beguile,Present Perfect,I have beguiled,you have beguiled,he/she/it has beguiled,we have beguiled,you have beguiled,they have beguiled
+C1,Beguile,Present Perfect Continuous,I have been beguiling,you have been beguiling,he/she/it has been beguiling,we have been beguiling,you have been beguiling,they have been beguiling
+C1,Beguile,Past Simple,I beguiled,you beguiled,he/she/it beguiled,we beguiled,you beguiled,they beguiled
+C1,Beguile,Past Continuous,I was beguiling,you were beguiling,he/she/it was beguiling,we were beguiling,you were beguiling,they were beguiling
+C1,Beguile,Past Perfect Simple,I had beguiled,you had beguiled,he/she/it had beguiled,we had beguiled,you had beguiled,they had beguiled
+C1,Beguile,Past Perfect Continuous,I had been beguiling,you had been beguiling,he/she/it had been beguiling,we had been beguiling,you had been beguiling,they had been beguiling
+C1,Beguile,Future Simple,I will beguile,you will beguile,he/she/it will beguile,we will beguile,you will beguile,they will beguile
+C1,Beguile,Future Continuous,I will be beguiling,you will be beguiling,he/she/it will be beguiling,we will be beguiling,you will be beguiling,they will be beguiling
+C1,Beguile,Future Perfect Simple,I will have beguiled,you will have beguiled,he/she/it will have beguiled,we will have beguiled,you will have beguiled,they will have beguiled
+C1,Beguile,Future Perfect Continuous,I will have been beguiling,you will have been beguiling,he/she/it will have been beguiling,we will have been beguiling,you will have been beguiling,they will have been beguiling
+C1,Beguile,First Conditional,If I beguile,you will beguile,he/she/it will beguile,we will beguile,you will beguile,they will beguile
+C1,Beguile,Second Conditional,If I beguiled,you would beguile,he/she/it would beguile,we would beguile,you would beguile,they would beguile
+C1,Betide,Present Simple,I betide,you betide,he/she/it betides,we betide,you betide,they betide
+C1,Betide,Present Continuous,I am betiding,you are betiding,he/she/it is betiding,we are betiding,you are betiding,they are betiding
+C1,Betide,Present Perfect,I have betided,you have betided,he/she/it has betided,we have betided,you have betided,they have betided
+C1,Betide,Present Perfect Continuous,I have been betiding,you have been betiding,he/she/it has been betiding,we have been betiding,you have been betiding,they have been betiding
+C1,Betide,Past Simple,I betided,you betided,he/she/it betided,we betided,you betided,they betided
+C1,Betide,Past Continuous,I was betiding,you were betiding,he/she/it was betiding,we were betiding,you were betiding,they were betiding
+C1,Betide,Past Perfect Simple,I had betided,you had betided,he/she/it had betided,we had betided,you had betided,they had betided
+C1,Betide,Past Perfect Continuous,I had been betiding,you had been betiding,he/she/it had been betiding,we had been betiding,you had been betiding,they had been betiding
+C1,Betide,Future Simple,I will betide,you will betide,he/she/it will betide,we will betide,you will betide,they will betide
+C1,Betide,Future Continuous,I will be betiding,you will be betiding,he/she/it will be betiding,we will be betiding,you will be betiding,they will be betiding
+C1,Betide,Future Perfect Simple,I will have betided,you will have betided,he/she/it will have betided,we will have betided,you will have betided,they will have betided
+C1,Betide,Future Perfect Continuous,I will have been betiding,you will have been betiding,he/she/it will have been betiding,we will have been betiding,you will have been betiding,they will have been betiding
+C1,Betide,First Conditional,If I betide,you will betide,he/she/it will betide,we will betide,you will betide,they will betide
+C1,Betide,Second Conditional,If I betided,you would betide,he/she/it would betide,we would betide,you would betide,they would betide
+C1,Overbear,Present Simple,I overbear,you overbear,he/she/it overbears,we overbear,you overbear,they overbear
+C1,Overbear,Present Continuous,I am overbearing,you are overbearing,he/she/it is overbearing,we are overbearing,you are overbearing,they are overbearing
+C1,Overbear,Present Perfect,I have overborne,you have overborne,he/she/it has overborne,we have overborne,you have overborne,they have overborne
+C1,Overbear,Present Perfect Continuous,I have been overbearing,you have been overbearing,he/she/it has been overbearing,we have been overbearing,you have been overbearing,they have been overbearing
+C1,Overbear,Past Simple,I overbore,you overbore,he/she/it overbore,we overbore,you overbore,they overbore
+C1,Overbear,Past Continuous,I was overbearing,you were overbearing,he/she/it was overbearing,we were overbearing,you were overbearing,they were overbearing
+C1,Overbear,Past Perfect Simple,I had overborne,you had overborne,he/she/it had overborne,we had overborne,you had overborne,they had overborne
+C1,Overbear,Past Perfect Continuous,I had been overbearing,you had been overbearing,he/she/it had been overbearing,we had been overbearing,you had been overbearing,they had been overbearing
+C1,Overbear,Future Simple,I will overbear,you will overbear,he/she/it will overbear,we will overbear,you will overbear,they will overbear
+C1,Overbear,Future Continuous,I will be overbearing,you will be overbearing,he/she/it will be overbearing,we will be overbearing,you will be overbearing,they will be overbearing
+C1,Overbear,Future Perfect Simple,I will have overborne,you will have overborne,he/she/it will have overborne,we will have overborne,you will have overborne,they will have overborne
+C1,Overbear,Future Perfect Continuous,I will have been overbearing,you will have been overbearing,he/she/it will have been overbearing,we will have been overbearing,you will have been overbearing,they will have been overbearing
+C1,Overbear,First Conditional,If I overbear,you will overbear,he/she/it will overbear,we will overbear,you will overbear,they will overbear
+C1,Overbear,Second Conditional,If I overbore,you would overbear,he/she/it would overbear,we would overbear,you would overbear,they would overbear
+C1,Outshine,Present Simple,I outshine,you outshine,he/she/it outshines,we outshine,you outshine,they outshine
+C1,Outshine,Present Continuous,I am outshining,you are outshining,he/she/it is outshining,we are outshining,you are outshining,they are outshining
+C1,Outshine,Present Perfect,I have outshone,you have outshone,he/she/it has outshone,we have outshone,you have outshone,they have outshone
+C1,Outshine,Present Perfect Continuous,I have been outshining,you have been outshining,he/she/it has been outshining,we have been outshining,you have been outshining,they have been outshining
+C1,Outshine,Past Simple,I outshone,you outshone,he/she/it outshone,we outshone,you outshone,they outshone
+C1,Outshine,Past Continuous,I was outshining,you were outshining,he/she/it was outshining,we were outshining,you were outshining,they were outshining
+C1,Outshine,Past Perfect Simple,I had outshone,you had outshone,he/she/it had outshone,we had outshone,you had outshone,they had outshone
+C1,Outshine,Past Perfect Continuous,I had been outshining,you had been outshining,he/she/it had been outshining,we had been outshining,you had been outshining,they had been outshining
+C1,Outshine,Future Simple,I will outshine,you will outshine,he/she/it will outshine,we will outshine,you will outshine,they will outshine
+C1,Outshine,Future Continuous,I will be outshining,you will be outshining,he/she/it will be outshining,we will be outshining,you will be outshining,they will be outshining
+C1,Outshine,Future Perfect Simple,I will have outshone,you will have outshone,he/she/it will have outshone,we will have outshone,you will have outshone,they will have outshone
+C1,Outshine,Future Perfect Continuous,I will have been outshining,you will have been outshining,he/she/it will have been outshining,we will have been outshining,you will have been outshining,they will have been outshining
+C1,Outshine,First Conditional,If I outshine,you will outshine,he/she/it will outshine,we will outshine,you will outshine,they will outshine
+C1,Outshine,Second Conditional,If I outshone,you would outshine,he/she/it would outshine,we would outshine,you would outshine,they would outshine

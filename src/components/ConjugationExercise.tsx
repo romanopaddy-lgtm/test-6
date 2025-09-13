@@ -1,166 +1,228 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
+import { getConjugationsRaw } from '@/services/datasetLoader';
+import { addOrUpdateError } from '@/services/errorService';
 
-function normalize(s?: string) { return (s || '').toLowerCase().replace(/\s+/g, ' ').trim(); }
+type Person = { code: string; label: string };
 
-// basic irregulars for A2 past simple / present 3rd person special cases
-const IRREGULAR_PAST: Record<string,string> = {
-  be: 'was',
-  am: 'was',
-  are: 'were',
-  is: 'was',
-  have: 'had',
-  do: 'did',
-  go: 'went',
-  get: 'got',
-  give: 'gave',
-  take: 'took',
-  make: 'made',
-  say: 'said',
-  come: 'came',
-  see: 'saw',
-  think: 'thought',
-  leave: 'left',
-  begin: 'began',
-  bring: 'brought',
-  buy: 'bought',
-  sell: 'sold',
-  pay: 'paid',
-  send: 'sent',
-  sit: 'sat',
-  stand: 'stood',
-  run: 'ran',
-  ride: 'rode',
-  drive: 'drove',
-  swim: 'swam',
-  fly: 'flew',
-  sleep: 'slept',
-  read: 'read',
-  write: 'wrote',
-  draw: 'drew',
-  eat: 'ate',
-  drink: 'drank',
-  cut: 'cut',
-  put: 'put',
-  teach: 'taught',
-  learn: 'learned',
-  study: 'studied',
-  watch: 'watched',
-  listen: 'listened',
-  open: 'opened',
-  close: 'closed',
-  live: 'lived',
-  work: 'worked'
-};
-
-const A1_VERBS = [
-  'be','have','do','go','play','like','love','make','eat','drink','read','write','speak','say','listen','hear','see','look','watch','come','take','give','get','put','open','close','live','work','study','learn','know','want','need','can','will','help','use','run','walk','sleep'
+// PERSONS: codice corrisponde alle colonne nei CSV (1s,2s,3s,1p,2p,3p)
+const PERSONS: Person[] = [
+  { code: '1s', label: 'I' },
+  { code: '2s', label: 'You' },
+  { code: '3s', label: 'He/She/It' },
+  { code: '1p', label: 'We' },
+  { code: '2p', label: 'You (pl)' },
+  { code: '3p', label: 'They' }
 ];
 
-const A2_VERBS = [
-  'be','have','do','go','get','give','take','make','say','tell','speak','know','think','understand','find','feel','leave','meet','come','become','begin','bring','buy','sell','pay','send','sit','stand','run','ride','drive','swim','fly','sleep','read','write','draw','eat','drink','cut','put','teach','learn','study','watch','listen','open','close','live','work'
-];
+// Minimal legacy pools (preservano il fallback); puoi sostituirli con le liste complete esistenti
+const A1_VERBS = ['be', 'have', 'do', 'go', 'get', 'make', 'say', 'take', 'come', 'see', 'know'];
+const A2_VERBS = [...A1_VERBS, 'think', 'find', 'give', 'work', 'play', 'look', 'call', 'try', 'ask'];
 
-const PERSONS = [
-  { code: '1s', label: 'I', subject: 'I' },
-  { code: '2s', label: 'you (sing)', subject: 'you' },
-  { code: '3s', label: 'he/she/it', subject: 'he/she/it' },
-  { code: '1p', label: 'we', subject: 'we' },
-  { code: '2p', label: 'you (pl)', subject: 'you' },
-  { code: '3p', label: 'they', subject: 'they' },
-];
+function normalize(s?: string) {
+  return (s || '').toString().trim().toLowerCase().replace(/\s+/g, ' ');
+}
+
+function computeExpectedLegacy(verb: string, tense: string, personCode: string) {
+  // comportamento legacy minimale: solo per fallback (non dettagliato)
+  // qui manteniamo qualche regola base per present/past simple
+  if (tense === 'present_simple') {
+    if (personCode === '3s') {
+      if (verb.endsWith('y') && !/[aeiou]y$/.test(verb)) return verb.slice(0, -1) + 'ies';
+      if (verb.endsWith('s') || verb.endsWith('sh') || verb.endsWith('ch') || verb.endsWith('x') || verb.endsWith('z')) return verb + 'es';
+      return verb + 's';
+    }
+    return verb;
+  }
+  if (tense === 'past_simple') {
+    // very naive past
+    if (verb === 'be') return personCode === '1s' || personCode === '3s' ? 'was' : 'were';
+    if (verb.endsWith('e')) return verb + 'd';
+    if (verb.endsWith('y') && !/[aeiou]y$/.test(verb)) return verb.slice(0, -1) + 'ied';
+    return verb + 'ed';
+  }
+  // future_simple
+  if (tense === 'future_simple') return 'will ' + verb;
+  // default
+  return verb;
+}
 
 export default function ConjugationExercise(): JSX.Element {
   const { level } = useLevel();
-  const adaptive = level === 'Adaptive';
+  const adaptive = String(level || '').toUpperCase() === 'ADAPTIVE';
 
-  const pool = useMemo(() => {
-    return (adaptive || level === 'A2') ? A2_VERBS.slice() : A1_VERBS.slice();
-  }, [level, adaptive]);
+  // 1) carica i dati CSV in modo asincrono; fallback a getConjugations() (sync) se necessario
+  const [conjMap, setConjMap] = useState<Record<string, Record<string, Record<string, string>>>>({});
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      try {
+        const raw = await getConjugationsRaw(level);
+        if (!mounted) return;
+        if (raw && Object.keys(raw).length) {
+          setConjMap(raw as any);
+          return;
+        }
+        // no CSV data available — set empty map as fallback
+        if (mounted) setConjMap({});
+      } catch {
+        if (mounted) setConjMap({});
+      }
+    })();
+    return () => { mounted = false; };
+  }, [level]);
 
+  // CSV rows: una entry per (verb, tense) — corrisponde alle righe nel file CSV
+  const csvRows = useMemo(() => {
+    const rows: { verb: string; tense: string }[] = [];
+    for (const verb of Object.keys(conjMap || {})) {
+      const tenses = Object.keys(conjMap[verb] || {});
+      for (const tense of tenses) rows.push({ verb, tense });
+    }
+    return rows;
+  }, [conjMap]);
+
+  // state per task
   const [index, setIndex] = useState(0);
-  const [task, setTask] = useState<{ verb: string; tense: 'present_simple'|'past_simple'; person: typeof PERSONS[number]; expected: string } | null>(null);
+  const [task, setTask] = useState<{
+    verb: string;
+    tense: string;
+    person: Person;
+    expected: string;
+    fromCSV?: boolean;
+  } | null>(null);
   const [input, setInput] = useState('');
   const [checked, setChecked] = useState(false);
-  const [result, setResult] = useState<'correct'|'wrong'|null>(null);
+  const [result, setResult] = useState<null | 'correct' | 'wrong'>(null);
 
+  function pickRandom<T>(arr: T[]) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  function nextTaskFromCSV(i: number) {
+    if (!csvRows.length) return null;
+    const row = csvRows[i % csvRows.length];
+    const forms = conjMap[row.verb]?.[row.tense] || {};
+    // scegli fra le persone che hanno una forma non vuota in questa riga
+    const avail = PERSONS.filter(p => String(forms[p.code] || '').trim().length > 0);
+    if (!avail.length) return null;
+    const person = avail[Math.floor(Math.random() * avail.length)];
+    const expected = String(forms[person.code] || '').trim();
+    if (!expected) return null;
+    return { verb: row.verb, tense: row.tense, person, expected, fromCSV: true };
+  }
+
+  // genera nuovo task al change di index/level
   useEffect(() => {
-    // generate a new task whenever index or level changes
+    // prova CSV prima
+    const csvTask = nextTaskFromCSV(index);
+    if (csvTask) {
+      setTask(csvTask);
+      setInput('');
+      setChecked(false);
+      setResult(null);
+      return;
+    }
+
+    // fallback legacy pool
+    const pool = (adaptive || String(level).toUpperCase() === 'A2') ? A2_VERBS.slice() : A1_VERBS.slice();
+    if (!pool.length) {
+      setTask(null);
+      return;
+    }
     const verb = pool[index % pool.length];
-    // pick tense depending on level
-    const allowed = (adaptive || level === 'A2') ? ['present_simple','past_simple'] : ['present_simple'];
-    const tense = allowed[Math.floor(Math.random() * allowed.length)] as ('present_simple'|'past_simple');
-    const person = PERSONS[Math.floor(Math.random() * PERSONS.length)];
-    const expected = computeExpected(verb, tense, person.code);
-    setTask({ verb, tense, person, expected });
+    const allowed = (adaptive || String(level).toUpperCase() === 'A2') ? ['present_simple', 'past_simple'] : ['present_simple'];
+    const tense = pickRandom(allowed);
+    const person = pickRandom(PERSONS);
+    const expected = computeExpectedLegacy(verb, tense, person.code);
+    setTask({ verb, tense, person, expected, fromCSV: false });
     setInput('');
     setChecked(false);
     setResult(null);
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [index, level]);
+  }, [index, level, conjMap]);
 
-  function computeExpected(verb: string, tense: string, personCode: string) {
-    verb = String(verb || '').toLowerCase();
-    if (tense === 'present_simple') {
-      if (personCode === '3s') {
-        // special verbs
-        if (verb === 'be') return 'is';
-        if (verb === 'have') return 'has';
-        // verbs that end with ch/sh/s/x/o -> add 'es'
-        if (/[sxz]$/.test(verb) || /(?:ch|sh|o)$/.test(verb)) return verb + 'es';
-        // verbs ending with consonant + y -> replace y with ies
-        if (/[a-z]y$/.test(verb) && !/[aeiou]y$/.test(verb)) return verb.replace(/y$/, 'ies');
-        return verb + 's';
-      } else {
-        // other persons
-        if (verb === 'be') {
-          if (personCode === '1s') return 'am';
-          return 'are';
-        }
-        return verb;
+  function check() {
+    if (!task) return;
+    setChecked(true);
+    const expectedNorm = normalize(task.expected);
+    const gotNorm = normalize(input);
+    const isCorrect = expectedNorm === gotNorm;
+    setResult(isCorrect ? 'correct' : 'wrong');
+    if (!isCorrect) {
+      try {
+        addOrUpdateError({
+          type: 'conjugation',
+          level,
+          prompt: `${task.person.label} ${task.tense} ${task.verb}`,
+          expected: task.expected,
+            userAnswer: input
+        });
+        console.debug('[ConjugationExercise] addOrUpdateError called', {
+          prompt: `${task.person.label} ${task.tense} ${task.verb}`,
+          expected: task.expected,
+          userAnswer: input
+        });
+      } catch (err) {
+        console.error('[ConjugationExercise] addOrUpdateError failed', err);
       }
-    } else { // past_simple
-      // look up irregulars
-      if (IRREGULAR_PAST[verb]) return IRREGULAR_PAST[verb];
-      // regular
-      if (verb.endsWith('e')) return verb + 'd';
-      if (verb.endsWith('y') && !/[aeiou]y$/.test(verb)) return verb.replace(/y$/, 'ied');
-      return verb + 'ed';
     }
   }
 
-  function onCheck() {
-    if (!task) return;
-    const ok = normalize(input) === normalize(task.expected);
-    setChecked(true);
-    setResult(ok ? 'correct' : 'wrong');
-  }
-
-  function onNext() {
+  function next() {
     setIndex(i => i + 1);
   }
 
-  if (!task) return <div style={{ padding: 12 }}>Caricamento...</div>;
-
+  // UI minimale per debug / uso reale
   return (
-    <div style={{ maxWidth: 900, margin: '0 auto', padding: 12 }}>
-      <div style={{ fontSize: 13, opacity: 0.8 }}>Conjugation — livello: {level}</div>
+    <div style={{ padding: 12, maxWidth: 760 }}>
+      <h3>Conjugations — level: {String(level || '').toUpperCase()}</h3>
+      <div style={{ marginBottom: 8 }}>
+        <small>Verbs available: {csvRows.length || (adaptive || level === 'A2' ? A2_VERBS.length : A1_VERBS.length)}</small>
+      </div>
 
-      <div style={{ marginTop: 12, padding: 12, border: '1px solid #eee', borderRadius: 6 }}>
-        <div style={{ fontSize: 18, fontWeight: 600 }}>{task.person.label} — {task.tense.replace('_',' ')} — {task.verb}</div>
-
-        <div style={{ marginTop: 12 }}>
-          <input value={input} onChange={e => setInput(e.target.value)} placeholder="Inserisci la forma corretta" style={{ width: '100%', padding: 8 }} disabled={checked} />
+      {!task && (
+        <div>
+          <div>No task available for this level.</div>
+          <button onClick={() => setIndex(i => i + 1)} style={{ marginTop: 8 }}>Try next</button>
         </div>
+      )}
 
-        <div style={{ marginTop: 12, display: 'flex', gap: 8 }}>
-          <button onClick={onCheck} disabled={checked || input.trim() === ''}>Check</button>
-          <button onClick={onNext}>Next</button>
-          <div style={{ marginLeft: 'auto', fontSize: 13, opacity: 0.8 }}>
-            {checked ? (result === 'correct' ? 'Corretto ✅' : `Sbagliato — risposta: ${task.expected}`) : `Item ${index % pool.length + 1} / ${pool.length}`}
+      {task && (
+        <div>
+          <div style={{ marginBottom: 12 }}>
+            <strong>{task.person.label}</strong> — <em>{task.tense}</em> — <span style={{ textTransform: 'capitalize' }}>{task.verb}</span>
+            <div style={{ fontSize: 12, color: '#666' }}>{task.fromCSV ? 'source: CSV' : 'source: legacy'}</div>
+          </div>
+
+          <div>
+            <input
+              value={input}
+              onChange={e => setInput(e.target.value)}
+              placeholder="Type the correct form"
+              style={{ width: '100%', padding: 8, fontSize: 16 }}
+              onKeyDown={e => { if (e.key === 'Enter') check(); }}
+            />
+          </div>
+
+          <div style={{ marginTop: 8, display: 'flex', gap: 8 }}>
+            {!checked && (
+              <button onClick={check} disabled={!input.trim()}>Check</button>
+            )}
+            {checked && (
+              <>
+                <button onClick={next}>Next</button>
+                {result === 'correct' && <span style={{ color: 'green' }}>Correct!</span>}
+                {result === 'wrong' && (
+                  <span style={{ color: 'red' }}>
+                    Expected: {task.expected}
+                  </span>
+                )}
+              </>
+            )}
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

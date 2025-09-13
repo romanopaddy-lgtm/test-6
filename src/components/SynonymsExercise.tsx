@@ -1,9 +1,11 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { useLevel } from '@/contexts/LevelContext';
+import { getSynonyms } from '@/services/datasetLoader';
+import { addOrUpdateError } from '@/services/errorService';
 
 function normalize(s?: string) { return (s || '').toLowerCase().trim(); }
 
-// Lists provided by you (A2 and A1). Keys are lemma -> array of acceptable synonyms.
+// Lists provided by you (A2 and A1). Keep these as fallback if CSV not present.
 const SYN_A2: Record<string, string[]> = {
   able: ['capable','competent','skilled','fit'],
   afraid: ['scared','frightened','nervous','anxious','fearful'],
@@ -126,11 +128,10 @@ export default function SynonymsExercise(): JSX.Element {
     return Math.random() < 0.5 ? 'A1' : 'A2';
   }, [level]);
 
-  const pool = useMemo(() => {
-    return chosenLevel === 'A2' ? Object.keys(SYN_A2) : Object.keys(SYN_A1);
-  }, [chosenLevel]);
-
-  const synonymsMap = chosenLevel === 'A2' ? SYN_A2 : SYN_A1;
+  // try to load synonyms from CSV first (handle both synchronous and Promise returns)
+  const synonymsMapFromCsv = useMemo(() => getSynonyms(chosenLevel), [chosenLevel]);
+  const synonymsMap = (synonymsMapFromCsv && Object.keys(synonymsMapFromCsv).length) ? synonymsMapFromCsv : (chosenLevel === 'A2' ? SYN_A2 : SYN_A1);
+  const pool = useMemo(() => Object.keys(synonymsMap), [synonymsMap]);
 
   const [index, setIndex] = useState(0);
   const [input, setInput] = useState('');
@@ -148,12 +149,25 @@ export default function SynonymsExercise(): JSX.Element {
   if (!pool.length) return <div style={{ padding: 12 }}>Nessun contenuto disponibile per questo livello.</div>;
 
   const word = pool[index % pool.length];
-  const corrects = synonymsMap[word] || [];
+  const corrects: string[] = synonymsMap[word] || [];
 
   function onCheck() {
     const ok = corrects.some(c => normalize(c) === normalize(input));
     setChecked(true);
     setLastResult(ok ? 'correct' : 'wrong');
+
+    try {
+      addOrUpdateError({
+        type: 'synonym',
+        level: chosenLevel,
+        prompt: String(word),
+        expected: String(corrects.join(', ')),
+        userAnswer: String(input)
+      });
+      console.debug('[SynonymsExercise] addOrUpdateError called', { word, expected: corrects, userAnswer: input, chosenLevel });
+    } catch (err) {
+      console.error('[SynonymsExercise] addOrUpdateError failed', err);
+    }
   }
   function onNext() {
     setIndex(i => i + 1);
